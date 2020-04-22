@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/fix/reducers/root.js"],
+    "names": ["customerServices", "offers", "metaData", "kna", "errors", "pageContext", "filterLP", "documents", "migration", "voip"],
+    "mappings": ";;;;;;;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;iBAGe,4BAAgB;AAC3BA,IAAAA,gBAAgB,EAAE,4BAAgBA,gBAAhB,CADS;AAE3BC,IAAAA,MAAM,EAAE,4BAAgBA,MAAhB,CAFmB;AAG3BC,IAAAA,QAAQ,EAAE,4BAAgBA,QAAhB,CAHiB;AAI3BC,IAAAA,GAAG,EAAE,4BAAgBA,GAAhB,CAJsB;AAK3BC,IAAAA,MAAM,EAAE,4BAAgBA,MAAhB,CALmB;AAM3BC,IAAAA,WAAW,EAAEA,mBANc;AAO3BC,IAAAA,QAAQ,EAAEA,gBAPiB;AAQ3BC,IAAAA,SAAS,EAAE,4BAAgBA,SAAhB,CARgB;AAS3BC,IAAAA,SAAS,EAAE,4BAAgBA,SAAhB,CATgB;AAU3BC,IAAAA,IAAI,EAAE,4BAAgBA,IAAhB;AAVqB,GAAhB,C",
+    "sourcesContent": ["import {combineReducers} from \"redux\";\nimport * as customerServices from './customerServices';\nimport * as metaData from './metaData';\nimport * as offers from \"./offers\";\nimport * as kna from \"./kna\";\nimport * as errors from \"./errors\";\nimport * as documents from \"./documents\";\nimport * as migration from \"./migration\";\nimport * as voip from \"./voip\";\nimport {filterLP, pageContext} from \"./filter\";\n\nexport default combineReducers({\n    customerServices: combineReducers(customerServices),\n    offers: combineReducers(offers),\n    metaData: combineReducers(metaData),\n    kna: combineReducers(kna),\n    errors: combineReducers(errors),\n    pageContext: pageContext,\n    filterLP: filterLP,\n    documents: combineReducers(documents),\n    migration: combineReducers(migration),\n    voip: combineReducers(voip)\n});\n"],
+    "file": "root.js"
+}

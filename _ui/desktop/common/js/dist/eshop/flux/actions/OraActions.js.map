@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../es6/eshop/flux/actions/OraActions.js"],
+    "names": ["OraActions", "app", "OraAppActions", "server", "OraServerActions", "error", "OraFailureActions", "goto", "OraPageActions", "config", "OraConfigActions"],
+    "mappings": ";;;;;;;AAAA;AACA;AACA;AACA;AACA;AAEA,MAAIA,UAAU,GAAG;AACbC,IAAAA,GAAG,EAAEC,sBADQ;AAEbC,IAAAA,MAAM,EAAEC,yBAFK;AAGbC,IAAAA,KAAK,EAAEC,0BAHM;AAIbC,IAAAA,IAAI,EAAEC,uBAJO;AAKbC,IAAAA,MAAM,EAAEC;AALK,GAAjB;iBAQeV,U",
+    "sourcesContent": ["import OraAppActions from \"./OraAppActions\";\nimport OraServerActions from \"./OraSerwerActions\";\nimport OraFailureActions from \"./OraFailureActions\";\nimport OraPageActions from \"./OraPageActions\";\nimport OraConfigActions from \"./OraConfigActions\";\n\nlet OraActions = {\n    app: OraAppActions,\n    server: OraServerActions,\n    error: OraFailureActions,\n    goto: OraPageActions,\n    config: OraConfigActions\n};\n\nexport default OraActions;\n"],
+    "file": "OraActions.js"
+}

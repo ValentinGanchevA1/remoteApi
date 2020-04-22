@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/reducers/lowerInstallments.js"],
+    "names": ["visibleModal", "state", "action", "type", "ACTIONS", "LOWER_INSTALLMENTS_MODAL_OPEN", "LOWER_INSTALLMENTS_MODAL_CLOSE", "bundleNo"],
+    "mappings": ";;;;;;;AAAA;;AAGO,MAAMA,YAAY,GAAG,SAAfA,YAAe,GAA2B;AAAA,QAA1BC,KAA0B,uEAAlB,KAAkB;AAAA,QAAXC,MAAW;;AACnD,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,OAAO,CAACC,6BAAb;AACI,eAAO,IAAP;;AACJ,WAAKD,OAAO,CAACE,8BAAb;AACI,eAAO,KAAP;;AACJ;AACI,eAAOL,KAAP;AANR;AAQH,GATM;;;;AAWA,MAAMM,QAAQ,GAAG,SAAXA,QAAW,GAA0B;AAAA,QAAzBN,KAAyB,uEAAjB,IAAiB;AAAA,QAAXC,MAAW;;AAC9C,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,OAAO,CAACC,6BAAb;AACI,eAAOH,MAAM,CAACK,QAAd;;AACJ;AACI,eAAON,KAAP;AAJR;AAMH,GAPM",
+    "sourcesContent": ["import * as ACTIONS from \"../actionTypes\";\nimport {RESOURCE_MODAL_OPEN} from \"../actionTypes\";\n\nexport const visibleModal = (state = false, action) => {\n    switch(action.type) {\n        case ACTIONS.LOWER_INSTALLMENTS_MODAL_OPEN:\n            return true;\n        case ACTIONS.LOWER_INSTALLMENTS_MODAL_CLOSE:\n            return false;\n        default:\n            return state;\n    }\n};\n\nexport const bundleNo = (state = null, action) => {\n    switch(action.type) {\n        case ACTIONS.LOWER_INSTALLMENTS_MODAL_OPEN:\n            return action.bundleNo;\n        default:\n            return state;\n    }\n};"],
+    "file": "lowerInstallments.js"
+}

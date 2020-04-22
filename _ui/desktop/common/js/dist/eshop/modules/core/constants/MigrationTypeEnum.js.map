@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/constants/MigrationTypeEnum.js"],
+    "names": ["MigrationType", "Object", "freeze", "UNBUNDLE", "RETENTION", "ACTIVATION"],
+    "mappings": ";;;;;;;AAAA,MAAMA,aAAa,GAAGC,MAAM,CAACC,MAAP,CAAc;AAChCC,IAAAA,QAAQ,EAAE,UADsB;AAEhCC,IAAAA,SAAS,EAAE,WAFqB;AAGhCC,IAAAA,UAAU,EAAE;AAHoB,GAAd,CAAtB;iBAMeL,a",
+    "sourcesContent": ["const MigrationType = Object.freeze({\n    UNBUNDLE: 'UNBUNDLE',\n    RETENTION: 'RETENTION',\n    ACTIVATION: \"ACTIVATION\"\n});\n\nexport default MigrationType;"],
+    "file": "MigrationTypeEnum.js"
+}

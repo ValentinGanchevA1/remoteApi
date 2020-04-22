@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/constants/RequestState.js"],
+    "names": ["RequestState", "Object", "freeze", "None", "Waiting", "Success", "Error"],
+    "mappings": ";;;;;;;AAAO,MAAMA,YAAY,GAAGC,MAAM,CAACC,MAAP,CAAc;AACtCC,IAAAA,IAAI,EAAE,CADgC;AAEtCC,IAAAA,OAAO,EAAE,CAF6B;AAGtCC,IAAAA,OAAO,EAAE,CAH6B;AAItCC,IAAAA,KAAK,EAAE;AAJ+B,GAAd,CAArB",
+    "sourcesContent": ["export const RequestState = Object.freeze({\n    None: 0,\n    Waiting: 1,\n    Success: 2,\n    Error: 3\n});"],
+    "file": "RequestState.js"
+}

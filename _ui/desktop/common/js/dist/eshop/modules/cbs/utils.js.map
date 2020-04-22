@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../es6/eshop/modules/cbs/utils.js"],
+    "names": ["cbsKey", "postalCode", "city", "toUpperCase", "postalCodeRegex", "isValidPostalCode", "test", "formatPostalCode", "slice"],
+    "mappings": ";;;;;;;;;;AAAO,WAASA,MAAT,CAAgBC,UAAhB,EAA4BC,IAA5B,EAAkC;AACrC,WAAO,CAACD,UAAD,GAAc,IAAd,GAAsBA,UAAU,IAAI,CAACC,IAAD,GAAQ,EAAR,GAAa,MAAMA,IAAI,CAACC,WAAL,EAAvB,CAAvC;AACH;;AAED,MAAMC,eAAe,GAAG,SAAxB;;AACO,WAASC,iBAAT,CAA2BJ,UAA3B,EAAuC;AAC1C,WAAOG,eAAe,CAACE,IAAhB,CAAqBL,UAArB,CAAP;AACH;;AAEM,WAASM,gBAAT,CAA0BN,UAA1B,EAAsC;AACzC,WAAOA,UAAU,CAACO,KAAX,CAAiB,CAAjB,EAAoB,CAApB,IAAyB,GAAzB,GAA+BP,UAAU,CAACO,KAAX,CAAiB,CAAjB,CAAtC;AACH",
+    "sourcesContent": ["export function cbsKey(postalCode, city) {\n    return !postalCode ? null : (postalCode + (!city ? \"\" : \"#\" + city.toUpperCase()));\n}\n\nconst postalCodeRegex = /^\\d{5}$/;\nexport function isValidPostalCode(postalCode) {\n    return postalCodeRegex.test(postalCode);\n}\n\nexport function formatPostalCode(postalCode) {\n    return postalCode.slice(0, 2) + \"-\" + postalCode.slice(2);\n}"],
+    "file": "utils.js"
+}

@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/configurator/components/InfoWithTooltip.jsx"],
+    "names": ["InfoWithTooltip", "props", "label", "tooltip", "Component", "propTypes", "PropTypes", "string"],
+    "mappings": ";;;;;;;AAAA;AACA;AACA;AACA;;;;;;MAEqBA,e;;;;;;;;;;;;+BAER;AACL,4BACI,uDACI;AAAG,UAAA,SAAS,EAAC;AAAb,wBACI,6BAAC,oBAAD,QACK,KAAKC,KAAL,CAAWC,KADhB,CADJ,EAIK,KAAKD,KAAL,CAAWE,OAAX,iBACG,6BAAC,gBAAD,qBACI,6BAAC,oBAAD,QACK,KAAKF,KAAL,CAAWE,OADhB,CADJ,CALR,CADJ,CADJ;AAgBH;;;IAnBwCC,gB;;;AAsB7CJ,EAAAA,eAAe,CAACK,SAAhB,GAA4B;AAC1BH,IAAAA,KAAK,EAAEI,mBAAUC,MADS;AAE1BJ,IAAAA,OAAO,EAAEG,mBAAUC;AAFO,GAA5B",
+    "sourcesContent": ["import React, {Component} from \"react\";\nimport PropTypes from 'prop-types'\nimport OraTooltip from \"eshop/modules/core/components/ui/Tooltip\";\nimport OraHtmlText from \"eshop/modules/core/components/ui/OraHtmlText\";\n\nexport default class InfoWithTooltip extends Component {\n\n    render() {\n        return (\n            <div>\n                <p className=\"u-font-bold u-font-small\">\n                    <OraHtmlText>\n                        {this.props.label}\n                    </OraHtmlText>\n                    {this.props.tooltip &&\n                        <OraTooltip>\n                            <OraHtmlText>\n                                {this.props.tooltip}\n                            </OraHtmlText>\n                        </OraTooltip>\n                    }\n                </p>\n            </div>\n        );\n    }\n}\n\nInfoWithTooltip.propTypes = {\n  label: PropTypes.string,\n  tooltip: PropTypes.string\n};\n\n"],
+    "file": "InfoWithTooltip.js"
+}

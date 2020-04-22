@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/magnum2/reducers/selectedProposition.js"],
+    "names": ["selectedPropositionReducer", "state", "action", "type", "actionTypes", "SELECT_PROPOSITION", "payload", "proposition", "checkoutActionTypes", "fetchZipCodeFromWWT", "reset", "SET_MAGNUM_STORE", "magnum", "selectedProposition"],
+    "mappings": ";;;;;;;AAAA;AACA;;;;;;AAEA,MAAMA,0BAA0B,GAAG,SAA7BA,0BAA6B,GAA0B;AAAA,QAAzBC,KAAyB,uEAAjB,IAAiB;AAAA,QAAXC,MAAW;;AACzD,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,WAAW,CAACC,kBAAjB;AACI,iCACOH,MAAM,CAACI,OAAP,CAAeC,WADtB;;AAGJ,WAAKC,mBAAmB,CAACC,mBAApB,CAAwCC,KAA7C;AACI,eAAO,IAAP;;AACJ,WAAKN,WAAW,CAACO,gBAAjB;AACI,eAAOT,MAAM,CAACI,OAAP,CAAeM,MAAf,CAAsBC,mBAA7B;;AACJ;AACI,eAAOZ,KAAP;AAVR;AAYH,GAbD;;iBAeeD,0B",
+    "sourcesContent": ["import * as actionTypes from \"../actionTypes\";\nimport * as checkoutActionTypes from \"../../checkout/actionTypes\";\n\nconst selectedPropositionReducer = (state = null, action) => {\n    switch(action.type) {\n        case actionTypes.SELECT_PROPOSITION:\n            return {\n                ...action.payload.proposition\n            };\n        case checkoutActionTypes.fetchZipCodeFromWWT.reset:\n            return null;\n        case actionTypes.SET_MAGNUM_STORE:\n            return action.payload.magnum.selectedProposition;\n        default:\n            return state;\n    }\n};\n\nexport default selectedPropositionReducer;"],
+    "file": "selectedProposition.js"
+}

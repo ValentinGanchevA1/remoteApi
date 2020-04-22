@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/enum/SalesChannel.js"],
+    "names": ["SalesChannel", "Object", "freeze", "WWW", "AS", "AKA", "POS", "TLS", "IDG", "TAM", "KKB"],
+    "mappings": ";;;;;;;AAAA,MAAMA,YAAY,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC/BC,IAAAA,GAAG,EAAE,KAD0B;AAE/BC,IAAAA,EAAE,EAAE,IAF2B;AAG/BC,IAAAA,GAAG,EAAE,KAH0B;AAI/BC,IAAAA,GAAG,EAAE,KAJ0B;AAK/BC,IAAAA,GAAG,EAAE,KAL0B;AAM/BC,IAAAA,GAAG,EAAE,KAN0B;AAO/BC,IAAAA,GAAG,EAAE,KAP0B;AAQ/BC,IAAAA,GAAG,EAAE;AAR0B,GAAd,CAArB;iBAWeV,Y",
+    "sourcesContent": ["const SalesChannel = Object.freeze({\n    WWW: \"WWW\",\n    AS: \"AS\",\n    AKA: \"AKA\",\n    POS: \"POS\",\n    TLS: \"TLS\",\n    IDG: \"IDG\",\n    TAM: \"TAM\",\n    KKB: \"KKB\",\n});\n\nexport default SalesChannel;\n"],
+    "file": "SalesChannel.js"
+}

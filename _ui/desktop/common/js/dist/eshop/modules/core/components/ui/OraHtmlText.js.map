@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../es6/eshop/modules/core/components/ui/OraHtmlText.jsx"],
+    "names": ["OraHtmlText", "props", "__html", "children", "Component"],
+    "mappings": ";;;;;;;AAAA;;;;;;MAEqBA,W;;;;;AACjB,yBAAYC,KAAZ,EAAmB;AAAA;AAAA,+BACTA,KADS;AAElB;;;;+BAEQ;AACL,4BACI;AAAM,UAAA,uBAAuB,EAAE;AAACC,YAAAA,MAAM,EAAE,KAAKD,KAAL,CAAWE;AAApB;AAA/B,UADJ;AAGH;;;IAToCC,gB;;;AAUxC",
+    "sourcesContent": ["import React, {Component} from \"react\";\n\nexport default class OraHtmlText extends Component {\n    constructor(props) {\n        super(props);\n    }\n\n    render() {\n        return (\n            <span dangerouslySetInnerHTML={{__html: this.props.children}}/>\n        )\n    }\n};"],
+    "file": "OraHtmlText.js"
+}

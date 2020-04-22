@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/reducers/debtRepayment.js"],
+    "names": ["empty", "receiptNumber", "amount", "data", "state", "action", "type", "CHANGE_DEBT_REPAYMENT_FORM_FIELD", "name", "value", "show", "FETCH_MINI_CART", "payload", "showDebtRepaymentForm"],
+    "mappings": ";;;;;;;;;;;;AAGA,MAAMA,KAAK,GAAG;AAACC,IAAAA,aAAa,EAAE,EAAhB;AAAoBC,IAAAA,MAAM,EAAE;AAA5B,GAAd;;AAEO,MAAMC,IAAI,GAAG,SAAPA,IAAO,GAA2B;AAAA,QAA1BC,KAA0B,uEAAlBJ,KAAkB;AAAA,QAAXK,MAAW;;AAC3C,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,6CAAL;AACI,iCAAWH,KAAX,kCAAmBC,MAAM,CAACG,IAA1B,EAAiCH,MAAM,CAACI,KAAxC;;AACJ;AACI,eAAOL,KAAP;AAJR;AAMH,GAPM;;;;AASA,MAAMM,IAAI,GAAG,SAAPA,IAAO,GAA2B;AAAA,QAA1BN,KAA0B,uEAAlB,KAAkB;AAAA,QAAXC,MAAW;;AAC3C,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKK,6BAAL;AACI,eAAON,MAAM,CAACO,OAAP,CAAeC,qBAAtB;;AACJ;AACI,eAAOT,KAAP;AAJR;AAMH,GAPM",
+    "sourcesContent": ["import {CHANGE_DEBT_REPAYMENT_FORM_FIELD} from \"../actionTypes\";\nimport {FETCH_MINI_CART} from \"../../cart/actionTypes\";\n\nconst empty = {receiptNumber: '', amount: ''};\n\nexport const data = (state = empty, action) => {\n    switch(action.type) {\n        case CHANGE_DEBT_REPAYMENT_FORM_FIELD:\n            return {...state, [action.name]: action.value};\n        default:\n            return state;\n    }\n};\n\nexport const show = (state = false, action) => {\n    switch(action.type) {\n        case FETCH_MINI_CART:\n            return action.payload.showDebtRepaymentForm;\n        default:\n            return state;\n    }\n};\n"],
+    "file": "debtRepayment.js"
+}

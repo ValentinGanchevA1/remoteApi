@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/reducers/payment.js"],
+    "names": ["selectedMethod", "state", "action", "type", "SELECT_PAYMENT_METHOD", "code", "SELECT_DELIVERY_METHOD", "selectedEligCode", "eligCode"],
+    "mappings": ";;;;;;;AAAA;;AAIO,MAAMA,cAAc,GAAG,SAAjBA,cAAiB,GAAwB;AAAA,QAAvBC,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AAClD,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,6BAAL;AACI,eAAOF,MAAM,CAACG,IAAd;;AACJ,WAAKC,8BAAL;AACI,eAAO,EAAP;;AACJ;AACI,eAAOL,KAAP;AANR;AAQH,GATM;;;;AAUA,MAAMM,gBAAgB,GAAG,SAAnBA,gBAAmB,GAAwB;AAAA,QAAvBN,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AACpD,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,6BAAL;AACI,YAAGF,MAAM,CAACM,QAAV,EACI,OAAON,MAAM,CAACM,QAAd,CADJ,KAGI,OAAOP,KAAP;;AACR,WAAKK,8BAAL;AACI,eAAO,EAAP;;AACJ;AACI,eAAOL,KAAP;AATR;AAWH,GAZM",
+    "sourcesContent": ["import {SELECT_PAYMENT_METHOD, SELECT_DELIVERY_METHOD,\n    CHECK_GOODS_ORDERS_PAYMENT_STATUS_DONE} from '../actionTypes';\nimport * as ACTIONS from \"../actionTypes\";\n\nexport const selectedMethod = (state = '', action) => {\n    switch (action.type) {\n        case SELECT_PAYMENT_METHOD:\n            return action.code;\n        case SELECT_DELIVERY_METHOD:\n            return '';\n        default:\n            return state;\n    }\n};\nexport const selectedEligCode = (state = '', action) => {\n    switch (action.type) {\n        case SELECT_PAYMENT_METHOD:\n            if(action.eligCode)\n                return action.eligCode;\n            else\n                return state;\n        case SELECT_DELIVERY_METHOD:\n            return '';\n        default:\n            return state;\n    }\n};"],
+    "file": "payment.js"
+}

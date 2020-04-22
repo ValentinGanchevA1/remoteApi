@@ -1,0 +1,33 @@
+define(["exports"], function(_exports) {
+    "use strict";
+
+    Object.defineProperty(_exports, "__esModule", {
+        value: true
+    });
+    _exports.DOCUMENT_LINK_CLEAR = _exports.DATA_SAVED_BEFORE_DOCUMENT_CREATION = _exports.DOWNLOAD_DOCUMENT_ERROR = _exports.DOWNLOAD_DOCUMENT_DONE = _exports.DOWNLOAD_DOCUMENT_START = _exports.DOCUMENT_READY_TO_DOWNLOAD = _exports.FETCH_DOCUMENTS_UNFILTERED_ERROR = _exports.FETCH_DOCUMENTS_UNFILTERED_LOADING = _exports.FETCH_DOCUMENTS_UNFILTERED_FOR_CART = _exports.FETCH_DOCUMENTS_ERROR = _exports.FETCH_DOCUMENTS_LOADING = _exports.FETCH_DOCUMENTS_FOR_CART = void 0;
+    var FETCH_DOCUMENTS_FOR_CART = "documents/fetch";
+    _exports.FETCH_DOCUMENTS_FOR_CART = FETCH_DOCUMENTS_FOR_CART;
+    var FETCH_DOCUMENTS_LOADING = "documents/fetch/loading";
+    _exports.FETCH_DOCUMENTS_LOADING = FETCH_DOCUMENTS_LOADING;
+    var FETCH_DOCUMENTS_ERROR = "documents/fetch/error";
+    _exports.FETCH_DOCUMENTS_ERROR = FETCH_DOCUMENTS_ERROR;
+    var FETCH_DOCUMENTS_UNFILTERED_FOR_CART = "documents/fetchUnfiltered";
+    _exports.FETCH_DOCUMENTS_UNFILTERED_FOR_CART = FETCH_DOCUMENTS_UNFILTERED_FOR_CART;
+    var FETCH_DOCUMENTS_UNFILTERED_LOADING = "documents/fetchUnfiltered/loading";
+    _exports.FETCH_DOCUMENTS_UNFILTERED_LOADING = FETCH_DOCUMENTS_UNFILTERED_LOADING;
+    var FETCH_DOCUMENTS_UNFILTERED_ERROR = "documents/fetchUnfiltered/error";
+    _exports.FETCH_DOCUMENTS_UNFILTERED_ERROR = FETCH_DOCUMENTS_UNFILTERED_ERROR;
+    var DOCUMENT_READY_TO_DOWNLOAD = "documents/download/ready";
+    _exports.DOCUMENT_READY_TO_DOWNLOAD = DOCUMENT_READY_TO_DOWNLOAD;
+    var DOWNLOAD_DOCUMENT_START = 'documents/download/start';
+    _exports.DOWNLOAD_DOCUMENT_START = DOWNLOAD_DOCUMENT_START;
+    var DOWNLOAD_DOCUMENT_DONE = 'documents/download/done';
+    _exports.DOWNLOAD_DOCUMENT_DONE = DOWNLOAD_DOCUMENT_DONE;
+    var DOWNLOAD_DOCUMENT_ERROR = 'documents/download/error';
+    _exports.DOWNLOAD_DOCUMENT_ERROR = DOWNLOAD_DOCUMENT_ERROR;
+    var DATA_SAVED_BEFORE_DOCUMENT_CREATION = "documents/data/saved";
+    _exports.DATA_SAVED_BEFORE_DOCUMENT_CREATION = DATA_SAVED_BEFORE_DOCUMENT_CREATION;
+    var DOCUMENT_LINK_CLEAR = 'documents/link/clear';
+    _exports.DOCUMENT_LINK_CLEAR = DOCUMENT_LINK_CLEAR;
+});
+//# sourceMappingURL=actionTypes.js.map

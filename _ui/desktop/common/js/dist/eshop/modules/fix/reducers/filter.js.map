@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/fix/reducers/filter.js"],
+    "names": ["filterLP", "action", "type", "ACTIONS", "UPDATE_FILTER_ID", "payload", "pageContext", "UPDATE_PAGE_CONTEXT"],
+    "mappings": ";;;;;;;AAAA;;AAEO,MAAMA,QAAQ,GAAG,oBAA2B;AAAA,QAA1BA,QAA0B,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AAC/C,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,OAAO,CAACC,gBAAb;AAA+B;AAC3B,iBAAOH,MAAM,CAACI,OAAd;AACH;;AACD;AACI,eAAOL,QAAP;AALR;AAOH,GARM;;;;AAUA,MAAMM,WAAW,GAAG,uBAAgC;AAAA,QAA/BA,WAA+B,uEAAjB,IAAiB;AAAA,QAAXL,MAAW;;AACvD,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,OAAO,CAACI,mBAAb;AAAkC;AAC9B,iBAAON,MAAM,CAACI,OAAd;AACH;;AACD;AACI,eAAOC,WAAP;AALR;AAOH,GARM",
+    "sourcesContent": ["import * as ACTIONS from '../actionTypes'\n\nexport const filterLP = (filterLP = [], action) => {\n    switch(action.type){\n        case ACTIONS.UPDATE_FILTER_ID: {\n            return action.payload\n        }\n        default:\n            return filterLP\n    }\n}\n\nexport const pageContext = (pageContext = \"1P\", action) => {\n    switch(action.type){\n        case ACTIONS.UPDATE_PAGE_CONTEXT: {\n            return action.payload\n        }\n        default:\n            return pageContext\n    }\n}\n\n"],
+    "file": "filter.js"
+}

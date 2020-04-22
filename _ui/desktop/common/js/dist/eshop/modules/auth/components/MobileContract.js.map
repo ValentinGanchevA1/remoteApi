@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/auth/components/MobileContract.jsx"],
+    "names": ["MobileContract", "props", "data", "serviceNumber", "Component"],
+    "mappings": ";;;;;;;AAAA;;;;;;MAEaA,c;;;;;AAET,4BAAYC,KAAZ,EAAmB;AAAA;AAAA,+BACTA,KADS;AAElB;;;;+BAEO;AACJ,4BACI;AAAI,UAAA,SAAS,EAAC;AAAd,wBACI;AAAK,UAAA,SAAS,EAAC;AAAf,wBACI;AAAK,UAAA,SAAS,EAAC;AAAf,wBACI;AAAK,UAAA,SAAS,EAAC;AAAf,wBAAqD;AAAM,UAAA,SAAS,EAAC,2DAAhB;AAA4E,yBAAY;AAAxF,UAArD,CADJ,eAEI;AAAK,UAAA,SAAS,EAAC;AAAf,wBACI;AAAG,UAAA,SAAS,EAAC;AAAb,kCADJ,eAEI;AAAG,UAAA,SAAS,EAAC;AAAb,WAA4B,KAAKA,KAAL,CAAWC,IAAX,CAAgBC,aAA5C,CAFJ,CAFJ,CADJ,CADJ,CADJ;AAaJ;;;IApBgCC,gB",
+    "sourcesContent": ["import React, {Component} from \"react\";\n\nexport class MobileContract extends Component {\n\n    constructor(props) {\n        super(props);\n    }\n\n    render(){\n        return (\n            <li className=\"u-margin\" >\n                <div className=\"l-row\">\n                    <div className=\"l-col l-col-4 \">\n                        <div className=\"o-icon-list__icon u-vertical-middle\"><span className=\"g-icon--device-smartphone g-icon g-icon--before g-icon--s\" aria-hidden=\"true\"></span></div>\n                        <div className=\"o-icon-list__text u-vertical-middle\">\n                            <p className=\"u-font-small g-gray5-c\">Telefon komórkowy</p>\n                            <p className=\"u-font-bold\">{this.props.data.serviceNumber}</p>\n                        </div>\n                    </div>\n                </div>\n            </li>\n        )\n   }\n}\n"],
+    "file": "MobileContract.js"
+}

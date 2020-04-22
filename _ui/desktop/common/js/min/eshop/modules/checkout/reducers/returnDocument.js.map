@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "returnDocument.js",
+    "sources": ["../../../../../dist/eshop/modules/checkout/reducers/returnDocument.js"],
+    "names": ["define", "_exports", "_actionTypes", "Object", "defineProperty", "value", "returnDocumentLoader", "state", "arguments", "length", "undefined", "action", "type", "RETURN_DOCUMENT_LOADER", "data"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,kBAAmB,SAAUC,EAAUC,GACxD,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,0BAAuB,EAehCL,EAASK,qBAbkB,SAAA,EAAA,GACzB,IAAIC,EAA2B,EAAnBC,UAAUC,aAA+BC,IAD5B,GAAA,EAErBC,EAA4B,EAAnBH,UAAUC,OAFE,OAE0BC,EAEnD,OAAQC,EAAOC,MACb,KAAKV,EAAaW,uBAChB,OAAOF,EAAOG,KAEhB,QACE,OAAOP"
+}

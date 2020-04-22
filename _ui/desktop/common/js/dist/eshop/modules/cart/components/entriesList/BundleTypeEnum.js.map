@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../es6/eshop/modules/cart/components/entriesList/BundleTypeEnum.js"],
+    "names": ["BundleType", "Object", "freeze", "VOICE", "DATA", "VIDEO", "SIMFREE", "SIMFREE_INST", "_1P_PRE", "_1P_INF", "_3P_PRE", "_3P_INF", "HARDBUNDLE", "_2U", "_4U", "_2ULTE", "_3ULTE", "MNP_APPLICATION", "TRANSFER"],
+    "mappings": ";;;;;;;AACA,MAAMA,UAAU,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC7BC,IAAAA,KAAK,EAAE,OADsB;AAE7BC,IAAAA,IAAI,EAAE,MAFuB;AAG7BC,IAAAA,KAAK,EAAE,OAHsB;AAI7BC,IAAAA,OAAO,EAAE,YAJoB;AAK7BC,IAAAA,YAAY,EAAE,cALe;AAM7BC,IAAAA,OAAO,EAAE,QANoB;AAO7BC,IAAAA,OAAO,EAAE,QAPoB;AAQ7BC,IAAAA,OAAO,EAAE,QARoB;AAS7BC,IAAAA,OAAO,EAAE,QAToB;AAU7BC,IAAAA,UAAU,EAAE,YAViB;AAW7BC,IAAAA,GAAG,EAAE,KAXwB;AAY7BC,IAAAA,GAAG,EAAE,KAZwB;AAa7BC,IAAAA,MAAM,EAAE,QAbqB;AAc7BC,IAAAA,MAAM,EAAE,QAdqB;AAe7BC,IAAAA,eAAe,EAAE,iBAfY;AAgB7BC,IAAAA,QAAQ,EAAE;AAhBmB,GAAd,CAAnB;iBAmBelB,U",
+    "sourcesContent": ["\nconst BundleType = Object.freeze({\n    VOICE: \"VOICE\",\n    DATA: \"DATA\",\n    VIDEO: \"VIDEO\",\n    SIMFREE: \"VK_SIMFREE\",\n    SIMFREE_INST: \"SIMFREE_INST\",\n    _1P_PRE: \"1P_PRE\",\n    _1P_INF: \"1P_INF\",\n    _3P_PRE: \"3P_PRE\",\n    _3P_INF: \"3P_INF\",\n    HARDBUNDLE: \"HARDBUNDLE\",\n    _2U: \"_2U\",\n    _4U: \"_4U\",\n    _2ULTE: \"_2ULTE\",\n    _3ULTE: \"_3ULTE\",\n    MNP_APPLICATION: \"MNP_APPLICATION\",\n    TRANSFER: \"TRANSFER\",\n});\n\nexport default BundleType;"],
+    "file": "BundleTypeEnum.js"
+}

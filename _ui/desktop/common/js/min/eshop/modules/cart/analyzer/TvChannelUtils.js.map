@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "TvChannelUtils.js",
+    "sources": ["../../../../../dist/eshop/modules/cart/analyzer/TvChannelUtils.js"],
+    "names": ["define", "_exports", "Object", "defineProperty", "value", "groupChannelsByCategories", "channels", "categories", "forEach", "channel", "category", "categoryList", "key", "keys", "includes", "label", "push"],
+    "mappings": "AAAAA,OAAO,CAAC,WAAY,SAAUC,GAC5B,aAEAC,OAAOC,eAAeF,EAAU,aAAc,CAC5CG,OAAO,IAETH,EAASI,+BAA4B,EAoBrCJ,EAASI,0BAlBuB,SAAmCC,GACjE,IAAIC,EAAa,GAcjB,OAbAD,EAASE,QAAQ,SAAUC,GACzB,IAAIC,EAAWD,EAAQE,aACnBC,EAAMV,OAAOW,KAAKH,GAAU,GAE3BR,OAAOW,KAAKN,GAAYO,SAASF,KACpCL,EAAWK,GAAO,CAChBG,MAAOL,EAASE,GAChBN,SAAU,KAIdC,EAAWK,GAAKN,SAASU,KAAKP,KAEzBF"
+}

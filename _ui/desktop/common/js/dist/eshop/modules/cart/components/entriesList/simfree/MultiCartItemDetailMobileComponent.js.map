@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../../es6/eshop/modules/cart/components/entriesList/simfree/MultiCartItemDetailMobileComponent.jsx"],
+    "names": ["MultiCartItemDetailMobileComponent", "props", "className", "price", "title", "replace", "getPartsOfPrice", "join", "currency", "MultiCartItemAttributeComponent"],
+    "mappings": ";;;;;;;AAAA;AACA;;;;;;MAEqBA,kC;;;;;AACjB,gDAAaC,KAAb,EAAoB;AAAA;AAAA,+BACVA,KADU;AAEnB;;;;+BAEQ;AACL,4BACI;AAAK,UAAA,SAAS,EAAE,KAAKA,KAAL,CAAWC;AAA3B,WACM,KAAKD,KAAL,CAAWE,KAAX,GACE,KAAKF,KAAL,CAAWG,KAAX,CAAiBC,OAAjB,CAAyB,IAAzB,EAA+B,KAAKC,eAAL,CAAqB,KAAKL,KAAL,CAAWE,KAAX,CAAiBA,KAAtC,EAA6CI,IAA7C,CAAkD,GAAlD,IAAyD,GAAzD,GAA+D,KAAKN,KAAL,CAAWE,KAAX,CAAiBK,QAA/G,CADF,GAEI,KAAKP,KAAL,CAAWG,KAHrB,CADJ;AAQH;;;IAd2DK,wC",
+    "sourcesContent": ["import React from \"react\";\nimport MultiCartItemAttributeComponent from \"./MultiCartItemAttributeComponent\";\n\nexport default class MultiCartItemDetailMobileComponent extends MultiCartItemAttributeComponent {\n    constructor (props) {\n        super(props);\n    }\n\n    render() {\n        return (\n            <div className={this.props.className}>\n                { this.props.price ?\n                    this.props.title.replace('%1', this.getPartsOfPrice(this.props.price.price).join(',') + ' ' + this.props.price.currency)\n                    : this.props.title\n                }\n            </div>\n        )\n    }\n}"],
+    "file": "MultiCartItemDetailMobileComponent.js"
+}

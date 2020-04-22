@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/utils/optional.js"],
+    "names": ["Optional", "value", "actionOn", "isPresent", "action"],
+    "mappings": ";;;;;;;;MAAaA,Q;;;yBAECC,K,EAAO;AACb,eAAO,IAAID,QAAJ,CAAaC,KAAb,CAAP;AACH;;;AAED,sBAAYA,KAAZ,EAAmB;AAAA;AACf,WAAKA,KAAL,GAAaA,KAAb;AACH;;;;gCAESC,Q,EAAU;AAChB,YAAI,KAAKC,SAAL,EAAJ,EAAsB;AAClBD,UAAAA,QAAQ,CAAC,KAAKD,KAAN,CAAR;AACH;;AACD,eAAO,IAAP;AACH;;;kCAEW;AACR,eAAO,CAAC,CAAC,KAAKA,KAAd;AACH;;;6BAEMG,M,EAAQ;AACX,YAAI,CAAC,KAAKD,SAAL,EAAL,EAAuB;AACnBC,UAAAA,MAAM;AACT;AACJ;;;4BAEK;AACF,eAAO,KAAKH,KAAZ;AACH",
+    "sourcesContent": ["export class Optional {\n\n    static of(value) {\n        return new Optional(value);\n    }\n\n    constructor(value) {\n        this.value = value;\n    }\n\n    ifPresent(actionOn) {\n        if (this.isPresent()) {\n            actionOn(this.value);\n        }\n        return this;\n    }\n\n    isPresent() {\n        return !!this.value;\n    }\n\n    orElse(action) {\n        if (!this.isPresent()) {\n            action();\n        }\n    }\n\n    get() {\n        return this.value;\n    }\n}\n"],
+    "file": "optional.js"
+}

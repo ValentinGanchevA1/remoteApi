@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "navigation.js",
+    "sources": ["../../../../../dist/eshop/modules/checkout/reducers/navigation.js"],
+    "names": ["define", "_exports", "_actionTypes", "Object", "defineProperty", "value", "errorCode", "inProgress", "state", "arguments", "length", "undefined", "type", "DO_CHECKOUT_STEP_START", "GOTO_CHECKOUT_NEXT", "DO_CHECKOUT_STEP_DONE", "DO_CHECKOUT_STEP_ERROR", "action", "code"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,kBAAmB,SAAUC,EAAUC,GACxD,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,UAAYL,EAASM,gBAAa,EAsB3CN,EAASM,WApBQ,SAAA,EAAA,GACf,IAAIC,EAA2B,EAAnBC,UAAUC,aAA+BC,IADtC,GAAA,EAIf,QAFgC,EAAnBF,UAAUC,OAFR,OAEoCC,GAEpCC,MACb,KAAKV,EAAaW,uBAGlB,KAAKX,EAAaY,mBAChB,OAAO,EAET,KAAKZ,EAAaa,sBAClB,KAAKb,EAAac,uBAChB,OAAO,EAET,QACE,OAAOR,IAsBbP,EAASK,UAhBO,SAAA,EAAA,GACd,IAAIE,EAA2B,EAAnBC,UAAUC,aAA+BC,IADvC,EAAA,EACkE,KAC5EM,EAA4B,EAAnBR,UAAUC,OAFT,OAEqCC,EAEnD,OAAQM,EAAOL,MACb,KAAKV,EAAaW,uBAChB,OAAO,KAET,KAAKX,EAAac,uBAChB,OAAOC,EAAOC,MAAQ,KAExB,QACE,OAAOV"
+}

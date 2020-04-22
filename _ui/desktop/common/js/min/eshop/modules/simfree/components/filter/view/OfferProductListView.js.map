@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "OfferProductListView.js",
+    "sources": ["../../../../../../../dist/eshop/modules/simfree/components/filter/view/OfferProductListView.js"],
+    "names": ["define", "_exports", "_react", "_OraSwitcher", "_PropositionForDeviceMobileView", "_OnlineUtils", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireDefault", "_default", "props", "proposition", "offer", "dataDescription", "bonusDescriptions", "find", "desc", "attribute", "dataRetention", "features", "getMobileRetentionDesc", "dataValue", "replace", "createElement", "key", "index", "onChangeHandler", "onChange", "isSelected", "className", "extends", "id", "updateOgTag", "selectedVariant"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,QAAS,+CAAgD,kEAAmE,2BAA4B,SAAUC,EAAUC,EAAQC,EAAcC,EAAiCC,GACpP,aAEAC,OAAOC,eAAeN,EAAU,aAAc,CAC5CO,OAAO,IAETP,EAASQ,aAAU,EACnBP,EAASQ,aAAaC,sBAAsBT,GAC5CC,EAAeO,aAAaC,sBAAsBR,GAClDC,EAAkCM,aAAaC,sBAAsBP,GACrEC,EAAeK,aAAaC,sBAAsBN,GAEvB,SA4BvBO,EA5BqDC,GACvD,IAAIC,EAAcD,EAAME,MACpBC,EAAkBH,EAAME,OAASF,EAAME,MAAME,mBAAqBJ,EAAME,MAAME,kBAAkBC,KAAK,SAAUC,GACjH,MAA0B,cAAnBA,EAAKC,YAIVC,EAAgBR,EAAME,MAAMO,SAASC,yBACrCC,EAAYR,GAAmBA,EAAgBR,OAAS,GAU5D,OARIa,IAEFG,GADAA,GAAaH,EAAcb,OACLiB,QAAQ,IAAK,IAAIA,QAAQ,SAAU,KAMvCvB,EAAOO,QAAQiB,cAAcvB,EAAaM,QAAS,CACrEkB,IAAKd,EAAMe,MAAQ,YACnBC,gBAAiBhB,EAAMiB,SACvBC,WAAYlB,EAAMkB,WAClBC,UAAW,6CACG9B,EAAOO,QAAQiB,cAActB,EAAgCK,QAASC,aAAauB,QAAQ,GAAIpB,EAAO,CACpHc,IAAK,WAAab,EAAYoB,MAC3BrB,EAAMkB,YAAc1B,EAAaI,QAAQ0B,YAAY,2BAA4BrB,EAAYoB,GAAK,IAAMrB,EAAMuB,kBAIrHnC,EAASQ,QAAUG"
+}

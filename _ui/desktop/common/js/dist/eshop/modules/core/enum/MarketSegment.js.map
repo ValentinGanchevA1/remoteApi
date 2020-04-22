@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/enum/MarketSegment.js"],
+    "names": ["MarketSegment", "B2C", "B2B", "B2B_SOHO", "isB2B", "marketSegment", "_", "includes"],
+    "mappings": ";;;;;;;AAAA;AAEA,MAAMA,aAAa,GAAG;AAClBC,IAAAA,GAAG,EAAE,KADa;AAElBC,IAAAA,GAAG,EAAE,KAFa;AAGlBC,IAAAA,QAAQ,EAAE,UAHQ;AAIlBC,IAAAA,KAAK,EAAE,eAACC,aAAD;AAAA,aAAmBC,gBAAEC,QAAF,CAAW,CAAC,KAAD,EAAO,UAAP,CAAX,EAA+BF,aAA/B,CAAnB;AAAA;AAJW,GAAtB;iBAOeL,a",
+    "sourcesContent": ["import _ from \"lodash\";\n\nconst MarketSegment = {\n    B2C: 'B2C',\n    B2B: 'B2B',\n    B2B_SOHO: 'B2B_SOHO',\n    isB2B: (marketSegment) => _.includes(['B2B','B2B_SOHO'], marketSegment)\n};\n\nexport default MarketSegment;\n"],
+    "file": "MarketSegment.js"
+}

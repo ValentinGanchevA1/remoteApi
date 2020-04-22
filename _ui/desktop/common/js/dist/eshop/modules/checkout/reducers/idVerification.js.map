@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/reducers/idVerification.js"],
+    "names": ["banks", "state", "action", "type", "SET_ID_VERIFICATION_BANKS", "verificationResult", "SET_ID_VERIFICATION_RESULT", "SET_ID_VERIFICATION_SELECTED_BANK_ID", "selectedBankId"],
+    "mappings": ";;;;;;;;;;;;AAEO,MAAMA,KAAK,GAAG,SAARA,KAAQ,GAAwB;AAAA,QAAvBC,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AACzC,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,sCAAL;AACI,eAAOF,MAAM,CAACF,KAAd;;AACJ;AACI,eAAOC,KAAP;AAJR;AAMH,GAPM;;;;AASA,MAAMI,kBAAkB,GAAG,SAArBA,kBAAqB,GAAwB;AAAA,QAAvBJ,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AACtD,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKG,uCAAL;AACI,eAAOJ,MAAM,CAACG,kBAAP,IAA6B,EAApC;;AACJ,WAAKE,iDAAL;AACI,iCAAWN,KAAX;AAAkBO,UAAAA,cAAc,EAAEN,MAAM,CAACM;AAAzC;;AACJ;AACI,eAAOP,KAAP;AANR;AAQH,GATM",
+    "sourcesContent": ["import {SET_ID_VERIFICATION_BANKS, SET_ID_VERIFICATION_SELECTED_BANK_ID, SET_ID_VERIFICATION_RESULT} from \"../actionTypes\";\n\nexport const banks = (state = [], action) => {\n    switch(action.type) {\n        case SET_ID_VERIFICATION_BANKS:\n            return action.banks;\n        default:\n            return state;\n    }\n};\n\nexport const verificationResult = (state = {}, action) => {\n    switch(action.type) {\n        case SET_ID_VERIFICATION_RESULT:\n            return action.verificationResult || {};\n        case SET_ID_VERIFICATION_SELECTED_BANK_ID:\n            return {...state, selectedBankId: action.selectedBankId};\n        default:\n            return state;\n    }\n};\n"],
+    "file": "idVerification.js"
+}

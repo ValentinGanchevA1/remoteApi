@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../es6/eshop/utils/FormatUtils.js"],
+    "names": ["formatNumber", "value", "pattern", "i", "replace", "_"],
+    "mappings": ";;;;;;;;AAAO,MAAMA,YAAY,GAAG,SAAfA,YAAe,CAACC,KAAD,EAAQC,OAAR,EAAoB;AAC5C,QAAIC,CAAC,GAAG,CAAR;AACA,WAAOF,KAAK,IAAIC,OAAO,CAACE,OAAR,CAAgB,IAAhB,EAAsB,UAAAC,CAAC;AAAA,aAAIJ,KAAK,CAACE,CAAC,EAAF,CAAT;AAAA,KAAvB,CAAhB;AACH,GAHM",
+    "sourcesContent": ["export const formatNumber = (value, pattern) => {\n    let i = 0;\n    return value && pattern.replace(/#/g, _ => value[i++]);\n};"],
+    "file": "FormatUtils.js"
+}

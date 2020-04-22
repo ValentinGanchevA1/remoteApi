@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "selectedLoyaltyPeriod.js",
+    "sources": ["../../../../../dist/eshop/modules/magnum2/reducers/selectedLoyaltyPeriod.js"],
+    "names": ["define", "_exports", "actionTypes", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireWildcard", "_default", "state", "arguments", "length", "undefined", "action", "type", "SET_LOYALTY_PERIOD", "payload", "loyaltyPeriod", "SET_MAGNUM_STORE", "magnum", "selectedLoyaltyPeriod"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,kBAAmB,SAAUC,EAAUC,GACxD,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,aAAU,EACnBJ,EAAcK,aAAaC,uBAAuBN,GAEf,SAgB/BO,EAhB+B,EAAA,GACjC,IAAIC,EAA2B,EAAnBC,UAAUC,aAA+BC,IADpB,EAAA,EAC+C,KAC5EC,EAA4B,EAAnBH,UAAUC,OAFU,OAEkBC,EAEnD,OAAQC,EAAOC,MACb,KAAKb,EAAYc,mBACf,OAAOF,EAAOG,QAAQC,cAExB,KAAKhB,EAAYiB,iBACf,OAAOL,EAAOG,QAAQG,OAAOC,sBAE/B,QACE,OAAOX,GAKbT,EAASK,QAAUG"
+}

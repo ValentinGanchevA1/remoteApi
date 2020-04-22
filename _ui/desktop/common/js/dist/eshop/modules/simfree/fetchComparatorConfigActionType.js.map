@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../es6/eshop/modules/simfree/fetchComparatorConfigActionType.js"],
+    "names": ["ActionType", "VISIT_PAGE", "ADD_DEVICE", "REMOVE_DEVICE"],
+    "mappings": ";;;;;;;AAAA,MAAMA,UAAU,GAAG;AACfC,IAAAA,UAAU,EAAE,YADG;AAEfC,IAAAA,UAAU,EAAE,YAFG;AAGfC,IAAAA,aAAa,EAAE;AAHA,GAAnB;iBAMeH,U",
+    "sourcesContent": ["const ActionType = {\n    VISIT_PAGE: 'VISIT_PAGE',\n    ADD_DEVICE: 'ADD_DEVICE',\n    REMOVE_DEVICE: 'REMOVE_DEVICE'\n};\n\nexport default ActionType;"],
+    "file": "fetchComparatorConfigActionType.js"
+}

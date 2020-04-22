@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/configurator/components/FiltersComponent.jsx"],
+    "names": ["FiltersComponentView", "props", "mapStateToProps", "state", "mapDispatchToProps", "dispatch", "FiltersComponent"],
+    "mappings": ";;;;;;;AAAA;AAEA;;AAEA,MAAMA,oBAAoB,GAAG,SAAvBA,oBAAuB,CAACC,KAAD;AAAA,wBACzB,uDACI;AAAG,MAAA,SAAS,EAAC;AAAb,0BADJ,eAEI,6BAAC,8BAAD;AAAuB,MAAA,OAAO,EAAC,SAA/B;AAAyC,MAAA,KAAK,EAAC;AAA/C,MAFJ,CADyB;AAAA,GAA7B;;AAMA,MAAMC,eAAe,GAAG,SAAlBA,eAAkB,CAAAC,KAAK;AAAA,WAAK,CAClC;AADkC,KAAL;AAAA,GAA7B;;AAIA,MAAMC,kBAAkB,GAAG,SAArBA,kBAAqB,CAAAC,QAAQ;AAAA,WAAK,CACxC;AADwC,KAAL;AAAA,GAAnC;;AAIA,MAAMC,gBAAgB,GAAG,yBAAQJ,eAAR,EAAyBE,kBAAzB,EAA6CJ,oBAA7C,CAAzB;iBAEeM,gB",
+    "sourcesContent": ["import React, {Component} from \"react\";\nimport {connect} from \"react-redux\"\nimport ClientContextCheckbox from \"./ClientContextCheckbox\";\n\nconst FiltersComponentView = (props) =>\n    <div>\n        <p className=\"h3\">FiltersComponent</p>\n        <ClientContextCheckbox tooltip=\"tooltip\" label=\"label\"/>\n    </div>;\n\nconst mapStateToProps = state => ({\n//    dummy: 'dummy'\n})\n\nconst mapDispatchToProps = dispatch => ({\n//    dummy: (event) => dispatch(setClientContext(event.target.checked))\n})\n\nconst FiltersComponent = connect(mapStateToProps, mapDispatchToProps)(FiltersComponentView)\n\nexport default FiltersComponent;\n\n"],
+    "file": "FiltersComponent.js"
+}

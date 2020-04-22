@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/reducers/navigation.js"],
+    "names": ["inProgress", "state", "action", "type", "DO_CHECKOUT_STEP_START", "GOTO_CHECKOUT_NEXT", "DO_CHECKOUT_STEP_DONE", "DO_CHECKOUT_STEP_ERROR", "errorCode", "code"],
+    "mappings": ";;;;;;;;AAEO,MAAIA,UAAU,GAAG,SAAbA,UAAa,GAA2B;AAAA,QAA1BC,KAA0B,uEAAlB,KAAkB;AAAA,QAAXC,MAAW;;AAC/C,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,mCAAL;AACI,eAAO,IAAP;;AACJ,WAAKC,+BAAL;AACI,eAAO,IAAP;;AACJ,WAAKC,kCAAL;AACA,WAAKC,mCAAL;AACI,eAAO,KAAP;;AACJ;AACI,eAAON,KAAP;AATR;AAWH,GAZM;;;;AAcA,MAAIO,SAAS,GAAG,SAAZA,SAAY,GAA0B;AAAA,QAAzBP,KAAyB,uEAAjB,IAAiB;AAAA,QAAXC,MAAW;;AAC7C,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,mCAAL;AACI,eAAO,IAAP;;AACJ,WAAKG,mCAAL;AACI,eAAOL,MAAM,CAACO,IAAP,IAAe,IAAtB;;AACJ;AACI,eAAOR,KAAP;AANR;AAQH,GATM",
+    "sourcesContent": ["import {DO_CHECKOUT_STEP_START, DO_CHECKOUT_STEP_DONE, DO_CHECKOUT_STEP_ERROR, GOTO_CHECKOUT_NEXT} from \"../actionTypes\";\n\nexport var inProgress = (state = false, action) => {\n    switch (action.type) {\n        case DO_CHECKOUT_STEP_START:\n            return true;\n        case GOTO_CHECKOUT_NEXT:\n            return true;\n        case DO_CHECKOUT_STEP_DONE:\n        case DO_CHECKOUT_STEP_ERROR:\n            return false;\n        default:\n            return state;\n    }\n}\n\nexport var errorCode = (state = null, action) => {\n    switch (action.type) {\n        case DO_CHECKOUT_STEP_START:\n            return null;\n        case DO_CHECKOUT_STEP_ERROR:\n            return action.code || \"-1\";\n        default:\n            return state;\n    }\n}\n"],
+    "file": "navigation.js"
+}

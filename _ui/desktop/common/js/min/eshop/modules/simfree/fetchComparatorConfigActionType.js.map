@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "fetchComparatorConfigActionType.js",
+    "sources": ["../../../../dist/eshop/modules/simfree/fetchComparatorConfigActionType.js"],
+    "names": ["define", "_exports", "Object", "defineProperty", "value", "default", "_default", "VISIT_PAGE", "ADD_DEVICE", "REMOVE_DEVICE"],
+    "mappings": "AAAAA,OAAO,CAAC,WAAY,SAAUC,GAC5B,aAEAC,OAAOC,eAAeF,EAAU,aAAc,CAC5CG,OAAO,IAETH,EAASI,aAAU,EACnB,IAKIC,EALa,CACfC,WAAY,aACZC,WAAY,aACZC,cAAe,iBAGjBR,EAASI,QAAUC"
+}

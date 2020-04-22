@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/constants/FactoryTypeEnum.js"],
+    "names": ["FactoryType", "Object", "freeze", "MOBILE", "FIX"],
+    "mappings": ";;;;;;;AAAA,MAAMA,WAAW,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC9BC,IAAAA,MAAM,EAAE,QADsB;AAE9BC,IAAAA,GAAG,EAAE;AAFyB,GAAd,CAApB;iBAKeJ,W",
+    "sourcesContent": ["const FactoryType = Object.freeze({\n    MOBILE: 'MOBILE',\n    FIX: 'FIX'\n});\n\nexport default FactoryType;"],
+    "file": "FactoryTypeEnum.js"
+}

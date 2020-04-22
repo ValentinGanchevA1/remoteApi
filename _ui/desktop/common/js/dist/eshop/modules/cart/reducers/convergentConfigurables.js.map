@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/reducers/convergentConfigurables.js"],
+    "names": ["initialConvergentVasesState", "configurables", "convergentConfigurablesReducer", "state", "action", "type", "FETCH_CONVERGENT_CONFIGURABLES", "payload"],
+    "mappings": ";;;;;;;AAEA,MAAMA,2BAA2B,GAAG;AAChCC,IAAAA,aAAa,EAAE;AADiB,GAApC;;AAIO,MAAMC,8BAA8B,GAAG,SAAjCA,8BAAiC,GAAiD;AAAA,QAAhDC,KAAgD,uEAAxCH,2BAAwC;AAAA,QAAXI,MAAW;;AAC3F,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,2CAAL;AACI,eAAO;AACHL,UAAAA,aAAa,iCAAMG,MAAM,CAACG,OAAP,CAAeN,aAArB;AADV,SAAP;;AAGJ;AACI,eAAOE,KAAP;AANR;AAQH,GATM",
+    "sourcesContent": ["import {FETCH_CONVERGENT_CONFIGURABLES} from \"../actionTypes\";\n\nconst initialConvergentVasesState = {\n    configurables: []\n};\n\nexport const convergentConfigurablesReducer = (state = initialConvergentVasesState, action) => {\n    switch (action.type) {\n        case FETCH_CONVERGENT_CONFIGURABLES:\n            return {\n                configurables: [...action.payload.configurables]\n            };\n        default:\n            return state\n    }\n};"],
+    "file": "convergentConfigurables.js"
+}

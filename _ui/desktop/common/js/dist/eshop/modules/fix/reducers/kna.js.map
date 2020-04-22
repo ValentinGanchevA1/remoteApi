@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/fix/reducers/kna.js"],
+    "names": ["kna", "state", "action", "type", "ACTIONS", "CHANGE_KNA_FORM_FIELD", "console", "log", "errors", "name", "value"],
+    "mappings": ";;;;;;;AAAA;;;;;;AAEO,MAAMA,GAAG,GAAG,SAANA,GAAM,GAAwB;AAAA;;AAAA,QAAvBC,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AACvC,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,OAAO,CAACC,qBAAb;AACIC,QAAAA,OAAO,CAACC,GAAR,CAAYL,MAAM,CAACM,MAAnB;AACA,iCAAWP,KAAX,oEAAmBC,MAAM,CAACO,IAA1B,EAAiCP,MAAM,CAACQ,KAAxC,yFAAyDR,MAAM,CAACO,IAAhE,EAAuEP,MAAM,CAACM,MAA9E;;AACJ;AACI,eAAOP,KAAP;AALR;AAOH,GARM",
+    "sourcesContent": ["import * as ACTIONS from '../actionTypes'\n\nexport const kna = (state = {}, action) => {\n    switch(action.type) {\n        case ACTIONS.CHANGE_KNA_FORM_FIELD:\n            console.log(action.errors);\n            return {...state, [action.name]: action.value, errors: {[action.name]: action.errors}};\n        default:\n            return state;\n    }\n};\n"],
+    "file": "kna.js"
+}

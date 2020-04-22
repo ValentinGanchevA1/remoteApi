@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/utils/CmsUtils.js"],
+    "names": ["createCMSDescriptionWithParams", "description", "params", "result", "map", "param", "i", "replace", "RegExp"],
+    "mappings": ";;;;;;;;AAAO,MAAMA,8BAA8B,GAAG,SAAjCA,8BAAiC,CAACC,WAAD,EAAcC,MAAd,EAAyB;AACnE,QAAIC,MAAM,GAAGF,WAAb;AACAA,IAAAA,WAAW,IAAIC,MAAf,IAAyBA,MAAM,CAACE,GAAP,CAAW,UAACC,KAAD,EAAQC,CAAR,EAAc;AAC9CH,MAAAA,MAAM,GAAGA,MAAM,CAACI,OAAP,CAAe,IAAIC,MAAJ,CAAW,QAAQF,CAAR,GAAY,KAAvB,EAA8B,GAA9B,CAAf,EAAmDD,KAAnD,CAAT;AACH,KAFwB,CAAzB;AAGA,WAAOF,MAAP;AACH,GANM",
+    "sourcesContent": ["export const createCMSDescriptionWithParams = (description, params) => {\n    let result = description;\n    description && params && params.map((param, i) => {\n        result = result.replace(new RegExp(\"\\\\{\" + i + \"\\\\}\", \"g\"), param);\n    });\n    return result;\n};"],
+    "file": "CmsUtils.js"
+}

@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../es6/eshop/modules/cart/components/entriesList/VoucherSubType.js"],
+    "names": ["VoucherSubType", "Object", "freeze", "SUBSCRIPTION", "ACTIVATION", "INSTALLMENT_ONE_TIME"],
+    "mappings": ";;;;;;;AAAA,MAAMA,cAAc,GAAGC,MAAM,CAACC,MAAP,CAAc;AACjCC,IAAAA,YAAY,EAAE,cADmB;AAEjCC,IAAAA,UAAU,EAAE,YAFqB;AAGjCC,IAAAA,oBAAoB,EAAE;AAHW,GAAd,CAAvB;iBAMeL,c",
+    "sourcesContent": ["const VoucherSubType = Object.freeze({\n    SUBSCRIPTION: \"SUBSCRIPTION\",\n    ACTIVATION: \"ACTIVATION\",\n    INSTALLMENT_ONE_TIME: \"INSTALLMENT_ONE_TIME\"\n});\n\nexport default VoucherSubType;"],
+    "file": "VoucherSubType.js"
+}

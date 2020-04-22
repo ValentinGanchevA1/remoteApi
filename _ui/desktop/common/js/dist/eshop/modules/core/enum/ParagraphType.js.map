@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/enum/ParagraphType.js"],
+    "names": ["ParagraphType", "ERROR", "INFO", "WARN", "CONSOLE", "getColor", "c", "Color"],
+    "mappings": ";;;;;;;AAAA;AAEA,MAAMA,aAAa,GAAG;AAClBC,IAAAA,KAAK,EAAE,OADW;AAElBC,IAAAA,IAAI,EAAE,MAFY;AAGlBC,IAAAA,IAAI,EAAE,MAHY;AAIlBC,IAAAA,OAAO,EAAE,SAJS;AAKlBC,IAAAA,QAAQ,EAAE,kBAACC,CAAD,EAAO;AACb,cAAQA,CAAR;AACI,aAAKN,aAAa,CAACG,IAAnB;AACI,iBAAOI,eAAMJ,IAAb;;AACJ,aAAKH,aAAa,CAACE,IAAnB;AACI,iBAAOK,eAAML,IAAb;;AACJ,aAAKF,aAAa,CAACC,KAAnB;AACI,iBAAOM,eAAMN,KAAb;;AACJ;AACI,iBAAOM,eAAMH,OAAb;AARR;AAUH;AAhBiB,GAAtB;iBAmBeJ,a",
+    "sourcesContent": ["import Color from \"./Color\";\n\nconst ParagraphType = {\n    ERROR: 'ERROR',\n    INFO: 'INFO',\n    WARN: 'WARN',\n    CONSOLE: 'CONSOLE',\n    getColor: (c) => {\n        switch (c) {\n            case ParagraphType.WARN:\n                return Color.WARN;\n            case ParagraphType.INFO:\n                return Color.INFO;\n            case ParagraphType.ERROR:\n                return Color.ERROR;\n            default:\n                return Color.CONSOLE;\n        }\n    }\n};\n\nexport default ParagraphType;"],
+    "file": "ParagraphType.js"
+}

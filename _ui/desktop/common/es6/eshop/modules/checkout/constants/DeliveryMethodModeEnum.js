@@ -1,0 +1,8 @@
+const DeliveryMethodMode = Object.freeze({
+    DOCUMENTS_PACKAGE: 'DOCUMENTS_PACKAGE',
+    DEVICES_PACKAGE: 'DEVICES_PACKAGE',
+    FIX_DEVICES_PACKAGE: 'FIX_DEVICES_PACKAGE',
+    MOBILE_DEVICES_PACKAGE: 'MOBILE_DEVICES_PACKAGE'
+});
+
+export default DeliveryMethodMode;

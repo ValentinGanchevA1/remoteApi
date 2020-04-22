@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "FiltersComponent.js",
+    "sources": ["../../../../../dist/eshop/modules/configurator/components/FiltersComponent.js"],
+    "names": ["define", "_exports", "_react", "_reactRedux", "_ClientContextCheckbox", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireWildcard", "interopRequireDefault", "_default", "connect", "createElement", "className", "tooltip", "label"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,QAAS,cAAe,2BAA4B,SAAUC,EAAUC,EAAQC,EAAaC,GAC9G,aAEAC,OAAOC,eAAeL,EAAU,aAAc,CAC5CM,OAAO,IAETN,EAASO,aAAU,EACnBN,EAASO,aAAaC,uBAAuBR,GAC7CE,EAAyBK,aAAaE,sBAAsBP,GAE5D,IAoBIQ,GADmB,EAAIT,EAAYU,SAVjB,WACpB,MAAO,IAIgB,WACvB,MAAO,IAIc,CAnBI,WACzB,OAAoBX,EAAOM,QAAQM,cAAc,MAAO,KAAmBZ,EAAOM,QAAQM,cAAc,IAAK,CAC3GC,UAAW,MACV,oBAAkCb,EAAOM,QAAQM,cAAcV,EAAuBI,QAAS,CAChGQ,QAAS,UACTC,MAAO,aAgBXhB,EAASO,QAAUI"
+}

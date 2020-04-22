@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../es6/eshop/flux/actions/OraConfigActions.js"],
+    "names": ["OraConfigActions", "checkMsisdnReservation", "active", "OraDispatcher", "dispatch", "type", "ORA_ACTIONS", "CONFIG_CHECK_MSISDN_RESERVATIONS"],
+    "mappings": ";;;;;;;AAAA;AACA;;AACA;;;;AAIA,MAAIA,gBAAgB,GAAI,UAAUA,gBAAV,EAA4B;AAEhDA,IAAAA,gBAAgB,CAACC,sBAAjB,GAA0C,YAAyB;AAAA,UAAfC,MAAe,uEAAN,IAAM;;AAC/DC,6BAAcC,QAAd,CAAuB;AACnBC,QAAAA,IAAI,EAAEC,uBAAYC,gCADC;AAEnBL,QAAAA,MAAM,EAAEA;AAFW,OAAvB;AAIH,KALD;;AAOA,WAAOF,gBAAP;AACH,GAVsB,CAUpB,EAVoB,CAAvB;;iBAWeA,gB",
+    "sourcesContent": ["import ORA_ACTIONS from \"./OraActionKeys\";\nimport OraDispatcher from \"eshop/flux/dispatcher/OraDispatcher\";\n/**\n * Actions used to configure apps behaviour\n * TODO: maybe gather configuration in one dedicated config store?\n */\nlet OraConfigActions = (function (OraConfigActions) {\n\n    OraConfigActions.checkMsisdnReservation = function (active = true) {\n        OraDispatcher.dispatch({\n            type: ORA_ACTIONS.CONFIG_CHECK_MSISDN_RESERVATIONS,\n            active: active\n        });\n    };\n\n    return OraConfigActions;\n})({});\nexport default OraConfigActions;\n"],
+    "file": "OraConfigActions.js"
+}

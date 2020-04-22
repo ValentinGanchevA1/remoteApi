@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "OraDispatcher.js",
+    "sources": ["../../../../dist/eshop/flux/dispatcher/OraDispatcher.js"],
+    "names": ["define", "_exports", "OraDispatcher", "_callbacks", "_isDispatching", "_isHandled", "_isPending", "_pending", "_lastID", "_invokeCallback", "id", "payload", "e", "Object", "defineProperty", "value", "default", "_default", "register", "callback", "unregister", "waitFor", "ids", "ii", "length", "dispatch", "_startDispatching", "isDispatching"],
+    "mappings": "AAAAA,OAAO,CAAC,WAAY,SAAUC,GAC5B,aAOA,IAA8BC,EAExBC,EACAC,EACAC,EACAC,EACAC,EACAC,EAqFJ,SAASC,EAAgBC,GACvBJ,EAAWI,IAAM,EAEjB,IACEP,EAAWO,GAAIH,EAASI,SACxB,MAAOC,IAITP,EAAWK,IAAM,EA1GrBG,OAAOC,eAAeb,EAAU,aAAc,CAC5Cc,OAAO,IAETd,EAASe,aAAU,EAoInB,IAAIC,GA/HEb,IADAD,EAAa,IAEbE,EAAa,GACbC,EAAa,GACbC,EAAW,GACXC,EAAU,GAPcN,EAgI5B,IAnHcgB,SAAW,SAAUC,GACjC,IAAIT,EAbQ,MAaOF,IAEnB,OADAL,EAAWO,GAAMS,EACVT,GAOTR,EAAckB,WAAa,SAAUV,UAE5BP,EAAWO,IASpBR,EAAcmB,QAAU,SAAUC,GAGhC,IAAK,IAAIC,EAAK,EAAGA,EAAKD,EAAIE,OAAQD,IAAM,CACtC,IAAIb,EAAKY,EAAIC,GAETjB,EAAWI,IAOfD,EAAgBC,KAQpBR,EAAcuB,SAAW,SAAUd,IAqDnC,SAA2BA,GACzB,IAAK,IAAID,KAAMP,EACbG,EAAWI,IAAM,EACjBL,EAAWK,IAAM,EAGnBH,EAASI,QAAUA,EACnBP,GAAiB,EAxDjBsB,CAAkBf,GAElB,IACE,IAAK,IAAID,KAAMP,EAETG,EAAWI,IAMfD,EAAgBC,GAElB,eAmDKH,EAASI,QAChBP,GAAiB,IAzCnBF,EAAcyB,cAAgB,WAC5B,OAAOvB,GA2CFF,GAITD,EAASe,QAAUC"
+}

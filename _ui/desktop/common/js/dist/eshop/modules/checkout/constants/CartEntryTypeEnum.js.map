@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/CartEntryTypeEnum.js"],
+    "names": ["CartEntryType", "Object", "freeze", "CONVERGENT", "FIX", "MOBILE"],
+    "mappings": ";;;;;;;AAAA,MAAMA,aAAa,GAAGC,MAAM,CAACC,MAAP,CAAc;AAChCC,IAAAA,UAAU,EAAE,YADoB;AAEhCC,IAAAA,GAAG,EAAE,KAF2B;AAGhCC,IAAAA,MAAM,EAAE;AAHwB,GAAd,CAAtB;iBAMeL,a",
+    "sourcesContent": ["const CartEntryType = Object.freeze({\n    CONVERGENT: 'CONVERGENT',\n    FIX: 'FIX',\n    MOBILE: 'MOBILE'\n});\n\nexport default CartEntryType;"],
+    "file": "CartEntryTypeEnum.js"
+}

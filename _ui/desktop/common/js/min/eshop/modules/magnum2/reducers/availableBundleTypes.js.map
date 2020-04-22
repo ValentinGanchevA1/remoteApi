@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "availableBundleTypes.js",
+    "sources": ["../../../../../dist/eshop/modules/magnum2/reducers/availableBundleTypes.js"],
+    "names": ["define", "_exports", "actionTypes", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireWildcard", "_default", "state", "arguments", "length", "undefined", "action", "type", "SET_AVAILABLE_BUNDLE_TYPES", "payload", "availableBundleTypes", "SET_MAGNUM_STORE", "magnum"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,kBAAmB,SAAUC,EAAUC,GACxD,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,aAAU,EACnBJ,EAAcK,aAAaC,uBAAuBN,GAEhB,SAgB9BO,EAhB8B,EAAA,GAChC,IAAIC,EAA2B,EAAnBC,UAAUC,aAA+BC,IADrB,EAAA,EACgD,KAC5EC,EAA4B,EAAnBH,UAAUC,OAFS,OAEmBC,EAEnD,OAAQC,EAAOC,MACb,KAAKb,EAAYc,2BACf,OAAOF,EAAOG,QAAQC,qBAExB,KAAKhB,EAAYiB,iBACf,OAAOL,EAAOG,QAAQG,OAAOF,qBAE/B,QACE,OAAOR,GAKbT,EAASK,QAAUG"
+}

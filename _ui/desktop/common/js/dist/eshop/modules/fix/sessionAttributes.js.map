@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../es6/eshop/modules/fix/sessionAttributes.js"],
+    "names": ["FIX_SERVICE_DETAILS_BB_ATTR"],
+    "mappings": ";;;;;;;AAAO,MAAMA,2BAA2B,GAAG,6BAApC",
+    "sourcesContent": ["export const FIX_SERVICE_DETAILS_BB_ATTR = \"FIX_SERVICE_DETAILS_BB_ATTR\";"],
+    "file": "sessionAttributes.js"
+}

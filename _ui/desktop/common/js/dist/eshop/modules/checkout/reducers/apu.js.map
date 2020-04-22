@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/reducers/apu.js"],
+    "names": ["isApuSelected", "state", "action", "type", "SELECT_APU"],
+    "mappings": ";;;;;;;;AAMO,MAAMA,aAAa,GAAG,SAAhBA,aAAgB,GAA2B;AAAA,QAA1BC,KAA0B,uEAAlB,KAAkB;AAAA,QAAXC,MAAW;;AACpD,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,uBAAL;AACI,eAAO,IAAP;;AACJ;AACI,eAAOH,KAAP;AAJR;AAMH,GAPM",
+    "sourcesContent": ["import {\n    SELECT_APU,\n    START_LOAD_APU,\n    STOP_LOAD_APU\n} from '../actionTypes';\n\nexport const isApuSelected = (state = false, action) => {\n    switch (action.type) {\n        case SELECT_APU:\n            return true;\n        default:\n            return state;\n    }\n};"],
+    "file": "apu.js"
+}

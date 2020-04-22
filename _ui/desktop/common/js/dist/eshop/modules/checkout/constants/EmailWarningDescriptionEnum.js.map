@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/EmailWarningDescriptionEnum.js"],
+    "names": ["EmailWarningDescriptionEnum", "Object", "freeze", "DEFAULT", "PICKUP"],
+    "mappings": ";;;;;;;AAAA,MAAMA,2BAA2B,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC9CC,IAAAA,OAAO,EAAE,oBADqC;AAE9CC,IAAAA,MAAM,EAAE;AAFsC,GAAd,CAApC;iBAKeJ,2B",
+    "sourcesContent": ["const EmailWarningDescriptionEnum = Object.freeze({\n    DEFAULT: 'titlePickupOnEmail',\n    PICKUP: 'titlePickupFromShelf'\n});\n\nexport default EmailWarningDescriptionEnum;"],
+    "file": "EmailWarningDescriptionEnum.js"
+}

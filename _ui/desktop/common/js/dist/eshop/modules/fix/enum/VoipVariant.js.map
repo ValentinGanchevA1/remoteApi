@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/fix/enum/VoipVariant.js"],
+    "names": ["VoipVariant", "NEW_VOIP", "NP_INT"],
+    "mappings": ";;;;;;;AAAA,MAAMA,WAAW,GAAG;AAChBC,IAAAA,QAAQ,EAAE,UADM;AAEhBC,IAAAA,MAAM,EAAE;AAFQ,GAApB;iBAKeF,W",
+    "sourcesContent": ["const VoipVariant = {\n    NEW_VOIP: 'NEW_VOIP',\n    NP_INT: 'NP_INT'\n};\n\nexport default VoipVariant;"],
+    "file": "VoipVariant.js"
+}

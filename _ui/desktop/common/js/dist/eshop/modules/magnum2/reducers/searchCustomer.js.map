@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/magnum2/reducers/searchCustomer.js"],
+    "names": ["searchCustomerReducer", "state", "performed", "displayForceSearchModal", "action", "type", "actionTypes", "CUSTOMER_SEARCHED", "SHOW_FORCE_SEARCH_MODAL_ACTION"],
+    "mappings": ";;;;;;;AAAA;;;;;;AAEO,MAAMA,qBAAqB,GAAG,SAAxBA,qBAAwB,GAAwE;AAAA,QAAvEC,KAAuE,uEAA/D;AAACC,MAAAA,SAAS,EAAE,KAAZ;AAAmBC,MAAAA,uBAAuB,EAAE;AAA5C,KAA+D;AAAA,QAAXC,MAAW;;AACzG,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,WAAW,CAACC,iBAAjB;AACI,iCACON,KADP;AACcC,UAAAA,SAAS,EAAE;AADzB;;AAGJ,WAAKI,WAAW,CAACE,8BAAjB;AACI,iCACOP,KADP;AACcE,UAAAA,uBAAuB,EAAE;AADvC;;AAGJ;AACI,eAAOF,KAAP;AAVR;AAYH,GAbM",
+    "sourcesContent": ["import * as actionTypes from \"../actionTypes\";\n\nexport const searchCustomerReducer = (state = {performed: false, displayForceSearchModal: false}, action) => {\n    switch(action.type) {\n        case actionTypes.CUSTOMER_SEARCHED:\n            return {\n                ...state, performed: true\n            };\n        case actionTypes.SHOW_FORCE_SEARCH_MODAL_ACTION:\n            return {\n                ...state, displayForceSearchModal: true\n            };\n        default:\n            return state;\n    }\n};"],
+    "file": "searchCustomer.js"
+}

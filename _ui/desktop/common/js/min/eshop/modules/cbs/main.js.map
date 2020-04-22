@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "main.js",
+    "sources": ["../../../../dist/eshop/modules/cbs/main.js"],
+    "names": ["define", "_exports", "actions", "selectors", "Object", "defineProperty", "value", "babelHelpers", "interopRequireWildcard"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,gBAAiB,eAAgB,SAAUC,EAAUC,EAASC,GAC/E,aAEAC,OAAOC,eAAeJ,EAAU,aAAc,CAC5CK,OAAO,IAETL,EAASE,UAAYF,EAASC,aAAU,EACxCA,EAAUK,aAAaC,uBAAuBN,GAC9CD,EAASC,QAAUA,EACnBC,EAAYI,aAAaC,uBAAuBL,GAChDF,EAASE,UAAYA"
+}

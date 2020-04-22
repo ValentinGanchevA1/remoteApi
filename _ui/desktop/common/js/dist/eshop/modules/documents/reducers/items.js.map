@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/documents/reducers/items.js"],
+    "names": ["state", "action", "type", "FETCH_DOCUMENTS_FOR_CART", "payload"],
+    "mappings": ";;;;;;;;iBAEe,oBAAwB;AAAA,QAAvBA,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AACnC,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,qCAAL;AACI,eAAOF,MAAM,CAACG,OAAd;;AACJ;AACI,eAAOJ,KAAP;AAJR;AAMH,G",
+    "sourcesContent": ["import {FETCH_DOCUMENTS_FOR_CART} from \"../actionTypes\";\n\nexport default (state = [], action) => {\n    switch (action.type) {\n        case FETCH_DOCUMENTS_FOR_CART:\n            return action.payload;\n        default:\n            return state;\n    }\n}"],
+    "file": "items.js"
+}

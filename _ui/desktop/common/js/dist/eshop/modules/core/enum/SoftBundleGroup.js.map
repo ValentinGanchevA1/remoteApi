@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/enum/SoftBundleGroup.js"],
+    "names": ["SoftBundleGroup", "Object", "freeze", "LDF", "ODF"],
+    "mappings": ";;;;;;;AAAA,MAAMA,eAAe,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC9BC,IAAAA,GAAG,EAAG,KADwB;AAE9BC,IAAAA,GAAG,EAAG;AAFwB,GAAd,CAAxB;iBAIeJ,e",
+    "sourcesContent": ["const SoftBundleGroup = Object.freeze({\n        LDF : \"LDF\",\n        ODF : \"ODF\",\n    });\nexport default SoftBundleGroup;"],
+    "file": "SoftBundleGroup.js"
+}

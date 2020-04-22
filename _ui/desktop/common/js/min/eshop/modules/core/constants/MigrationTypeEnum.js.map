@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "MigrationTypeEnum.js",
+    "sources": ["../../../../../dist/eshop/modules/core/constants/MigrationTypeEnum.js"],
+    "names": ["define", "_exports", "Object", "defineProperty", "value", "default", "_default", "freeze", "UNBUNDLE", "RETENTION", "ACTIVATION"],
+    "mappings": "AAAAA,OAAO,CAAC,WAAY,SAAUC,GAC5B,aAEAC,OAAOC,eAAeF,EAAU,aAAc,CAC5CG,OAAO,IAETH,EAASI,aAAU,EACnB,IAKIC,EALgBJ,OAAOK,OAAO,CAChCC,SAAU,WACVC,UAAW,YACXC,WAAY,eAGdT,EAASI,QAAUC"
+}

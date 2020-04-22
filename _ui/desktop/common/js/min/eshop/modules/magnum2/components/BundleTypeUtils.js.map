@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "BundleTypeUtils.js",
+    "sources": ["../../../../../dist/eshop/modules/magnum2/components/BundleTypeUtils.js"],
+    "names": ["define", "_exports", "_BundleTypeEnum", "Object", "defineProperty", "value", "isLTE", "availableBundleTypes", "some", "element", "default", "_2ULTE", "_3ULTE", "indexOf", "is2ULTE", "is2U", "_2U", "is4U", "_4U", "babelHelpers", "interopRequireDefault"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,oDAAqD,SAAUC,EAAUC,GAC1F,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,MAMT,SAAeC,GACb,OAAOA,GAAwBA,EAAqBC,KAAK,SAAUC,GACjE,OAA4F,EAArF,CAACP,EAAgBQ,QAAQC,OAAQT,EAAgBQ,QAAQE,QAAQC,QAAQJ,MAPpFR,EAASa,QAWT,SAAiBP,GACf,OAAOA,GAAwBA,EAAqBC,KAAK,SAAUC,GACjE,OAA4D,EAArD,CAACP,EAAgBQ,QAAQC,QAAQE,QAAQJ,MAZpDR,EAASc,KAgBT,SAAcR,GACZ,OAAOA,GAAwBA,EAAqBC,KAAK,SAAUC,GACjE,OAAyD,EAAlD,CAACP,EAAgBQ,QAAQM,KAAKH,QAAQJ,MAjBjDR,EAASgB,KAqBT,SAAcV,GACZ,OAAOA,GAAwBA,EAAqBC,KAAK,SAAUC,GACjE,OAAyD,EAAlD,CAACP,EAAgBQ,QAAQQ,KAAKL,QAAQJ,MAtBjDP,EAAkBiB,aAAaC,sBAAsBlB"
+}

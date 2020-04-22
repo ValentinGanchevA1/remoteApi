@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/reducers/filters.js"],
+    "names": ["secondaryChoice", "TvPackagesChoiceFilter", "TV_DEFAULT_CHOICE_PRODUCT", "action", "type", "ACTIONS", "SELECT_TV_PACKAGES_CHOICE_FILTER", "payload", "loyaltyDuration", "SELECT_TV_PACKAGES_LOYALTY_DURATION_CHOICE_FILTER"],
+    "mappings": ";;;;;;;AAAA;AACA;;AAEO,MAAMA,eAAe,GAAG,2BAAgF;AAAA,QAA/EA,eAA+E,uEAA7DC,gCAAuBC,yBAAsC;AAAA,QAAXC,MAAW;;AAC3G,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,OAAO,CAACC,gCAAb;AACI,eAAOH,MAAM,CAACI,OAAd;;AACJ;AACI,eAAOP,eAAP;AAJR;AAMH,GAPM;;;;AASA,MAAMQ,eAAe,GAAG,2BAAoC;AAAA,QAAnCA,eAAmC,uEAAjB,IAAiB;AAAA,QAAXL,MAAW;;AAC/D,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,OAAO,CAACI,iDAAb;AACI,eAAON,MAAM,CAACI,OAAd;;AACJ;AACI,eAAOC,eAAP;AAJR;AAMH,GAPM",
+    "sourcesContent": ["import * as ACTIONS from \"../actionTypes\";\nimport TvPackagesChoiceFilter from \"../../fix/enum/TvPackagesChoiceFilter\";\n\nexport const secondaryChoice = (secondaryChoice = TvPackagesChoiceFilter.TV_DEFAULT_CHOICE_PRODUCT, action) => {\n    switch(action.type) {\n        case ACTIONS.SELECT_TV_PACKAGES_CHOICE_FILTER:\n            return action.payload;\n        default:\n            return secondaryChoice;\n    }\n};\n\nexport const loyaltyDuration = (loyaltyDuration = null, action) => {\n    switch(action.type) {\n        case ACTIONS.SELECT_TV_PACKAGES_LOYALTY_DURATION_CHOICE_FILTER:\n            return action.payload;\n        default:\n            return loyaltyDuration;\n    }\n};"],
+    "file": "filters.js"
+}

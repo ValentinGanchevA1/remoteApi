@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../../../es6/eshop/modules/cart/components/entriesList/convergent/prices/CheckoutPriceMobile.jsx"],
+    "names": ["CheckoutPriceMobile", "props", "checkoutPrice", "gross", "currency"],
+    "mappings": ";;;;;;;AAAA;AACA;;AAGA,MAAMA,mBAAmB,GAAG,SAAtBA,mBAAsB,CAACC,KAAD,EAAW;AAE/B,QAAIC,aAAa,GAAGD,KAAK,CAACC,aAA1B;;AACA,QAAI,CAACA,aAAL,EAAoB;AAChB,aAAO,IAAP;AACH;;AACD,wBACI;AAAG,MAAA,SAAS,EAAC;AAAb,aAA+B,oBAAQA,aAAa,CAACC,KAAtB,CAA/B,OAA8D,qBAASD,aAAa,CAACC,KAAvB,CAA9D,OAA8FD,aAAa,CAACE,QAA5G,eADJ;AAIP,GAVD;;iBAYeJ,mB",
+    "sourcesContent": ["import React, {Component} from \"react\";\nimport PropTypes from 'prop-types';\nimport {integer, fraction} from \"../../../../../magnum2/components/Utils\";\n\nconst CheckoutPriceMobile = (props) => {\n\n        let checkoutPrice = props.checkoutPrice;\n        if (!checkoutPrice) {\n            return null;\n        }\n        return (\n            <p className=\"u-font-small\">+ {integer(checkoutPrice.gross)},{fraction(checkoutPrice.gross)} {checkoutPrice.currency} aktywacja</p>\n        );\n\n};\n\nexport default CheckoutPriceMobile;"],
+    "file": "CheckoutPriceMobile.js"
+}

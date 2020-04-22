@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../es6/eshop/modules/cart/components/entriesList/RelationTypeEnum.js"],
+    "names": ["RelationType", "Object", "freeze", "REQUIRE", "DEFAULT", "OPTIONAL"],
+    "mappings": ";;;;;;;AAAA,MAAMA,YAAY,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC/BC,IAAAA,OAAO,EAAE,SADsB;AAE/BC,IAAAA,OAAO,EAAE,SAFsB;AAG/BC,IAAAA,QAAQ,EAAE;AAHqB,GAAd,CAArB;iBAMeL,Y",
+    "sourcesContent": ["const RelationType = Object.freeze({\n    REQUIRE: 'REQUIRE',\n    DEFAULT: 'DEFAULT',\n    OPTIONAL: 'OPTIONAL'\n});\n\nexport default RelationType;"],
+    "file": "RelationTypeEnum.js"
+}

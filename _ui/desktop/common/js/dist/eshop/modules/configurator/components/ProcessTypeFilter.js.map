@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/configurator/components/ProcessTypeFilter.jsx"],
+    "names": ["ProcessTypeFilter", "Component"],
+    "mappings": ";;;;;;;AAAA;;;;;;MAEqBA,iB;;;;;;;;;;;;+BACR;AAAC;AACN,eACA,IADA;AAGH;;;IAL0CC,gB",
+    "sourcesContent": ["import React, {Component} from \"react\";\n\nexport default class ProcessTypeFilter extends Component {\n    render() {//\n        return (\n        null\n        )\n    }\n}\n\n"],
+    "file": "ProcessTypeFilter.js"
+}

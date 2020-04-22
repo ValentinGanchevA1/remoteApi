@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "remoteApi.js",
+    "sources": ["../../../../dist/eshop/modules/cbs/remoteApi.js"],
+    "names": ["define", "_exports", "_OraApiUtils", "Object", "defineProperty", "value", "default", "prepareUrl", "url", "bsfContextPath", "prefixWWW", "CBS_CITIES_API", "CBS_STREETS_API", "CBS_CITIES_BY_TERM", "concat", "contextPath", "CBS_STREETS_BY_CITY_ID", "_default", "getCbsCitiesForPostCode", "postalCode", "get", "postcode", "getCbsStreetsForPostCodeAndCity", "city", "term", "cityname", "getCbsStreetsForCityId", "cityId", "postWithContentType", "getCbsCitiesByTerm"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,gCAAiC,SAAUC,EAAUC,GACtE,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,aAAU,EAEF,SAAbC,EAAiCC,GACnC,OAAOC,gBAAuC,oBAAdC,UAA4BA,UAAY,IAAMF,EADhF,IAIIG,EAAiBF,eAAiB,4CAClCG,EAAkBH,eAAiB,yDACnCI,EAAqB,GAAGC,OAAOC,YAAa,mDAC5CC,EAAyB,GAAGF,OAAOC,YAAa,wBAChDE,EAAW,CACbC,wBAAyB,SAAiCC,GACxD,OAAO,EAAIjB,EAAakB,KAAKb,EAAWI,GAAiB,CACvDU,SAAUF,KAGdG,gCAAiC,SAAyCH,EAAYI,GACpF,OAAO,EAAIrB,EAAakB,KAAKb,EAAWK,GAAkB,CACxDY,KAAM,GACNC,SAAUF,EACVF,SAAUF,KAGdO,uBAAwB,SAAgCC,GACtD,OAAO,EAAIzB,EAAa0B,qBAAqBZ,EAAwB,oCAAqC,wBAA0BW,EAAS,mBAE/IE,mBAAoB,SAA4BL,GAC9C,OAAO,EAAItB,EAAakB,KAAKb,EAAW,GAAGO,OAAOD,EAAoB,KAAKC,OAAOU,OAGtFvB,EAASK,QAAUW"
+}

@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/magnum2/reducers/availableBundleTypes.js"],
+    "names": ["availableBundleTypesReducer", "state", "action", "type", "actionTypes", "SET_AVAILABLE_BUNDLE_TYPES", "payload", "availableBundleTypes", "SET_MAGNUM_STORE", "magnum"],
+    "mappings": ";;;;;;;AAAA;;AAEA,MAAMA,2BAA2B,GAAG,SAA9BA,2BAA8B,GAA0B;AAAA,QAAzBC,KAAyB,uEAAjB,IAAiB;AAAA,QAAXC,MAAW;;AAC1D,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,WAAW,CAACC,0BAAjB;AACI,eAAOH,MAAM,CAACI,OAAP,CAAeC,oBAAtB;;AACJ,WAAKH,WAAW,CAACI,gBAAjB;AACI,eAAON,MAAM,CAACI,OAAP,CAAeG,MAAf,CAAsBF,oBAA7B;;AACJ;AACI,eAAON,KAAP;AANR;AAQH,GATD;;iBAWeD,2B",
+    "sourcesContent": ["import * as actionTypes from \"../actionTypes\";\n\nconst availableBundleTypesReducer = (state = null, action) => {\n    switch(action.type) {\n        case actionTypes.SET_AVAILABLE_BUNDLE_TYPES:\n            return action.payload.availableBundleTypes;\n        case actionTypes.SET_MAGNUM_STORE:\n            return action.payload.magnum.availableBundleTypes;\n        default:\n            return state;\n    }\n};\n\nexport default availableBundleTypesReducer;"],
+    "file": "availableBundleTypes.js"
+}

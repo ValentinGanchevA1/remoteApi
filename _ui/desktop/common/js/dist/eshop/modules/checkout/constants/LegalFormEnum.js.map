@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/LegalFormEnum.js"],
+    "names": ["LegalForm", "JDG", "SC", "SZOO", "SA", "SK", "SKA", "SJ", "SP", "FUN", "STOW", "PAN", "INNA", "isSmallBusiness", "legalForm", "_", "includes"],
+    "mappings": ";;;;;;;AAAA;AAEA,MAAMA,SAAS,GAAG;AACdC,IAAAA,GAAG,EAAE,KADS;AAEdC,IAAAA,EAAE,EAAE,IAFU;AAGdC,IAAAA,IAAI,EAAE,MAHQ;AAIdC,IAAAA,EAAE,EAAE,IAJU;AAKdC,IAAAA,EAAE,EAAE,IALU;AAMdC,IAAAA,GAAG,EAAE,KANS;AAOdC,IAAAA,EAAE,EAAE,IAPU;AAQdC,IAAAA,EAAE,EAAE,IARU;AASdC,IAAAA,GAAG,EAAE,KATS;AAUdC,IAAAA,IAAI,EAAE,MAVQ;AAWdC,IAAAA,GAAG,EAAE,KAXS;AAYdC,IAAAA,IAAI,EAAE,MAZQ;AAadC,IAAAA,eAAe,EAAE,yBAAAC,SAAS;AAAA,aAAIC,gBAAEC,QAAF,CAAW,CAAC,KAAD,EAAQ,IAAR,CAAX,EAA0BF,SAA1B,CAAJ;AAAA;AAbZ,GAAlB;iBAgBed,S",
+    "sourcesContent": ["import _ from \"lodash\";\n\nconst LegalForm = {\n    JDG: 'JDG',\n    SC: 'SC',\n    SZOO: 'SZOO',\n    SA: 'SA',\n    SK: 'SK',\n    SKA: 'SKA',\n    SJ: 'SJ',\n    SP: 'SP',\n    FUN: 'FUN',\n    STOW: 'STOW',\n    PAN: 'PAN',\n    INNA: 'INNA',\n    isSmallBusiness: legalForm => _.includes(['JDG', 'SC'], legalForm)\n};\n\nexport default LegalForm;"],
+    "file": "LegalFormEnum.js"
+}

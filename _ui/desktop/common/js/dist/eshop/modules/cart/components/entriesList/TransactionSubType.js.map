@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../es6/eshop/modules/cart/components/entriesList/TransactionSubType.js"],
+    "names": ["TransactionSubType", "Object", "freeze", "VOICE", "DATA", "PROCESS_1P", "PROCESS_3P"],
+    "mappings": ";;;;;;;AACA,MAAMA,kBAAkB,GAAGC,MAAM,CAACC,MAAP,CAAc;AACrCC,IAAAA,KAAK,EAAE,OAD8B;AAErCC,IAAAA,IAAI,EAAE,MAF+B;AAGrCC,IAAAA,UAAU,EAAE,YAHyB;AAIrCC,IAAAA,UAAU,EAAE;AAJyB,GAAd,CAA3B;iBAOeN,kB",
+    "sourcesContent": ["\nconst TransactionSubType = Object.freeze({\n    VOICE: 'VOICE',\n    DATA: 'DATA',\n    PROCESS_1P: 'PROCESS_1P',\n    PROCESS_3P: 'PROCESS_3P'\n});\n\nexport default TransactionSubType;"],
+    "file": "TransactionSubType.js"
+}

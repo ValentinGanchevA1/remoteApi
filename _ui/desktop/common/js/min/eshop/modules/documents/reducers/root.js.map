@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "root.js",
+    "sources": ["../../../../../dist/eshop/modules/documents/reducers/root.js"],
+    "names": ["define", "_exports", "_redux", "_items", "_itemsUnfiltered", "_links", "metadata", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireDefault", "interopRequireWildcard", "_default", "combineReducers", "items", "itemsUnfiltered", "links"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,QAAS,UAAW,oBAAqB,UAAW,cAAe,SAAUC,EAAUC,EAAQC,EAAQC,EAAkBC,EAAQC,GAClJ,aAEAC,OAAOC,eAAeP,EAAU,aAAc,CAC5CQ,OAAO,IAETR,EAASS,aAAU,EACnBP,EAASQ,aAAaC,sBAAsBT,GAC5CC,EAAmBO,aAAaC,sBAAsBR,GACtDC,EAASM,aAAaC,sBAAsBP,GAC5CC,EAAWK,aAAaE,uBAAuBP,GAE/C,IAAIQ,GAAW,EAAIZ,EAAOa,iBAAiB,CACzCC,MAAOb,EAAOO,QACdO,gBAAiBb,EAAiBM,QAClCQ,MAAOb,EAAOK,QACdJ,UAAU,EAAIJ,EAAOa,iBAAiBT,KAGxCL,EAASS,QAAUI"
+}

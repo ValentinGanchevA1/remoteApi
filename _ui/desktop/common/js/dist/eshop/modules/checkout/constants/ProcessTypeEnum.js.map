@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/ProcessTypeEnum.js"],
+    "names": ["ProcessTypeEnum", "Object", "freeze", "TV0_ACTIVATION"],
+    "mappings": ";;;;;;;AAAA,MAAMA,eAAe,GAAGC,MAAM,CAACC,MAAP,CAAc;AAClCC,IAAAA,cAAc,EAAE;AADkB,GAAd,CAAxB;iBAIeH,e",
+    "sourcesContent": ["const ProcessTypeEnum = Object.freeze({\n    TV0_ACTIVATION: 'TV0_ACTIVATION'\n});\n\nexport default ProcessTypeEnum;"],
+    "file": "ProcessTypeEnum.js"
+}

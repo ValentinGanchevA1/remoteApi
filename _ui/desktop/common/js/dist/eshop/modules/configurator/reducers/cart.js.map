@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/configurator/reducers/cart.js"],
+    "names": ["addToCartInProgress", "state", "action", "type", "POST_TO_CART_START", "POST_TO_CART_SUCCESS", "POST_TO_CART_ERROR"],
+    "mappings": ";;;;;;;;AAQO,MAAIA,mBAAmB,GAAG,SAAtBA,mBAAsB,GAA2B;AAAA,QAA1BC,KAA0B,uEAAlB,KAAkB;AAAA,QAAXC,MAAW;;AACxD,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,+BAAL;AACI,eAAO,IAAP;;AACJ,WAAKC,iCAAL;AACI,eAAO,KAAP;;AACJ,WAAKC,+BAAL;AACI,eAAO,KAAP;;AACJ;AACI,eAAOL,KAAP;AARR;AAUH,GAXM",
+    "sourcesContent": ["import {\n    POST_TO_CART_START,\n    POST_TO_CART_SUCCESS,\n    POST_TO_CART_ERROR\n    } from \"../actionTypes\";\n\n\n\nexport var addToCartInProgress = (state = false, action) => {\n    switch (action.type) {\n        case POST_TO_CART_START:\n            return true\n        case POST_TO_CART_SUCCESS:\n            return false\n        case POST_TO_CART_ERROR:\n            return false\n        default:\n            return state;\n    }\n}\n\n"],
+    "file": "cart.js"
+}

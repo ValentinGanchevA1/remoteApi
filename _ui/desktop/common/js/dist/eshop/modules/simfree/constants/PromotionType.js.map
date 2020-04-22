@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/simfree/constants/PromotionType.js"],
+    "names": ["PromotionType", "Object", "freeze", "MINI", "STANDARD", "EXTRA", "PREMIUM"],
+    "mappings": ";;;;;;;AAAA,MAAMA,aAAa,GAAGC,MAAM,CAACC,MAAP,CAAc;AAChCC,IAAAA,IAAI,EAAE,MAD0B;AAEhCC,IAAAA,QAAQ,EAAE,UAFsB;AAGhCC,IAAAA,KAAK,EAAE,OAHyB;AAIhCC,IAAAA,OAAO,EAAE;AAJuB,GAAd,CAAtB;iBAOeN,a",
+    "sourcesContent": ["const PromotionType = Object.freeze({\n    MINI: 'MINI',\n    STANDARD: 'STANDARD',\n    EXTRA: 'EXTRA',\n    PREMIUM: 'PREMIUM'\n});\n\nexport default PromotionType;"],
+    "file": "PromotionType.js"
+}

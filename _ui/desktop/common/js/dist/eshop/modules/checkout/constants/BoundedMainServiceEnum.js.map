@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/BoundedMainServiceEnum.js"],
+    "names": ["BoundedMainService", "Object", "freeze", "OTHER", "TV", "VOICE", "DATA", "VOIP", "NEO"],
+    "mappings": ";;;;;;;AAAA,MAAMA,kBAAkB,GAAGC,MAAM,CAACC,MAAP,CAAc;AACrCC,IAAAA,KAAK,EAAE,OAD8B;AAErCC,IAAAA,EAAE,EAAE,IAFiC;AAGrCC,IAAAA,KAAK,EAAE,OAH8B;AAIrCC,IAAAA,IAAI,EAAE,MAJ+B;AAKrCC,IAAAA,IAAI,EAAE,MAL+B;AAMrCC,IAAAA,GAAG,EAAE;AANgC,GAAd,CAA3B;iBASeR,kB",
+    "sourcesContent": ["const BoundedMainService = Object.freeze({\n    OTHER: 'OTHER',\n    TV: 'TV',\n    VOICE: 'VOICE',\n    DATA: 'DATA',\n    VOIP: 'VOIP',\n    NEO: 'NEO'\n});\n\nexport default BoundedMainService;"],
+    "file": "BoundedMainServiceEnum.js"
+}

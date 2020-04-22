@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/documents/reducers/root.js"],
+    "names": ["items", "itemsUnfiltered", "links", "metadata"],
+    "mappings": ";;;;;;;AACA;AACA;AACA;AACA;;iBAEe,4BAAgB;AAC3BA,IAAAA,KAAK,EAAEA,cADoB;AAE3BC,IAAAA,eAAe,EAAEA,wBAFU;AAG3BC,IAAAA,KAAK,EAAEA,cAHoB;AAI3BC,IAAAA,QAAQ,EAAE,4BAAgBA,QAAhB;AAJiB,GAAhB,C",
+    "sourcesContent": ["import {combineReducers} from 'redux';\nimport items from './items';\nimport itemsUnfiltered from './itemsUnfiltered';\nimport links from './links';\nimport * as metadata from './metadata';\n\nexport default combineReducers({\n    items: items,\n    itemsUnfiltered: itemsUnfiltered,\n    links: links,\n    metadata: combineReducers(metadata)\n})"],
+    "file": "root.js"
+}

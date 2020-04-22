@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/fix/actions/errors.js"],
+    "names": ["defaultModalConfig", "showIcon", "openErrorModal", "errorMessageCode", "defaultMessage", "errorModalConfig", "dispatch", "type", "ACTIONS", "OPEN_ERROR_MODAL", "payload", "errorMessage", "closeErrorModal", "CLOSE_ERROR_MODAL"],
+    "mappings": ";;;;;;;AAAA;;;;;;AAEA,MAAMA,kBAAkB,GAAG;AAACC,IAAAA,QAAQ,EAAE;AAAX,GAA3B;;AAEO,MAAMC,cAAc,GAAG,SAAjBA,cAAiB,CAACC,gBAAD,EAAmBC,cAAnB;AAAA,QAAmCC,gBAAnC,uEAAsD,EAAtD;AAAA,WAA6D,UAACC,QAAD,EAAc;AACrGA,MAAAA,QAAQ,CAAC;AACLC,QAAAA,IAAI,EAAEC,OAAO,CAACC,gBADT;AAELC,QAAAA,OAAO,EAAE;AACLC,UAAAA,YAAY,EAAE;AAACR,YAAAA,gBAAgB,EAAhBA,gBAAD;AAAmBC,YAAAA,cAAc,EAAdA;AAAnB,WADT;AAELC,UAAAA,gBAAgB,oBAAML,kBAAN,MAA6BK,gBAA7B;AAFX;AAFJ,OAAD,CAAR;AAOH,KAR6B;AAAA,GAAvB;;;;AAUA,MAAMO,eAAe,GAAG,SAAlBA,eAAkB;AAAA,WAAM,UAACN,QAAD,EAAc;AAC/CA,MAAAA,QAAQ,CAAC;AACLC,QAAAA,IAAI,EAAEC,OAAO,CAACK;AADT,OAAD,CAAR;AAGH,KAJ8B;AAAA,GAAxB",
+    "sourcesContent": ["import * as ACTIONS from \"../actionTypes\";\n\nconst defaultModalConfig = {showIcon: true};\n\nexport const openErrorModal = (errorMessageCode, defaultMessage, errorModalConfig = {}) => (dispatch) => {\n    dispatch({\n        type: ACTIONS.OPEN_ERROR_MODAL,\n        payload: {\n            errorMessage: {errorMessageCode, defaultMessage},\n            errorModalConfig: {...defaultModalConfig, ...errorModalConfig}\n        }\n    });\n};\n\nexport const closeErrorModal = () => (dispatch) => {\n    dispatch({\n        type: ACTIONS.CLOSE_ERROR_MODAL\n    });\n};"],
+    "file": "errors.js"
+}

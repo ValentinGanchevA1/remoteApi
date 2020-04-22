@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "root.js",
+    "sources": ["../../../../../dist/eshop/modules/dataLayer/reducers/root.js"],
+    "names": ["define", "_exports", "_redux", "ACTIONS", "_DataLayerUtils", "_selectors", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireWildcard", "interopRequireDefault", "_default", "state", "arguments", "length", "undefined", "initialState", "action", "type", "createUniversalCheckoutStepEvent", "payload", "stepId", "loggedEmployee", "event"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,QAAS,yBAA0B,gCAAiC,4BAA6B,SAAUC,EAAUC,EAAQC,EAASC,EAAiBC,GACxK,aAEAC,OAAOC,eAAeN,EAAU,aAAc,CAC5CO,OAAO,IAETP,EAASQ,aAAU,EACnBN,EAAUO,aAAaC,uBAAuBR,GAC9CC,EAAkBM,aAAaE,sBAAsBR,GAKrC,SAgBZS,EAhBY,EAAA,GACd,IAAIC,EAA2B,EAAnBC,UAAUC,aAA+BC,IADvC,EAAA,EACkEC,EAC5EC,EAA4B,EAAnBJ,UAAUC,OAFT,OAEqCC,EAGnD,MAAoB,cAAhBE,EAAOC,KAGFhB,EAAgBK,QAAQY,iCAAiCF,EAAOG,QAASH,EAAOI,OAAQ,CAC7FC,eAAgBL,EAAOK,iBAIpBV,EAjBT,IAAII,EAAe,CACjBO,MAAO,IAoBTxB,EAASQ,QAAUI"
+}

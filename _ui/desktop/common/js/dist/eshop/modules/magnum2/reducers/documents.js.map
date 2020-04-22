@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/magnum2/reducers/documents.js"],
+    "names": ["documentsReducer", "state", "list", "loading", "action", "type", "actionTypes", "fetchDocumentsList", "success", "payload", "start", "error", "SET_MAGNUM_STORE", "magnum", "documents"],
+    "mappings": ";;;;;;;AAAA;;;;;;AAEA,MAAMA,gBAAgB,GAAG,SAAnBA,gBAAmB,GAAgD;AAAA,QAA/CC,KAA+C,uEAAvC;AAACC,MAAAA,IAAI,EAAE,EAAP;AAAWC,MAAAA,OAAO,EAAE;AAApB,KAAuC;AAAA,QAAXC,MAAW;;AACrE,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,WAAW,CAACC,kBAAZ,CAA+BC,OAApC;AACI,iCAAWP,KAAX;AACIC,UAAAA,IAAI,EAAEE,MAAM,CAACK,OADjB;AAEIN,UAAAA,OAAO,EAAE;AAFb;;AAIJ,WAAKG,WAAW,CAACC,kBAAZ,CAA+BG,KAApC;AACI,iCAAYT,KAAZ;AACIE,UAAAA,OAAO,EAAE;AADb;;AAEJ,WAAKG,WAAW,CAACC,kBAAZ,CAA+BI,KAApC;AACI,iCAAWV,KAAX;AACIE,UAAAA,OAAO,EAAE;AADb;;AAEJ,WAAKG,WAAW,CAACM,gBAAjB;AACI,eAAOR,MAAM,CAACK,OAAP,CAAeI,MAAf,CAAsBC,SAA7B;;AACJ;AACI,eAAOb,KAAP;AAfR;AAiBH,GAlBD;;iBAoBeD,gB",
+    "sourcesContent": ["import * as actionTypes from \"../actionTypes\";\n\nconst documentsReducer = (state = {list: [], loading: false}, action) => {\n    switch(action.type){\n        case actionTypes.fetchDocumentsList.success:\n            return {...state,\n                list: action.payload,\n                loading: false\n            };\n        case actionTypes.fetchDocumentsList.start:\n            return  {...state,\n                loading: true};\n        case actionTypes.fetchDocumentsList.error:\n            return {...state,\n                loading: false};\n        case actionTypes.SET_MAGNUM_STORE:\n            return action.payload.magnum.documents;\n        default:\n            return state;\n    }\n};\n\nexport default documentsReducer;"],
+    "file": "documents.js"
+}

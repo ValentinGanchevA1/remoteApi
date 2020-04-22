@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../es6/eshop/modules/configurator/constants.js"],
+    "names": ["constants", "url", "cart", "tooltipIdPlaceholder", "magnumStore"],
+    "mappings": ";;;;;;;AAAO,MAAMA,SAAS,GAAG;AACjBC,IAAAA,GAAG,EAAE;AACGC,MAAAA,IAAI,EAAE;AADT,KADY;AAIjBC,IAAAA,oBAAoB,EAAE,wBAJL;AAKjBC,IAAAA,WAAW,EAAE;AALI,GAAlB",
+    "sourcesContent": ["export const constants = {\n        url: {\n                cart: \"/koszyk/multi\"\n        },\n        tooltipIdPlaceholder: \"TOOLTIP-ID-PLACEHOLDER\",\n        magnumStore: \"magnumStore\"\n};"],
+    "file": "constants.js"
+}

@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/simfree/constants/OfferTypeEnum.js"],
+    "names": ["OfferType", "Object", "freeze", "DATA", "VOICE", "VOICE_LDF", "DATA_LDF", "CONVERGENT", "SIMFREE_INST", "SIMFREE"],
+    "mappings": ";;;;;;;AAAA,MAAMA,SAAS,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC5BC,IAAAA,IAAI,EAAE,MADsB;AAE5BC,IAAAA,KAAK,EAAE,OAFqB;AAG5BC,IAAAA,SAAS,EAAE,WAHiB;AAI5BC,IAAAA,QAAQ,EAAE,UAJkB;AAK5BC,IAAAA,UAAU,EAAE,YALgB;AAM5BC,IAAAA,YAAY,EAAE,cANc;AAO5BC,IAAAA,OAAO,EAAE;AAPmB,GAAd,CAAlB;iBAUeT,S",
+    "sourcesContent": ["const OfferType = Object.freeze({\n    DATA: 'DATA',\n    VOICE: 'VOICE',\n    VOICE_LDF: 'VOICE_LDF',\n    DATA_LDF: 'DATA_LDF',\n    CONVERGENT: 'CONVERGENT',\n    SIMFREE_INST: 'SIMFREE_INST',\n    SIMFREE: 'SIMFREE'\n});\n\nexport default OfferType;"],
+    "file": "OfferTypeEnum.js"
+}

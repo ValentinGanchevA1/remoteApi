@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../es6/eshop/modules/checkout/components/consents/AssistModeEnum.js"],
+    "names": ["AssistMode", "Object", "freeze", "ACTIVE", "INACTIVE", "ERROR"],
+    "mappings": ";;;;;;;AAAA,MAAMA,UAAU,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC7BC,IAAAA,MAAM,EAAE,QADqB;AAE7BC,IAAAA,QAAQ,EAAE,UAFmB;AAG7BC,IAAAA,KAAK,EAAE;AAHsB,GAAd,CAAnB;iBAMeL,U",
+    "sourcesContent": ["const AssistMode = Object.freeze({\n    ACTIVE: 'ACTIVE',\n    INACTIVE: 'INACTIVE',\n    ERROR: 'ERROR'\n});\n\nexport default AssistMode;"],
+    "file": "AssistModeEnum.js"
+}

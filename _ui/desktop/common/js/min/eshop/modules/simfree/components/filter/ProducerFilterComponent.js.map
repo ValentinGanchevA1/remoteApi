@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "ProducerFilterComponent.js",
+    "sources": ["../../../../../../dist/eshop/modules/simfree/components/filter/ProducerFilterComponent.js"],
+    "names": ["define", "_exports", "_react", "_reactRedux", "_selectors", "_filter", "_ProducerFilterView", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireDefault", "_default", "connect", "state", "filterConfiguration", "getFilterConfiguration", "selectedProducer", "getSelectedProducer", "dispatch", "reloadMatchToFilter", "reloadTree", "page", "getFilteredProductTree", "setSelectedProducer", "getFilteredList", "getFilteredProductList", "clearAttrFilters", "clearAttrsFilters"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,QAAS,cAAe,kBAAmB,uCAAwC,8DAA+D,SAAUC,EAAUC,EAAQC,EAAaC,EAAYC,EAASC,GACjO,aAEAC,OAAOC,eAAeP,EAAU,aAAc,CAC5CQ,OAAO,IAETR,EAASS,aAAU,EACnBR,EAASS,aAAaC,sBAAsBV,GAC5CI,EAAsBK,aAAaC,sBAAsBN,GAEzD,IA4BIO,GAD0B,EAAIV,EAAYW,SA3BxB,SAAyBC,GAC7C,MAAO,CACLC,qBAAqB,EAAIZ,EAAWa,wBAAwBF,GAC5DG,kBAAkB,EAAId,EAAWe,qBAAqBJ,KAIjC,SAA4BK,GACnD,MAAO,CACLC,oBAAqB,WACnB,OAAOD,GAAS,EAAIf,EAAQgB,yBAE9BC,WAAY,SAAoBC,GAC9B,OAAOH,GAAS,EAAIf,EAAQmB,wBAAwBD,KAEtDE,oBAAqB,SAA6BP,GAChD,OAAOE,GAAS,EAAIf,EAAQoB,qBAAqBP,KAEnDQ,gBAAiB,SAAyBH,GACxC,OAAOH,GAAS,EAAIf,EAAQsB,wBAAwBJ,KAEtDK,iBAAkB,WAChB,OAAOR,GAAS,EAAIf,EAAQwB,yBAKJ,CAA8DvB,EAAoBI,SAEhHT,EAASS,QAAUG"
+}

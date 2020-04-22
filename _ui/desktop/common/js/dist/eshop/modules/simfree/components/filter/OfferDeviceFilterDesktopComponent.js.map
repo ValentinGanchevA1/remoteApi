@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../es6/eshop/modules/simfree/components/filter/OfferDeviceFilterDesktopComponent.jsx"],
+    "names": ["OfferDeviceFilterDesktopComponent", "props", "descriptions", "deviceInstalmentsConfiguration", "channels", "React", "Component", "defaultProps", "detailsPopupHeader", "detailLabelText"],
+    "mappings": ";;;;;;;AAAA;AACA;AACA;;;;;;MAEqBA,iC;;;;;;;;;;;;+BAER;AACL,4BACI,6BAAC,mCAAD;AACI,UAAA,YAAY,EAAE,KAAKC,KAAL,CAAWC,YAD7B;AAEI,UAAA,8BAA8B,EAAE,KAAKD,KAAL,CAAWE,8BAF/C;AAGI,UAAA,QAAQ,EAAE,KAAKF,KAAL,CAAWG;AAHzB,wBAII,6BAAC,8BAAD;AAAuB,UAAA,GAAG,EAAE;AAA5B,UAJJ,CADJ;AAQH;;;IAX0DC,eAAMC,S;;;AAcrEN,EAAAA,iCAAiC,CAACO,YAAlC,GAAiD;AAC7CL,IAAAA,YAAY,EAAG;AACXM,MAAAA,kBAAkB,EAAG,kBADV;AAEXC,MAAAA,eAAe,EAAG;AAFP;AAD8B,GAAjD",
+    "sourcesContent": ["import React from \"react\";\nimport OfferDeviceFilterComponent from \"./OfferDeviceFilterComponent\";\nimport OfferDeviceFilterView from \"./view/OfferDeviceFilterView\"\n\nexport default class OfferDeviceFilterDesktopComponent extends React.Component {\n\n    render() {\n        return (\n            <OfferDeviceFilterComponent\n                descriptions={this.props.descriptions}\n                deviceInstalmentsConfiguration={this.props.deviceInstalmentsConfiguration}\n                channels={this.props.channels}>\n                <OfferDeviceFilterView key={\"offv\"}/>\n            </OfferDeviceFilterComponent>\n        )\n    }\n}\n\nOfferDeviceFilterDesktopComponent.defaultProps = {\n    descriptions : {\n        detailsPopupHeader : \"Szczegóły oferty\",\n        detailLabelText : \"Szczegóły\",\n    },\n};"],
+    "file": "OfferDeviceFilterDesktopComponent.js"
+}

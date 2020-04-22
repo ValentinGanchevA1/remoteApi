@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/constants/ShowSectionNameEnum.js"],
+    "names": ["ShowSectionName", "Object", "freeze", "MSISDN", "ACCOUNT", "CAAP", "FIX_PROCESS_CHANGED", "CART_WAS_CHANGED", "INCOMPATIBLE_MARKET_MODAL", "STAY_LOVE", "CHECK_IS_CUSTOMER", "LEAD_FORM"],
+    "mappings": ";;;;;;;AAAA,MAAMA,eAAe,GAAGC,MAAM,CAACC,MAAP,CAAe;AACnCC,IAAAA,MAAM,EAAE,QAD2B;AAEnCC,IAAAA,OAAO,EAAE,SAF0B;AAGnCC,IAAAA,IAAI,EAAE,MAH6B;AAInCC,IAAAA,mBAAmB,EAAE,qBAJc;AAKnCC,IAAAA,gBAAgB,EAAE,kBALiB;AAMnCC,IAAAA,yBAAyB,EAAE,2BANQ;AAOnCC,IAAAA,SAAS,EAAE,WAPwB;AAQnCC,IAAAA,iBAAiB,EAAE,mBARgB;AASnCC,IAAAA,SAAS,EAAE;AATwB,GAAf,CAAxB;iBAWeX,e",
+    "sourcesContent": ["const ShowSectionName = Object.freeze( {\n    MSISDN: \"MSISDN\",\n    ACCOUNT: \"ACCOUNT\",\n    CAAP: \"CAAP\",\n    FIX_PROCESS_CHANGED: \"FIX_PROCESS_CHANGED\",\n    CART_WAS_CHANGED: \"CART_WAS_CHANGED\",\n    INCOMPATIBLE_MARKET_MODAL: \"INCOMPATIBLE_MARKET_MODAL\",\n    STAY_LOVE: \"STAY_LOVE\",\n    CHECK_IS_CUSTOMER: \"CHECK_IS_CUSTOMER\",\n    LEAD_FORM: \"LEAD_FORM\",\n});\nexport default ShowSectionName;"],
+    "file": "ShowSectionNameEnum.js"
+}

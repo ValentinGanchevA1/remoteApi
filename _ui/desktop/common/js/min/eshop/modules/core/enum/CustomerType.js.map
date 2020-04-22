@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "CustomerType.js",
+    "sources": ["../../../../../dist/eshop/modules/core/enum/CustomerType.js"],
+    "names": ["define", "_exports", "Object", "defineProperty", "value", "default", "_default", "INDIVIDUAL", "ORGANIZATION"],
+    "mappings": "AAAAA,OAAO,CAAC,WAAY,SAAUC,GAC5B,aAEAC,OAAOC,eAAeF,EAAU,aAAc,CAC5CG,OAAO,IAETH,EAASI,aAAU,EACnB,IAIIC,EAJe,CACjBC,WAAY,aACZC,aAAc,gBAGhBP,EAASI,QAAUC"
+}

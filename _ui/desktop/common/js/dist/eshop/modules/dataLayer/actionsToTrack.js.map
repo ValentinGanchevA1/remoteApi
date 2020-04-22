@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../es6/eshop/modules/dataLayer/actionsToTrack.js"],
+    "names": ["conditionalEvents", "AFTER_WWT", "state", "action", "type", "console", "log", "BEFORE_WWT", "GET_CART_CUSTOMER_DONE", "FORCE_AFTER_WWT", "fbbEvents", "b2bEvents"],
+    "mappings": ";;;;;;;AAAA;AACA;;;;;;;;AAIA,MAAMA,iBAAiB,6EAEdC,sBAFc,EAEF,UAACC,KAAD,EAAQC,MAAR,EAAgBC,IAAhB;AAAA,WAAyBC,OAAO,CAACC,GAAR,CAAY,6BAAZ,EAA2CF,IAA3C,CAAzB;AAAA,GAFE,mDAGdG,uBAHc,EAGD,UAACL,KAAD,EAAQC,MAAR,EAAgBC,IAAhB;AAAA,WAAyBC,OAAO,CAACC,GAAR,CAAY,6BAAZ,EAA2CF,IAA3C,CAAzB;AAAA,GAHC,mDAIdI,oCAJc,EAIW,UAACN,KAAD,EAAQC,MAAR,EAAgBC,IAAhB;AAAA,WAAyBC,OAAO,CAACC,GAAR,CAAY,6BAAZ,EAA2CF,IAA3C,CAAzB;AAAA,GAJX,mDAKdK,4BALc,EAKI,UAACP,KAAD,EAAQC,MAAR,EAAgBC,IAAhB;AAAA,WAAyBC,OAAO,CAACC,GAAR,CAAY,6BAAZ,EAA2CF,IAA3C,CAAzB;AAAA,GALJ,sBAAvB;;mCAQOJ,iB,MACAU,8B,MACAC,uC",
+    "sourcesContent": ["import fbbEvents from \"./middleware/analyticsCustomEvents\";\nimport b2bEvents from \"./middleware/analyticsCustomEventsB2BMobile\";\nimport {AFTER_WWT, BEFORE_WWT, FORCE_AFTER_WWT} from \"../fix/actionTypes\";\nimport {GET_CART_CUSTOMER_DONE} from \"../checkout/actionTypes\";\n\nconst conditionalEvents =\n    {\n        [AFTER_WWT]: (state, action, type) => console.log(\"datalayer conditional event\", type),\n        [BEFORE_WWT]: (state, action, type) => console.log(\"datalayer conditional event\", type),\n        [GET_CART_CUSTOMER_DONE]: (state, action, type) => console.log(\"datalayer conditional event\", type),\n        [FORCE_AFTER_WWT]: (state, action, type) => console.log(\"datalayer conditional event\", type),\n    };\nexport default {\n    ...conditionalEvents,\n    ...fbbEvents,\n    ...b2bEvents,\n}"],
+    "file": "actionsToTrack.js"
+}

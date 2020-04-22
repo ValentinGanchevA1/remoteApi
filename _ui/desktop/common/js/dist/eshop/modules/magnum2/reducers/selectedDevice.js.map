@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/magnum2/reducers/selectedDevice.js"],
+    "names": ["selectedDeviceReducer", "state", "action", "type", "actionTypes", "SELECT_DEVICE_VARIANT", "productId", "payload", "variantId", "SELECT_PROPOSITION", "checkoutActionTypes", "fetchZipCodeFromWWT", "reset"],
+    "mappings": ";;;;;;;AAAA;AACA;;AAEA,MAAMA,qBAAqB,GAAG,SAAxBA,qBAAwB,GAA0B;AAAA,QAAzBC,KAAyB,uEAAjB,IAAiB;AAAA,QAAXC,MAAW;;AACpD,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,WAAW,CAACC,qBAAjB;AACI,eAAO;AACHC,UAAAA,SAAS,EAAEJ,MAAM,CAACK,OAAP,CAAeD,SADvB;AAEHE,UAAAA,SAAS,EAAEN,MAAM,CAACK,OAAP,CAAeC;AAFvB,SAAP;;AAIJ,WAAKJ,WAAW,CAACK,kBAAjB;AACA,WAAKC,mBAAmB,CAACC,mBAApB,CAAwCC,KAA7C;AACI,eAAO,IAAP;;AACJ;AACI,eAAOX,KAAP;AAVR;AAYH,GAbD;;iBAeeD,qB",
+    "sourcesContent": ["import * as actionTypes from \"../actionTypes\";\nimport * as checkoutActionTypes from \"../../checkout/actionTypes\";\n\nconst selectedDeviceReducer = (state = null, action) => {\n    switch(action.type) {\n        case actionTypes.SELECT_DEVICE_VARIANT:\n            return {\n                productId: action.payload.productId,\n                variantId: action.payload.variantId\n            };\n        case actionTypes.SELECT_PROPOSITION:\n        case checkoutActionTypes.fetchZipCodeFromWWT.reset:\n            return null;\n        default:\n            return state;\n    }\n};\n\nexport default selectedDeviceReducer;"],
+    "file": "selectedDevice.js"
+}

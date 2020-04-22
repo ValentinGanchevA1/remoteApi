@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "LegalFormEnum.js",
+    "sources": ["../../../../../dist/eshop/modules/checkout/constants/LegalFormEnum.js"],
+    "names": ["define", "_exports", "_lodash", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireDefault", "_default", "JDG", "SC", "SZOO", "SA", "SK", "SKA", "SJ", "SP", "FUN", "STOW", "PAN", "INNA", "isSmallBusiness", "legalForm", "includes"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,UAAW,SAAUC,EAAUC,GAChD,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,aAAU,EACnBJ,EAAUK,aAAaC,sBAAsBN,GAC7C,IAiBIO,EAjBY,CACdC,IAAK,MACLC,GAAI,KACJC,KAAM,OACNC,GAAI,KACJC,GAAI,KACJC,IAAK,MACLC,GAAI,KACJC,GAAI,KACJC,IAAK,MACLC,KAAM,OACNC,IAAK,MACLC,KAAM,OACNC,gBAAiB,SAAyBC,GACxC,OAAOrB,EAAQI,QAAQkB,SAAS,CAAC,MAAO,MAAOD,KAInDtB,EAASK,QAAUG"
+}

@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../es6/eshop/modules/cart/components/entriesList/ProductTypeEnum.js"],
+    "names": ["ProductType", "Object", "freeze", "TERMINAL", "VAS", "EURO_SET", "TV_PACKAGE"],
+    "mappings": ";;;;;;;AACA,MAAMA,WAAW,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC9BC,IAAAA,QAAQ,EAAE,UADoB;AAE9BC,IAAAA,GAAG,EAAE,KAFyB;AAG9BC,IAAAA,QAAQ,EAAE,UAHoB;AAI9BC,IAAAA,UAAU,EAAE;AAJkB,GAAd,CAApB;iBAOeN,W",
+    "sourcesContent": ["\nconst ProductType = Object.freeze({\n    TERMINAL: 'TERMINAL',\n    VAS: 'VAS',\n    EURO_SET: 'EURO_SET',\n    TV_PACKAGE: 'TV_PACKAGE'\n});\n\nexport default ProductType;"],
+    "file": "ProductTypeEnum.js"
+}

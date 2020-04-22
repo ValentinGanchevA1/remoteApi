@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/AddonTypeEnum.js"],
+    "names": ["AddonType", "Object", "freeze", "ASSIST", "TVBASIC", "TVMAIN", "TVOPTIONAL", "SFH", "SECONDARY_CHOICE_DISCOUNT"],
+    "mappings": ";;;;;;;AAAA,MAAMA,SAAS,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC5BC,IAAAA,MAAM,EAAE,QADoB;AAE5BC,IAAAA,OAAO,EAAE,SAFmB;AAG5BC,IAAAA,MAAM,EAAE,QAHoB;AAI5BC,IAAAA,UAAU,EAAE,YAJgB;AAK5BC,IAAAA,GAAG,EAAE,KALuB;AAM5BC,IAAAA,yBAAyB,EAAE;AANC,GAAd,CAAlB;iBASeR,S",
+    "sourcesContent": ["const AddonType = Object.freeze({\n    ASSIST: 'ASSIST',\n    TVBASIC: 'TVBASIC',\n    TVMAIN: 'TVMAIN',\n    TVOPTIONAL: 'TVOPTIONAL',\n    SFH: 'SFH',\n    SECONDARY_CHOICE_DISCOUNT: 'SECONDARY_CHOICE_DISCOUNT'\n});\n\nexport default AddonType;"],
+    "file": "AddonTypeEnum.js"
+}

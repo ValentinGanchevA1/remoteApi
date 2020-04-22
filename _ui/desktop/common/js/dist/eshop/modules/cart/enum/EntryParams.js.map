@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/enum/EntryParams.js"],
+    "names": ["EntryParams", "Object", "freeze", "ID", "CODE", "ACTIVE", "PRODUCT_CODE", "FINE_PRINT"],
+    "mappings": ";;;;;;;AAAA,MAAMA,WAAW,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC9BC,IAAAA,EAAE,EAAE,IAD0B;AAE9BC,IAAAA,IAAI,EAAE,MAFwB;AAG9BC,IAAAA,MAAM,EAAE,QAHsB;AAI9BC,IAAAA,YAAY,EAAE,aAJgB;AAK9BC,IAAAA,UAAU,EAAE;AALkB,GAAd,CAApB;iBAQeP,W",
+    "sourcesContent": ["const EntryParams = Object.freeze({\n    ID: \"id\",\n    CODE: \"code\",\n    ACTIVE: \"active\",\n    PRODUCT_CODE: \"productCode\",\n    FINE_PRINT: \"finePrint\"\n});\n\nexport default EntryParams;"],
+    "file": "EntryParams.js"
+}

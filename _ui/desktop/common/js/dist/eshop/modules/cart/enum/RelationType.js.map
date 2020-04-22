@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/enum/RelationType.js"],
+    "names": ["RelationType", "Object", "freeze", "DEFAULT", "PRERQ", "OPTIONAL"],
+    "mappings": ";;;;;;;AAAA,MAAMA,YAAY,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC/BC,IAAAA,OAAO,EAAE,SADsB;AAE/BC,IAAAA,KAAK,EAAE,OAFwB;AAG/BC,IAAAA,QAAQ,EAAE;AAHqB,GAAd,CAArB;iBAOeL,Y",
+    "sourcesContent": ["const RelationType = Object.freeze({\n    DEFAULT: 'DEFAULT',\n    PRERQ: 'PRERQ',\n    OPTIONAL: 'OPTIONAL'\n});\n\n\nexport default RelationType;"],
+    "file": "RelationType.js"
+}

@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/ProviderTypeEnum.js"],
+    "names": ["ProviderType", "Object", "freeze", "OPTV", "NC", "OTHER"],
+    "mappings": ";;;;;;;AAAA,MAAMA,YAAY,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC/BC,IAAAA,IAAI,EAAE,MADyB;AAE/BC,IAAAA,EAAE,EAAE,IAF2B;AAG/BC,IAAAA,KAAK,EAAE;AAHwB,GAAd,CAArB;iBAMeL,Y",
+    "sourcesContent": ["const ProviderType = Object.freeze({\n    OPTV: 'OPTV',\n    NC: 'NC',\n    OTHER: 'OTHER'\n});\n\nexport default ProviderType;"],
+    "file": "ProviderTypeEnum.js"
+}

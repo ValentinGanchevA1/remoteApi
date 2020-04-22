@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/simfree/reducers/offerFilter.js"],
+    "names": ["verificationNeeded", "state", "action", "type", "ACTIONS", "VERIFICATION_NEEDED", "openVerificationModal", "OPEN_VERIFICATION_MODAL", "CLOSE_VERIFICATION_MODAL"],
+    "mappings": ";;;;;;;AAAA;AACA;;AAIO,MAAIA,kBAAkB,GAAG,SAArBA,kBAAqB,GAA2B;AAAA,QAA1BC,KAA0B,uEAAlB,KAAkB;AAAA,QAAXC,MAAW;;AACvD,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,OAAO,CAACC,mBAAb;AACI,eAAO,IAAP;;AACJ;AACI,eAAOJ,KAAP;AAJR;AAMH,GAPM;;;;AASA,MAAIK,qBAAqB,GAAG,SAAxBA,qBAAwB,GAA2B;AAAA,QAA1BL,KAA0B,uEAAlB,KAAkB;AAAA,QAAXC,MAAW;;AAC1D,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,OAAO,CAACG,uBAAb;AACI,eAAO,IAAP;;AACJ,WAAKH,OAAO,CAACI,wBAAb;AACI,eAAO,KAAP;;AACJ;AACI,eAAOP,KAAP;AANR;AAQH,GATM",
+    "sourcesContent": ["import * as ACTIONS from \"../actionTypes\";\nimport OnlineUtils from \"eshop/utils/OnlineUtils\";\n\n\n\nexport var verificationNeeded = (state = false, action) => {\n    switch (action.type) {\n        case ACTIONS.VERIFICATION_NEEDED:\n            return true;\n        default:\n            return state;\n    }\n}\n\nexport var openVerificationModal = (state = false, action) => {\n    switch (action.type) {\n        case ACTIONS.OPEN_VERIFICATION_MODAL:\n            return true;\n        case ACTIONS.CLOSE_VERIFICATION_MODAL:\n            return false;\n        default:\n            return state;\n    }\n}\n"],
+    "file": "offerFilter.js"
+}

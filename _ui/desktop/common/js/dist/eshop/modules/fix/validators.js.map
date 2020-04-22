@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../es6/eshop/modules/fix/validators.js"],
+    "names": ["checkKnaNumber", "knaNumberValidator", "knaNumber", "checkNotEmptyStandardMessage", "level", "message"],
+    "mappings": ";;;;;;;AAGO,MAAMA,cAAc,GAAG,uBAAM,uBAAM,SAAN,CAAN,CAAvB;;AAEA,MAAMC,kBAAkB,GAAG;AAC9BC,IAAAA,SAAS,EAAE,2BAAUC,wCAAV,EAAuCH,cAAc,CAAC;AAACI,MAAAA,KAAK,EAAE,MAAR;AAAgBC,MAAAA,OAAO,EAAE;AAAzB,KAAD,CAArD;AADmB,GAA3B",
+    "sourcesContent": ["import {validator, check, regex, checkNotEmptyStandardMessage, checkAtLeastTwo, checkPesel, checkNIP, checkREGON, checkIdNumber, checkPostCode, checkEmail, checkPhoneNumber, maxLength, checkPeselAdult, checkAppartment}\n    from \"eshop/modules/core/validation\";\n\nexport const checkKnaNumber = check(regex(/^\\d{9}$/));\n\nexport const knaNumberValidator = {\n    knaNumber: validator(checkNotEmptyStandardMessage,checkKnaNumber({level: \"warn\", message: \"Nieprawidłowy numer KNA.\"}))\n};"],
+    "file": "validators.js"
+}

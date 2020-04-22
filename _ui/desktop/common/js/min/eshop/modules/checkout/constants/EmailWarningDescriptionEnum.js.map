@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "EmailWarningDescriptionEnum.js",
+    "sources": ["../../../../../dist/eshop/modules/checkout/constants/EmailWarningDescriptionEnum.js"],
+    "names": ["define", "_exports", "Object", "defineProperty", "value", "default", "_default", "freeze", "DEFAULT", "PICKUP"],
+    "mappings": "AAAAA,OAAO,CAAC,WAAY,SAAUC,GAC5B,aAEAC,OAAOC,eAAeF,EAAU,aAAc,CAC5CG,OAAO,IAETH,EAASI,aAAU,EACnB,IAIIC,EAJ8BJ,OAAOK,OAAO,CAC9CC,QAAS,qBACTC,OAAQ,yBAGVR,EAASI,QAAUC"
+}

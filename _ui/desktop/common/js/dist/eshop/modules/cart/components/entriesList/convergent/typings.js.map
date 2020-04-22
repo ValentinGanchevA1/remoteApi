@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../../es6/eshop/modules/cart/components/entriesList/convergent/typings.js"],
+    "names": ["ConvergentMultiCartExpandedItemDescriptionsType", "convergentMultiCartLegalSAT", "PropTypes", "string", "convergentMultiCartLegalDSL", "ConvergentComponentDescriptionsType", "saveVasesButton"],
+    "mappings": ";;;;;;;;;;;;AAEA;AAEO,MAAMA,+CAA+C,GAAG;AAC3DC,IAAAA,2BAA2B,EAAEC,qBAAUC,MADoB;AAE3DC,IAAAA,2BAA2B,EAAEF,qBAAUC;AAFoB,GAAxD;;;AAKA,MAAME,mCAAmC;AAC5CC,IAAAA,eAAe,EAAEJ,qBAAUC;AADiB,KAEzCH,+CAFyC,CAAzC",
+    "sourcesContent": ["import {PropTypes} from \"prop-types\";\n\n/** descriptions **/\n\nexport const ConvergentMultiCartExpandedItemDescriptionsType = {\n    convergentMultiCartLegalSAT: PropTypes.string,\n    convergentMultiCartLegalDSL: PropTypes.string\n};\n\nexport const ConvergentComponentDescriptionsType = {\n    saveVasesButton: PropTypes.string,\n    ...ConvergentMultiCartExpandedItemDescriptionsType\n};"],
+    "file": "typings.js"
+}

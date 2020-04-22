@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "RequestState.js",
+    "sources": ["../../../../../dist/eshop/modules/core/constants/RequestState.js"],
+    "names": ["define", "_exports", "Object", "defineProperty", "value", "RequestState", "freeze", "None", "Waiting", "Success", "Error"],
+    "mappings": "AAAAA,OAAO,CAAC,WAAY,SAAUC,GAC5B,aAEAC,OAAOC,eAAeF,EAAU,aAAc,CAC5CG,OAAO,IAETH,EAASI,kBAAe,EACxB,IAAIA,EAAeH,OAAOI,OAAO,CAC/BC,KAAM,EACNC,QAAS,EACTC,QAAS,EACTC,MAAO,IAETT,EAASI,aAAeA"
+}

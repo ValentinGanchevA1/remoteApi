@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../es6/eshop/utils/PickupPosMapUtils.js"],
+    "names": ["setSelectedDeviceVariant", "deviceVariantId", "click"],
+    "mappings": ";;;;;;;AAAA;;AAEA,MAAMA,wBAAwB,GAAG,SAA3BA,wBAA2B,CAAAC,eAAe,EAAI;AAChD,qFAAuDA,eAAvD,UAA6EC,KAA7E;AACA,oFAAsDD,eAAtD,UAA4EC,KAA5E;AACH,GAHD;;iBAKe;AAACF,IAAAA,wBAAwB,EAAxBA;AAAD,G",
+    "sourcesContent": ["import $ from 'jquery';\n\nconst setSelectedDeviceVariant = deviceVariantId => {\n    $(`input[type=radio][name=phoneColorDesktop][value=\\\"${deviceVariantId}\\\"]`).click();\n    $(`input[type=radio][name=phoneColorMobile][value=\\\"${deviceVariantId}\\\"]`).click();\n};\n\nexport default {setSelectedDeviceVariant}"],
+    "file": "PickupPosMapUtils.js"
+}

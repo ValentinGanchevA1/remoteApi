@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/configurator/selectors/root.js"],
+    "names": ["getConfiguratorState", "state", "getTemplateState", "configurator", "template", "getFiltersState", "filters", "getOffers", "offers", "getCart", "cart", "getMetaData", "metaData"],
+    "mappings": ";;;;;;;;AAEO,MAAMA,oBAAoB,GAAG,SAAvBA,oBAAuB,CAAAC,KAAK;AAAA,WAAIA,KAAK,CAAC,cAAD,CAAT;AAAA,GAAlC;;;AACA,MAAMC,gBAAgB,GAAG,8BAAeF,oBAAf,EAAqC,UAAAG,YAAY;AAAA,WAAIA,YAAY,CAACC,QAAjB;AAAA,GAAjD,CAAzB;;AACA,MAAMC,eAAe,GAAG,8BAAeL,oBAAf,EAAqC,UAAAG,YAAY;AAAA,WAAIA,YAAY,CAACG,OAAjB;AAAA,GAAjD,CAAxB;;AACA,MAAMC,SAAS,GAAG,8BAAeP,oBAAf,EAAqC,UAAAG,YAAY;AAAA,WAAIA,YAAY,CAACK,MAAjB;AAAA,GAAjD,CAAlB;;AACA,MAAMC,OAAO,GAAG,8BAAeT,oBAAf,EAAqC,UAAAG,YAAY;AAAA,WAAIA,YAAY,CAACO,IAAjB;AAAA,GAAjD,CAAhB;;AACA,MAAMC,WAAW,GAAG,8BAAeX,oBAAf,EAAqC,UAAAG,YAAY;AAAA,WAAIA,YAAY,CAACS,QAAjB;AAAA,GAAjD,CAApB",
+    "sourcesContent": ["import {createSelector} from \"Reselect\";\n\nexport const getConfiguratorState = state => state[\"configurator\"];\nexport const getTemplateState = createSelector(getConfiguratorState, configurator => configurator.template)\nexport const getFiltersState = createSelector(getConfiguratorState, configurator => configurator.filters)\nexport const getOffers = createSelector(getConfiguratorState, configurator => configurator.offers)\nexport const getCart = createSelector(getConfiguratorState, configurator => configurator.cart)\nexport const getMetaData = createSelector(getConfiguratorState, configurator => configurator.metaData)\n"],
+    "file": "root.js"
+}

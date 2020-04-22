@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/AgreementType.js"],
+    "names": ["AgreementType", "PAPER", "DIGITAL", "fromDeliveryMethodId", "id", "DeliveryMethod", "isDigital"],
+    "mappings": ";;;;;;;AAAA;AAEA,MAAMA,aAAa,GAAG;AAClBC,IAAAA,KAAK,EAAE,OADW;AAElBC,IAAAA,OAAO,EAAE,SAFS;AAGlBC,IAAAA,oBAAoB,EAAE,8BAACC,EAAD;AAAA,aAAQC,wBAAeC,SAAf,CAAyBF,EAAzB,IAA+B,SAA/B,GAA2C,OAAnD;AAAA;AAHJ,GAAtB;iBAMeJ,a",
+    "sourcesContent": ["import DeliveryMethod from \"./DeliveryMethod\";\n\nconst AgreementType = {\n    PAPER: 'PAPER',\n    DIGITAL: 'DIGITAL',\n    fromDeliveryMethodId: (id) => DeliveryMethod.isDigital(id) ? 'DIGITAL' : 'PAPER'\n};\n\nexport default AgreementType;"],
+    "file": "AgreementType.js"
+}

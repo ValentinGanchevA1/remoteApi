@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/enum/CustomerType.js"],
+    "names": ["CustomerType", "INDIVIDUAL", "ORGANIZATION"],
+    "mappings": ";;;;;;;AAAA,MAAMA,YAAY,GAAG;AACjBC,IAAAA,UAAU,EAAE,YADK;AAEjBC,IAAAA,YAAY,EAAE;AAFG,GAArB;iBAKeF,Y",
+    "sourcesContent": ["const CustomerType = {\n    INDIVIDUAL: 'individual',\n    ORGANIZATION: 'organization'\n};\n\nexport default CustomerType;\n"],
+    "file": "CustomerType.js"
+}

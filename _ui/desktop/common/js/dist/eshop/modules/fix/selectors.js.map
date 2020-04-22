@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../es6/eshop/modules/fix/selectors.js"],
+    "names": ["getFixState", "state", "getMetadata", "fix", "metaData", "getCustomerServicesList", "customerServices", "customerServicesList", "verifyIfServicesListIsEmpty", "verifyIfServiceListsEmpty", "getRedirectUrlAfterWWT", "metadata", "redirectUrlAfterWWT"],
+    "mappings": ";;;;;;;;AAEO,MAAMA,WAAW,GAAG,SAAdA,WAAc,CAAAC,KAAK;AAAA,WAAIA,KAAK,CAAC,KAAD,CAAT;AAAA,GAAzB;;;AAEA,MAAMC,WAAW,GAAG,8BAAeF,WAAf,EAA4B,UAAAG,GAAG;AAAA,WAAIA,GAAG,CAACC,QAAR;AAAA,GAA/B,CAApB;;AAEA,MAAMC,uBAAuB,GAAG,8BAAeL,WAAf,EAA4B,UAAAG,GAAG;AAAA,WAAIA,GAAG,CAACG,gBAAJ,CAAqBC,oBAAzB;AAAA,GAA/B,CAAhC;;AAEA,MAAMC,2BAA2B,GAAG,8BAAeN,WAAf,EAA4B,UAAAE,QAAQ;AAAA,WAAIA,QAAQ,CAACK,yBAAb;AAAA,GAApC,CAApC;;AAGA,MAAMC,sBAAsB,GAAG,8BAAeR,WAAf,EAA2B,UAAAS,QAAQ;AAAA,WAAIA,QAAQ,CAACC,mBAAb;AAAA,GAAnC,CAA/B",
+    "sourcesContent": ["import {createSelector} from \"Reselect\";\n\nexport const getFixState = state => state[\"fix\"];\n\nexport const getMetadata = createSelector(getFixState, fix => fix.metaData);\n\nexport const getCustomerServicesList = createSelector(getFixState, fix => fix.customerServices.customerServicesList);\n\nexport const verifyIfServicesListIsEmpty = createSelector(getMetadata, metaData => metaData.verifyIfServiceListsEmpty);\n\n\nexport const getRedirectUrlAfterWWT = createSelector(getMetadata,metadata => metadata.redirectUrlAfterWWT);"],
+    "file": "selectors.js"
+}

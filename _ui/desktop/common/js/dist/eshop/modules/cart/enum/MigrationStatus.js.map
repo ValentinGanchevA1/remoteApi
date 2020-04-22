@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/enum/MigrationStatus.js"],
+    "names": ["MigrationStatus", "Object", "freeze", "MIGRATED", "NOT_MIGRATED"],
+    "mappings": ";;;;;;;AAAA,MAAMA,eAAe,GAAGC,MAAM,CAACC,MAAP,CAAc;AAClCC,IAAAA,QAAQ,EAAE,UADwB;AAElCC,IAAAA,YAAY,EAAE;AAFoB,GAAd,CAAxB;iBAKeJ,e",
+    "sourcesContent": ["const MigrationStatus = Object.freeze({\n    MIGRATED: 'MIGRATED',\n    NOT_MIGRATED: 'NOT_MIGRATED'\n});\n\nexport default MigrationStatus;"],
+    "file": "MigrationStatus.js"
+}

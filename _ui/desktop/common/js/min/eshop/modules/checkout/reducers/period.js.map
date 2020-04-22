@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "period.js",
+    "sources": ["../../../../../dist/eshop/modules/checkout/reducers/period.js"],
+    "names": ["define", "_exports", "_actionTypes", "Object", "defineProperty", "value", "durationsList", "state", "arguments", "length", "undefined", "action", "type", "GET_PERIOD_DONE", "data", "durations"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,kBAAmB,SAAUC,EAAUC,GACxD,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,mBAAgB,EAuBzBL,EAASK,cAbW,SAAA,EAAA,GAClB,IAAIC,EAA2B,EAAnBC,UAAUC,aAA+BC,IADnC,EAAA,EAC8D,GAC5EC,EAA4B,EAAnBH,UAAUC,OAFL,OAEiCC,EAEnD,OAAQC,EAAOC,MACb,KAAKV,EAAaW,gBAChB,OAAOF,EAAOG,KAAKC,UAErB,QACE,OAAOR"
+}

@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../es6/eshop/utils/SimfreeUtils.js"],
+    "names": ["SimfreeUtils", "getTerminalsFromMiniCart", "miniCartData", "entries", "filter", "entry", "processType", "reduce", "a", "b", "concat", "terminals", "CPO"],
+    "mappings": ";;;;;;;;AAAA,MAAMA,YAAY,GAAG,UAASA,YAAT,EAAuB;AAExCA,IAAAA,YAAY,CAACC,wBAAb,GAAwC,UAASC,YAAT,EAAuB;AAC3D,aAAOA,YAAY,CAACC,OAAb,GAAuBD,YAAY,CAACC,OAAb,CAAqBC,MAArB,CAA4B,UAAAC,KAAK;AAAA,eAAIA,KAAK,CAACC,WAAN,KAAsB,eAA1B;AAAA,OAAjC,EAA4EC,MAA5E,CAAmF,UAACC,CAAD,EAAIC,CAAJ;AAAA,eAAUD,CAAC,CAACE,MAAF,CAASD,CAAC,CAACE,SAAX,CAAV;AAAA,OAAnF,EAAoH,EAApH,CAAvB,GAAiJ,EAAxJ;AACH,KAFD;;AAIAX,IAAAA,YAAY,CAACY,GAAb,GAAmB,wBAAnB;AAEA,WAAOZ,YAAP;AACH,GAToB,CASnB,EATmB,CAArB;;iBAWeA,Y",
+    "sourcesContent": ["const SimfreeUtils = function(SimfreeUtils) {\n\n    SimfreeUtils.getTerminalsFromMiniCart = function(miniCartData) {\n        return miniCartData.entries ? miniCartData.entries.filter(entry => entry.processType === \"SALE_OF_GOODS\").reduce((a, b) => a.concat(b.terminals), []) : [];\n    };\n\n    SimfreeUtils.CPO = 'MOB_CPO_SALES_OF_GOODS';\n\n    return SimfreeUtils;\n}({});\n\nexport default SimfreeUtils;\n"],
+    "file": "SimfreeUtils.js"
+}

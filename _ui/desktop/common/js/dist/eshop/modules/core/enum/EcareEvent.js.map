@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/enum/EcareEvent.js"],
+    "names": ["EcareEvent", "SEARCH", "NOT_FOUND", "CUSTOMER_SELECTED", "CUSTOMER_SELECTED_DATA"],
+    "mappings": ";;;;;;;AAAA,MAAMA,UAAU,GAAG;AACfC,IAAAA,MAAM,EAAE,+CADO;AAEfC,IAAAA,SAAS,EAAE,iDAFI;AAGfC,IAAAA,iBAAiB,EAAE,yDAHJ;AAIfC,IAAAA,sBAAsB,EAAE;AAJT,GAAnB;iBAOeJ,U",
+    "sourcesContent": ["const EcareEvent = {\n    SEARCH: 'UXEvent.CustomerService.SearchCustomer.Search',\n    NOT_FOUND: 'UXEvent.CustomerService.SearchCustomer.NotFound',\n    CUSTOMER_SELECTED: 'UXEvent.CustomerService.SearchCustomer.CustomerSelected',\n    CUSTOMER_SELECTED_DATA: 'UXEvent.CustomerService.SearchCustomer.CustomerSelectedData'\n};\n\nexport default EcareEvent;"],
+    "file": "EcareEvent.js"
+}

@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/reducers/period.js"],
+    "names": ["emptyPeriodData", "propositions", "stateCode", "emptyPeriodState", "durationsList", "state", "action", "type", "GET_PERIOD_DONE", "data", "durations"],
+    "mappings": ";;;;;;;AAEA,MAAIA,eAAe,GAAG;AAACC,IAAAA,YAAY,EAAE,EAAf;AAClBC,IAAAA,SAAS,EAAE;AADO,GAAtB;AAGA,MAAIC,gBAAgB,GAAG;AAACF,IAAAA,YAAY,EAAE,EAAf;AACnBC,IAAAA,SAAS,EAAE;AADQ,GAAvB;;AAGO,MAAIE,aAAa,GAAG,SAAhBA,aAAgB,GAAwB;AAAA,QAAvBC,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AAC/C,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,4BAAL;AACI,eAAOF,MAAM,CAACG,IAAP,CAAYC,SAAnB;;AACJ;AACI,eAAOL,KAAP;AAJR;AAMH,GAPM",
+    "sourcesContent": ["import {GET_PERIOD_DONE, GET_PERIOD_START} from \"../actionTypes\";\n\nvar emptyPeriodData = {propositions: \"\",\n    stateCode: \"\"};\n\nvar emptyPeriodState = {propositions: \"\",\n    stateCode: \"\"};\n\nexport var durationsList = (state = [], action) => {\n    switch(action.type) {\n        case GET_PERIOD_DONE:\n            return action.data.durations;\n        default:\n            return state;\n    }\n};\n"],
+    "file": "period.js"
+}

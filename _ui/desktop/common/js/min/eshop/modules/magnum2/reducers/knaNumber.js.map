@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "knaNumber.js",
+    "sources": ["../../../../../dist/eshop/modules/magnum2/reducers/knaNumber.js"],
+    "names": ["define", "_exports", "actionTypes", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireWildcard", "_default", "state", "arguments", "length", "undefined", "action", "type", "SET_KNA_NUMBER", "payload", "knaNumber", "SET_MAGNUM_STORE", "magnum"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,kBAAmB,SAAUC,EAAUC,GACxD,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,aAAU,EACnBJ,EAAcK,aAAaC,uBAAuBN,GAE3B,SAgBnBO,EAhBmB,EAAA,GACrB,IAAIC,EAA2B,EAAnBC,UAAUC,aAA+BC,IADhC,EAAA,EAC2D,KAC5EC,EAA4B,EAAnBH,UAAUC,OAFF,OAE8BC,EAEnD,OAAQC,EAAOC,MACb,KAAKb,EAAYc,eACf,OAAOF,EAAOG,QAAQC,UAExB,KAAKhB,EAAYiB,iBACf,OAAOL,EAAOG,QAAQG,OAAOF,UAE/B,QACE,OAAOR,GAKbT,EAASK,QAAUG"
+}

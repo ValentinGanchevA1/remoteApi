@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/simfree/components/OfferDisclaimerComponent.jsx"],
+    "names": ["OfferDisclaimerComponent", "descriptions", "processType", "className", "offerDisclaimer", "filter", "Boolean", "join"],
+    "mappings": ";;;;;;;AAAA;AACA;;AAEA,MAAMA,wBAAwB,GAAG,SAA3BA,wBAA2B,OAA4C;AAAA,QAA1CC,YAA0C,QAA1CA,YAA0C;AAAA,QAA5BC,WAA4B,QAA5BA,WAA4B;AAAA,QAAfC,SAAe,QAAfA,SAAe;AACzE,QAAMC,eAAe,GAAGH,YAAY,CAAC,CAAC,iBAAD,EAAoBC,WAApB,EAAiCG,MAAjC,CAAwCC,OAAxC,EAAiDC,IAAjD,CAAsD,GAAtD,CAAD,CAApC;AACA,WAAO,CAAC,CAACH,eAAF,gBACH,6BAAC,wBAAD;AAAiB,MAAA,SAAS,2EAAoED,SAApE,CAA1B;AACK,MAAA,IAAI,EAAEC;AADX,MADG,GAGH,IAHJ;AAIH,GAND;;iBAQeJ,wB",
+    "sourcesContent": ["import React from \"react\";\nimport TooltipFromHtml from \"eshop/modules/core/components/ui/TooltipFromHtml\";\n\nconst OfferDisclaimerComponent = ({descriptions, processType, className}) => {\n    const offerDisclaimer = descriptions[['offerDisclaimer', processType].filter(Boolean).join(\".\")];\n    return !!offerDisclaimer ?\n        <TooltipFromHtml className={`g-black1-bg g-white1-c u-padding-all-l u-padding u-padding-top ${className}`}\n             html={offerDisclaimer}/> :\n        null\n};\n\nexport default OfferDisclaimerComponent;"],
+    "file": "OfferDisclaimerComponent.js"
+}

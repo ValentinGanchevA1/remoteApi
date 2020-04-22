@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/magnum2/reducers/knaNumber.js"],
+    "names": ["knaNumberReducer", "state", "action", "type", "actionTypes", "SET_KNA_NUMBER", "payload", "knaNumber", "SET_MAGNUM_STORE", "magnum"],
+    "mappings": ";;;;;;;AAAA;;AAEA,MAAMA,gBAAgB,GAAG,SAAnBA,gBAAmB,GAA0B;AAAA,QAAzBC,KAAyB,uEAAjB,IAAiB;AAAA,QAAXC,MAAW;;AAC/C,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,WAAW,CAACC,cAAjB;AACI,eAAOH,MAAM,CAACI,OAAP,CAAeC,SAAtB;;AACJ,WAAKH,WAAW,CAACI,gBAAjB;AACI,eAAON,MAAM,CAACI,OAAP,CAAeG,MAAf,CAAsBF,SAA7B;;AACJ;AACI,eAAON,KAAP;AANR;AAQH,GATD;;iBAWeD,gB",
+    "sourcesContent": ["import * as actionTypes from \"../actionTypes\";\n\nconst knaNumberReducer = (state = null, action) => {\n    switch(action.type) {\n        case actionTypes.SET_KNA_NUMBER:\n            return action.payload.knaNumber;\n        case actionTypes.SET_MAGNUM_STORE:\n            return action.payload.magnum.knaNumber;\n        default:\n            return state;\n    }\n};\n\nexport default knaNumberReducer;"],
+    "file": "knaNumber.js"
+}

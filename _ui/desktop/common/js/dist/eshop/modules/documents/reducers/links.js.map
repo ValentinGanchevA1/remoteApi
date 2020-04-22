@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/documents/reducers/links.js"],
+    "names": ["state", "action", "type", "DOCUMENT_READY_TO_DOWNLOAD", "code", "link", "PICKUP_DOCUMENT_DOWNLOAD_DONE", "bundleNo", "DOCUMENT_LINK_CLEAR"],
+    "mappings": ";;;;;;;;;;;;iBAKe,oBAAwB;AAAA,QAAvBA,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AACnC,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,uCAAL;AACI,iCAAWH,KAAX,kCAAmBC,MAAM,CAACG,IAA1B,EAAiCH,MAAM,CAACI,IAAxC;;AACJ,WAAKC,2CAAL;AACI,iCAAWN,KAAX,kCAAmBC,MAAM,CAACG,IAAP,GAAY,GAAZ,GAAgBH,MAAM,CAACM,QAA1C,EAAqDN,MAAM,CAACI,IAA5D;;AACJ,WAAKG,gCAAL;AACI,eAAO,EAAP;;AACJ;AACI,eAAOR,KAAP;AARR;AAUH,G",
+    "sourcesContent": ["import {\n    DOCUMENT_READY_TO_DOWNLOAD,\n    DOCUMENT_LINK_CLEAR\n} from \"../actionTypes\";\nimport {PICKUP_DOCUMENT_DOWNLOAD_DONE} from \"../../checkout/actionTypes\";\nexport default (state = {}, action) => {\n    switch (action.type) {\n        case DOCUMENT_READY_TO_DOWNLOAD:\n            return {...state, [action.code]: action.link};\n        case PICKUP_DOCUMENT_DOWNLOAD_DONE:\n            return {...state, [action.code+\"_\"+action.bundleNo]: action.link}\n        case DOCUMENT_LINK_CLEAR:\n            return {};\n        default:\n            return state;\n    }\n};"],
+    "file": "links.js"
+}

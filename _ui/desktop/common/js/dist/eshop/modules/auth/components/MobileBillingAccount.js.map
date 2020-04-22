@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/auth/components/MobileBillingAccount.jsx"],
+    "names": ["MobileBillingAccount", "props", "account", "accountContracts", "length", "map", "contract", "contractId", "Component"],
+    "mappings": ";;;;;;;AAAA;;;;;;MAGaA,oB;;;;;AAET,kCAAYC,KAAZ,EAAmB;AAAA;AAAA,+BACTA,KADS;AAGlB;;;;+BAEO;AACJ,4BACI;AAAK,UAAA,SAAS,EAAC;AAAf,wBACI;AAAI,UAAA,SAAS,EAAC;AAAd,WAEI,KAAKA,KAAL,CAAWC,OAAX,IAAsB,KAAKD,KAAL,CAAWC,OAAX,CAAmBC,gBAAzC,IAA6D,KAAKF,KAAL,CAAWC,OAAX,CAAmBC,gBAAnB,CAAoCC,MAApC,GAA6C,CAA1G,IAAgH,KAAKH,KAAL,CAAWC,OAAX,CAAmBC,gBAAnB,CAAoCE,GAApC,CAAwC,UAAAC,QAAQ;AAAA,8BAC5J,6BAAC,8BAAD;AAAgB,YAAA,GAAG,EAAEA,QAAQ,CAACC,UAA9B;AAA0C,YAAA,IAAI,EAAED;AAAhD,YAD4J;AAAA,SAAhD,CAFpH,CADJ,CADJ;AAWJ;;;IAnBsCE,gB",
+    "sourcesContent": ["import React, {Component} from \"react\";\nimport {MobileContract} from \"eshop/modules/auth/components/MobileContract\";\n\nexport class MobileBillingAccount extends Component {\n\n    constructor(props) {\n        super(props);\n\n    }\n\n    render(){\n        return (\n            <div className=\"u-padding-checkbox\" >\n                <ul className=\"u-margin-m\">\n                {\n                    this.props.account && this.props.account.accountContracts && this.props.account.accountContracts.length > 0  && this.props.account.accountContracts.map(contract => (\n                        <MobileContract key={contract.contractId} data={contract}/>\n                    ))\n                }\n                </ul>\n            </div>\n        )\n   }\n}\n"],
+    "file": "MobileBillingAccount.js"
+}

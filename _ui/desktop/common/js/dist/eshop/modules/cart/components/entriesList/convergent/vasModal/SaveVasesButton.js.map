@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../../../es6/eshop/modules/cart/components/entriesList/convergent/vasModal/SaveVasesButton.jsx"],
+    "names": ["SaveVasesButton", "props", "saveVasesClicked", "saveVasesButtonText", "propTypes", "PropTypes", "string", "defaultProps"],
+    "mappings": ";;;;;;;AAAA;;AAGO,MAAMA,eAAe,GAAG,SAAlBA,eAAkB,CAACC,KAAD,EAAW;AACtC,wBACI;AAAK,MAAA,SAAS,EAAC;AAAf,oBACI;AAAK,MAAA,SAAS,EAAC;AAAf,oBACI;AAAQ,MAAA,SAAS,EAAC,uDAAlB;AAA0E,MAAA,OAAO,EAAEA,KAAK,CAACC;AAAzF,oBACI;AAAM,MAAA,SAAS,EAAC;AAAhB,oBACI;AAAM,MAAA,SAAS,EAAC;AAAhB,MADJ,CADJ,EAGYD,KAAK,CAACE,mBAHlB,CADJ,CADJ,CADJ;AAWH,GAZM;;;AAcPH,EAAAA,eAAe,CAACI,SAAhB,GAA4B;AACxBD,IAAAA,mBAAmB,EAAEE,qBAAUC;AADP,GAA5B;AAIAN,EAAAA,eAAe,CAACO,YAAhB,GAA+B;AAC3BJ,IAAAA,mBAAmB,EAAE;AADM,GAA/B",
+    "sourcesContent": ["import React from \"react\";\nimport {PropTypes} from \"prop-types\";\n\nexport const SaveVasesButton = (props) => {\n    return (\n        <div className=\"l-row\">\n            <div className=\"l-col l-col-small-12 l-col-medium-4 l-col-4 u-right u-text-right u-padding-top-l-xl\">\n                <button className=\"o-btn opl-btn opl-btn--primary opl-btn-medium u-w-100\" onClick={props.saveVasesClicked}>\n                    <span className=\"opl-ripple-box\">\n                        <span className=\"opl-ripple-circle\" />\n                    </span>{props.saveVasesButtonText}\n                </button>\n            </div>\n        </div>\n    );\n};\n\nSaveVasesButton.propTypes = {\n    saveVasesButtonText: PropTypes.string\n}\n\nSaveVasesButton.defaultProps = {\n    saveVasesButtonText: \"Wybieram\"\n}"],
+    "file": "SaveVasesButton.js"
+}

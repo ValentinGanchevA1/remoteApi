@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/reducers/returnDocument.js"],
+    "names": ["returnDocumentLoader", "state", "action", "type", "RETURN_DOCUMENT_LOADER", "data"],
+    "mappings": ";;;;;;;;AAIO,MAAIA,oBAAoB,GAAG,SAAvBA,oBAAuB,GAA2B;AAAA,QAA1BC,KAA0B,uEAAlB,KAAkB;AAAA,QAAXC,MAAW;;AACzD,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,mCAAL;AACI,eAAOF,MAAM,CAACG,IAAd;;AACJ;AACI,eAAOJ,KAAP;AAJR;AAMH,GAPM",
+    "sourcesContent": ["import {\n    RETURN_DOCUMENT_LOADER\n} from '../actionTypes';\n\nexport var returnDocumentLoader = (state = false, action) => {\n    switch(action.type) {\n        case RETURN_DOCUMENT_LOADER:\n            return action.data;\n        default:\n            return state;\n    }\n};"],
+    "file": "returnDocument.js"
+}

@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "OfferProductListMobileView.js",
+    "sources": ["../../../../../../../dist/eshop/modules/simfree/components/filter/view/OfferProductListMobileView.js"],
+    "names": ["define", "_exports", "_react", "_OraSwitcher", "_PropositionForDeviceMobileView", "_PropositionForDeviceTabletDesktopView", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireDefault", "_default", "props", "proposition", "offer", "createElement", "key", "index", "onChangeHandler", "onChange", "isSelected", "className", "switcherClassName", "extends", "id"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,QAAS,+CAAgD,kEAAmE,0EAA2E,SAAUC,EAAUC,EAAQC,EAAcC,EAAiCC,GACnS,aAEAC,OAAOC,eAAeN,EAAU,aAAc,CAC5CO,OAAO,IAETP,EAASQ,aAAU,EACnBP,EAASQ,aAAaC,sBAAsBT,GAC5CC,EAAeO,aAAaC,sBAAsBR,GAClDC,EAAkCM,aAAaC,sBAAsBP,GACrEC,EAAyCK,aAAaC,sBAAsBN,GAE3C,SA2B7BO,EA3BiEC,GACnE,IAAIC,EAAcD,EAAME,MACxB,OAAoBb,EAAOO,QAAQO,cAAcb,EAAaM,QAAS,CACrEQ,IAAKJ,EAAMK,MAAQ,mBACnBC,gBAAiBN,EAAMO,SACvBC,WAAYR,EAAMQ,WAClBC,UAAW,qCACXC,kBAAmB,8DACLrB,EAAOO,QAAQO,cAAc,MAAO,CAClDM,UAAW,8BACGpB,EAAOO,QAAQO,cAAcZ,EAAgCK,QAASC,aAAac,QAAQ,CACzGT,MAAOD,GACND,EAAO,CACRQ,WAAYR,EAAMQ,WAClBJ,IAAK,UAAYH,EAAYW,GAC7BP,MAAOL,EAAMK,UACIhB,EAAOO,QAAQO,cAAc,MAAO,CACrDM,UAAW,gBACGpB,EAAOO,QAAQO,cAAcX,EAAuCI,QAASC,aAAac,QAAQ,CAChHT,MAAOD,GACND,EAAO,CACRQ,WAAYR,EAAMQ,WAClBJ,IAAK,UAAYH,EAAYW,GAC7BP,MAAOL,EAAMK,WAKjBjB,EAASQ,QAAUG"
+}

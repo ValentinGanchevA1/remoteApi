@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/servicetransfer/reducers/root.js"],
+    "names": ["transfer"],
+    "mappings": ";;;;;;;AACA;;iBAGe,4BAAgB;AAC3BA,IAAAA,QAAQ,EAAE,4BAAgBA,QAAhB;AADiB,GAAhB,C",
+    "sourcesContent": ["import {combineReducers} from \"redux\";\nimport * as transfer from './transfer';\n\n\nexport default combineReducers({\n    transfer: combineReducers(transfer),\n});"],
+    "file": "root.js"
+}

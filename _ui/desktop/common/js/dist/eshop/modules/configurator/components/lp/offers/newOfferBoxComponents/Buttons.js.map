@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../../../es6/eshop/modules/configurator/components/lp/offers/newOfferBoxComponents/Buttons.jsx"],
+    "names": ["Buttons", "props", "pickDeviceShouldBeHidden", "pickDeviceAction", "labels", "pickDevice", "disabled", "selectOfferNoPhoneAction", "selectOffer", "Component"],
+    "mappings": ";;;;;;;AAAA;;;;;;MAEaA,O;;;;;;;;;;;;+BAEA;AACL,4BACI,uDACI;AAAQ,UAAA,MAAM,EAAE,KAAKC,KAAL,CAAWC,wBAA3B;AAAqD,UAAA,OAAO,EAAE,KAAKD,KAAL,CAAWE,gBAAzE;AAA2F,UAAA,SAAS,EAAE,KAAKF,KAAL,CAAWC,wBAAX,GAAsC,EAAtC,GAA2C;AAAjJ,WAAgO,KAAKD,KAAL,CAAWG,MAAX,CAAkBC,UAAlP,CADJ,eAEI;AAAQ,UAAA,QAAQ,EAAE,KAAKJ,KAAL,CAAWK,QAA7B;AAAuC,UAAA,OAAO,EAAE,KAAKL,KAAL,CAAWM,wBAA3D;AAAqF,UAAA,SAAS,EAAC;AAA/F,WAA8K,KAAKN,KAAL,CAAWG,MAAX,CAAkBI,WAAhM,CAFJ,CADJ;AAMH;;;IATwBC,gB",
+    "sourcesContent": ["import React, {Component} from \"react\";\n\nexport class Buttons extends Component {\n\n    render() {\n        return (\n            <div>\n                <button hidden={this.props.pickDeviceShouldBeHidden} onClick={this.props.pickDeviceAction} className={this.props.pickDeviceShouldBeHidden ? \"\" : \"opl-btn opl-btn--medium opl-btn--primary u-spacing-l o-btn u-block u-w-100\"}>{this.props.labels.pickDevice}</button>\n                <button disabled={this.props.disabled} onClick={this.props.selectOfferNoPhoneAction} className=\"opl-btn opl-btn--medium o-btn u-block u-w-100 u-no-padding-l u-no-padding-r\">{this.props.labels.selectOffer}</button>\n            </div>\n        )\n    }\n}"],
+    "file": "Buttons.js"
+}

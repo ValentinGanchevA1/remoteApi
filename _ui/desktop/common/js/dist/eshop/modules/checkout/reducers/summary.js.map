@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/reducers/summary.js"],
+    "names": ["summary", "state", "action", "type", "REGISTER_COMPONENT_PROPS_VALUE", "payload"],
+    "mappings": ";;;;;;;;AAMO,MAAMA,OAAO,GAAG,SAAVA,OAAU,GAAwB;AAAA,QAAvBC,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AAC3C,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,2CAAL;AACI,eAAOF,MAAM,CAACG,OAAd;;AACJ;AACI,eAAOJ,KAAP;AAJR;AAMH,GAPM,C,CAUP;AACA;AACA",
+    "sourcesContent": ["import { combineReducers } from \"redux\";\n\nimport {\n    REGISTER_COMPONENT_PROPS_VALUE\n} from \"../actionTypes\";\n\nexport const summary = (state = {}, action) => {\n    switch (action.type) {\n        case REGISTER_COMPONENT_PROPS_VALUE:\n            return action.payload;\n        default:\n            return state;\n    }\n};\n\n\n// export const summary = combineReducers({\n//     summary\n//     });\n\n"],
+    "file": "summary.js"
+}

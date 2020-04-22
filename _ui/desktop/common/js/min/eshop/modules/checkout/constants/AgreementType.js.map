@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "AgreementType.js",
+    "sources": ["../../../../../dist/eshop/modules/checkout/constants/AgreementType.js"],
+    "names": ["define", "_exports", "_DeliveryMethod", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireDefault", "_default", "PAPER", "DIGITAL", "fromDeliveryMethodId", "id", "isDigital"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,oBAAqB,SAAUC,EAAUC,GAC1D,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,aAAU,EACnBJ,EAAkBK,aAAaC,sBAAsBN,GACrD,IAOIO,EAPgB,CAClBC,MAAO,QACPC,QAAS,UACTC,qBAAsB,SAA8BC,GAClD,OAAOX,EAAgBI,QAAQQ,UAAUD,GAAM,UAAY,UAI/DZ,EAASK,QAAUG"
+}

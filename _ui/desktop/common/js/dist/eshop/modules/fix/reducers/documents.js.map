@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/fix/reducers/documents.js"],
+    "names": ["documentsDataLP", "store", "action", "type", "ACTIONS", "FETCH_DOCUMENTS", "documents", "payload"],
+    "mappings": ";;;;;;;AAAA;;AAEO,MAAMA,eAAe,GAAG,SAAlBA,eAAkB,GAAwB;AAAA,QAAvBC,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AACnD,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,OAAO,CAACC,eAAb;AAA8B;AAC1B,cAAMC,SAAS,GAAGJ,MAAM,CAACK,OAAzB;AACA,iBAAOD,SAAP;AACH;;AACD;AACI,eAAOL,KAAP;AANR;AAQH,GATM",
+    "sourcesContent": ["import * as ACTIONS from '../actionTypes'\n\nexport const documentsDataLP = (store = {}, action) => {\n    switch(action.type){\n        case ACTIONS.FETCH_DOCUMENTS: {\n            const documents = action.payload\n            return documents\n        }\n        default:\n            return store\n    }\n}\n"],
+    "file": "documents.js"
+}

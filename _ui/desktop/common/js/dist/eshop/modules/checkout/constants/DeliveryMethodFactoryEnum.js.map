@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/DeliveryMethodFactoryEnum.js"],
+    "names": ["DeliveryMethodFactory", "Object", "freeze", "MOBILE", "FIX"],
+    "mappings": ";;;;;;;AAAA,MAAMA,qBAAqB,GAAGC,MAAM,CAACC,MAAP,CAAc;AACxCC,IAAAA,MAAM,EAAE,QADgC;AAExCC,IAAAA,GAAG,EAAE;AAFmC,GAAd,CAA9B;iBAKeJ,qB",
+    "sourcesContent": ["const DeliveryMethodFactory = Object.freeze({\n    MOBILE: 'MOBILE',\n    FIX: 'FIX'\n});\n\nexport default DeliveryMethodFactory;"],
+    "file": "DeliveryMethodFactoryEnum.js"
+}

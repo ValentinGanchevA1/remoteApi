@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/enum/DeviceType.js"],
+    "names": ["DeviceType", "LB", "STB", "KVA", "STBMUL", "KVAMUL", "PVR", "SAT", "WIFIEXT", "SMART_WIFI_BOX", "LP", "ONT", "OTHER", "isTVDeviceNoMUL", "deviceType", "_", "includes"],
+    "mappings": ";;;;;;;AAAA;AAEA,MAAMA,UAAU,GAAG;AACfC,IAAAA,EAAE,EAAE,IADW;AAEfC,IAAAA,GAAG,EAAE,KAFU;AAGfC,IAAAA,GAAG,EAAE,KAHU;AAIfC,IAAAA,MAAM,EAAE,QAJO;AAKfC,IAAAA,MAAM,EAAE,QALO;AAMfC,IAAAA,GAAG,EAAE,KANU;AAOfC,IAAAA,GAAG,EAAE,KAPU;AAQfC,IAAAA,OAAO,EAAE,SARM;AASfC,IAAAA,cAAc,EAAE,gBATD;AAUfC,IAAAA,EAAE,EAAE,IAVW;AAWfC,IAAAA,GAAG,EAAE,KAXU;AAYfC,IAAAA,KAAK,EAAE,OAZQ;AAafC,IAAAA,eAAe,EAAE,yBAACC,UAAD;AAAA,aAAiBC,gBAAEC,QAAF,CAAW,CAAC,KAAD,EAAO,KAAP,EAAa,KAAb,EAAmB,KAAnB,CAAX,EAAsCF,UAAtC,CAAjB;AAAA;AAbF,GAAnB;iBAiBed,U",
+    "sourcesContent": ["import _ from \"lodash\";\n\nconst DeviceType = {\n    LB: 'LB',\n    STB: 'STB',\n    KVA: 'KVA',\n    STBMUL: 'STBMUL',\n    KVAMUL: 'KVAMUL',\n    PVR: 'PVR',\n    SAT: 'SAT',\n    WIFIEXT: 'WIFIEXT',\n    SMART_WIFI_BOX: 'SMART_WIFI_BOX',\n    LP: 'LP',\n    ONT: 'ONT',\n    OTHER: 'OTHER',\n    isTVDeviceNoMUL: (deviceType) =>  _.includes(['STB','KVA','PVR','SAT'], deviceType)\n};\n\n\nexport default DeviceType;"],
+    "file": "DeviceType.js"
+}

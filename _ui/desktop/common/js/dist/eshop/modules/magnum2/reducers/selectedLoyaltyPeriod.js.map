@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/magnum2/reducers/selectedLoyaltyPeriod.js"],
+    "names": ["selectedLoyaltyPeriodReducer", "state", "action", "type", "actionTypes", "SET_LOYALTY_PERIOD", "payload", "loyaltyPeriod", "SET_MAGNUM_STORE", "magnum", "selectedLoyaltyPeriod"],
+    "mappings": ";;;;;;;AAAA;;AAEA,MAAMA,4BAA4B,GAAG,SAA/BA,4BAA+B,GAA0B;AAAA,QAAzBC,KAAyB,uEAAjB,IAAiB;AAAA,QAAXC,MAAW;;AAC3D,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,WAAW,CAACC,kBAAjB;AACI,eAAOH,MAAM,CAACI,OAAP,CAAeC,aAAtB;;AACJ,WAAKH,WAAW,CAACI,gBAAjB;AACI,eAAON,MAAM,CAACI,OAAP,CAAeG,MAAf,CAAsBC,qBAA7B;;AACJ;AACI,eAAOT,KAAP;AANR;AAQH,GATD;;iBAWeD,4B",
+    "sourcesContent": ["import * as actionTypes from \"../actionTypes\";\n\nconst selectedLoyaltyPeriodReducer = (state = null, action) => {\n    switch(action.type) {\n        case actionTypes.SET_LOYALTY_PERIOD:\n            return action.payload.loyaltyPeriod;\n        case actionTypes.SET_MAGNUM_STORE:\n            return action.payload.magnum.selectedLoyaltyPeriod;\n        default:\n            return state;\n    }\n};\n\nexport default selectedLoyaltyPeriodReducer;"],
+    "file": "selectedLoyaltyPeriod.js"
+}

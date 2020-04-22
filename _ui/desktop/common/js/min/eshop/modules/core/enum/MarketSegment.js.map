@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "MarketSegment.js",
+    "sources": ["../../../../../dist/eshop/modules/core/enum/MarketSegment.js"],
+    "names": ["define", "_exports", "_lodash", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireDefault", "_default", "B2C", "B2B", "B2B_SOHO", "isB2B", "marketSegment", "includes"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,UAAW,SAAUC,EAAUC,GAChD,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,aAAU,EACnBJ,EAAUK,aAAaC,sBAAsBN,GAC7C,IAQIO,EARgB,CAClBC,IAAK,MACLC,IAAK,MACLC,SAAU,WACVC,MAAO,SAAeC,GACpB,OAAOZ,EAAQI,QAAQS,SAAS,CAAC,MAAO,YAAaD,KAIzDb,EAASK,QAAUG"
+}

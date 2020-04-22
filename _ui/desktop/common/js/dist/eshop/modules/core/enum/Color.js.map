@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/enum/Color.js"],
+    "names": ["Color", "SELECTED", "INFO", "WARN", "CONSOLE", "ERROR"],
+    "mappings": ";;;;;;;AAAA,MAAMA,KAAK,GAAG;AACVC,IAAAA,QAAQ,EAAE,SADA;AAEVC,IAAAA,IAAI,EAAE,SAFI;AAGVC,IAAAA,IAAI,EAAE,SAHI;AAIVC,IAAAA,OAAO,EAAE,SAJC;AAKVC,IAAAA,KAAK,EAAE;AALG,GAAd;iBAQeL,K",
+    "sourcesContent": ["const Color = {\n    SELECTED: '#F16E00',\n    INFO: '#527EDB',\n    WARN: '#FFCC00',\n    CONSOLE: '#32C832',\n    ERROR: '#CD3C14'\n};\n\nexport default Color;\n"],
+    "file": "Color.js"
+}

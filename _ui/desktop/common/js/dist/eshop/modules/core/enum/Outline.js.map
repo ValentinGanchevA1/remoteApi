@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/enum/Outline.js"],
+    "names": ["Outline", "SELECTED", "INFO", "WARN"],
+    "mappings": ";;;;;;;AAAA,MAAMA,OAAO,GAAG;AACZC,IAAAA,QAAQ,EAAE,mBADE;AAEZC,IAAAA,IAAI,EAAE,mBAFM;AAGZC,IAAAA,IAAI,EAAE;AAHM,GAAhB;iBAMeH,O",
+    "sourcesContent": ["const Outline = {\n    SELECTED: '#F16E00 solid 2px',\n    INFO: '#527EDB solid 2px',\n    WARN: '#FFCC00 solid 2px'\n};\n\nexport default Outline;\n"],
+    "file": "Outline.js"
+}

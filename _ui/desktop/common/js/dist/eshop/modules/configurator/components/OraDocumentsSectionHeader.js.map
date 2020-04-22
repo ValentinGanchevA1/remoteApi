@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/configurator/components/OraDocumentsSectionHeader.jsx"],
+    "names": ["OraDocumentsSectionHeader", "props", "Component"],
+    "mappings": ";;;;;;;AAAA;;;;;;MAEMA,yB;;;;;AACF,uCAAYC,KAAZ,EAAmB;AAAA;AAAA,+BACTA,KADS;AAElB;;;;+BAEO;AACJ,4BACQ;AAAK,UAAA,SAAS,EAAC;AAAf,wBACK;AAAK,UAAA,SAAS,EAAC;AAAf,wBACE;AAAK,UAAA,SAAS,EAAC;AAAf,wBACE;AAAI,UAAA,SAAS,EAAC;AAAd,wCADF,eAEE;AAAG,UAAA,IAAI,EAAC,GAAR;AAAY,UAAA,SAAS,EAAC;AAAtB,UAFF,CADF,CADL,CADR;AAWH;;;IAjBmCC,gB;;iBAoBzBF,yB",
+    "sourcesContent": ["import React, {Component} from \"react\";\n\nclass OraDocumentsSectionHeader extends Component {\n    constructor(props) {\n        super(props);\n    }\n\n    render(){\n        return (\n                <div className=\"opl-section__header\">\n                     <div className=\"l-row\">\n                       <div className=\"l-col l-col-12 \">\n                         <h2 className=\"h4 opl-section__heading\">Umowy, cenniki, regulaminy</h2>\n                         <a href=\"#\" className=\"opl-section__expander-trigger opl-document__expander__trigger\">\n                         </a>\n                       </div>\n                     </div>\n                </div>\n        )\n    }\n}\n\nexport default OraDocumentsSectionHeader;"],
+    "file": "OraDocumentsSectionHeader.js"
+}

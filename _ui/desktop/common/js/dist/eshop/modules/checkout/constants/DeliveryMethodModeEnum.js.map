@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/DeliveryMethodModeEnum.js"],
+    "names": ["DeliveryMethodMode", "Object", "freeze", "DOCUMENTS_PACKAGE", "DEVICES_PACKAGE", "FIX_DEVICES_PACKAGE", "MOBILE_DEVICES_PACKAGE"],
+    "mappings": ";;;;;;;AAAA,MAAMA,kBAAkB,GAAGC,MAAM,CAACC,MAAP,CAAc;AACrCC,IAAAA,iBAAiB,EAAE,mBADkB;AAErCC,IAAAA,eAAe,EAAE,iBAFoB;AAGrCC,IAAAA,mBAAmB,EAAE,qBAHgB;AAIrCC,IAAAA,sBAAsB,EAAE;AAJa,GAAd,CAA3B;iBAOeN,kB",
+    "sourcesContent": ["const DeliveryMethodMode = Object.freeze({\n    DOCUMENTS_PACKAGE: 'DOCUMENTS_PACKAGE',\n    DEVICES_PACKAGE: 'DEVICES_PACKAGE',\n    FIX_DEVICES_PACKAGE: 'FIX_DEVICES_PACKAGE',\n    MOBILE_DEVICES_PACKAGE: 'MOBILE_DEVICES_PACKAGE'\n});\n\nexport default DeliveryMethodMode;"],
+    "file": "DeliveryMethodModeEnum.js"
+}

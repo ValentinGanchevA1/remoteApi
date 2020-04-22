@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/reducers/conditions.js"],
+    "names": ["registered", "state", "action", "type", "REGISTER_NEXT_STEP_CONDITION", "condition", "UNREGISTER_NEXT_STEP_CONDITION", "Object", "keys", "reduce", "newState", "conditionName"],
+    "mappings": ";;;;;;;;;;;;AAIO,MAAIA,UAAU,GAAG,SAAbA,UAAa,GAAwB;AAAA,QAAvBC,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AAC5C,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,yCAAL;AACI,iCAAWH,KAAX,kCAAmBC,MAAM,CAACG,SAA1B,EAAsC,IAAtC;;AACJ,WAAKC,2CAAL;AACI,eAAOC,MAAM,CAACC,IAAP,CAAYP,KAAZ,EAAmBQ,MAAnB,CAA0B,UAACC,QAAD,EAAWC,aAAX;AAAA,iBACzBA,aAAa,KAAKT,MAAM,CAACG,SAAzB,qBAAyCK,QAAzC,kCAAoDC,aAApD,EAAqEV,KAAK,CAACU,aAAD,CAA1E,KAA6FD,QADpE;AAAA,SAA1B,EAED,EAFC,CAAP;;AAGJ;AACI,eAAOT,KAAP;AARR;AAUH,GAXM",
+    "sourcesContent": ["import {\n    REGISTER_NEXT_STEP_CONDITION,\n    UNREGISTER_NEXT_STEP_CONDITION\n} from \"../actionTypes\";\nexport var registered = (state = {}, action) => {\n    switch(action.type) {\n        case REGISTER_NEXT_STEP_CONDITION:\n            return {...state, [action.condition]: true};\n        case UNREGISTER_NEXT_STEP_CONDITION:\n            return Object.keys(state).reduce((newState, conditionName) =>\n                    conditionName !== action.condition ? {...newState, [conditionName] : state[conditionName]} : newState\n                , {});\n        default:\n            return state;\n    }\n};"],
+    "file": "conditions.js"
+}

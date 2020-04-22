@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/fix/enum/TvPackagesChoiceFilter.js"],
+    "names": ["TvPackagesChoiceFilter", "TV_DEFAULT_CHOICE_PRODUCT", "TV_SECONDARY_CHOICE_PRODUCT", "TV_LOYALTY_DURATION_12", "TV_LOYALTY_DURATION_24"],
+    "mappings": ";;;;;;;AAAA,MAAMA,sBAAsB,GAAG;AAC3BC,IAAAA,yBAAyB,EAAE,2BADA;AAE3BC,IAAAA,2BAA2B,EAAE,6BAFF;AAG3BC,IAAAA,sBAAsB,EAAE,wBAHG;AAI3BC,IAAAA,sBAAsB,EAAE;AAJG,GAA/B;iBAOeJ,sB",
+    "sourcesContent": ["const TvPackagesChoiceFilter = {\n    TV_DEFAULT_CHOICE_PRODUCT: 'TV_DEFAULT_CHOICE_PRODUCT',\n    TV_SECONDARY_CHOICE_PRODUCT: 'TV_SECONDARY_CHOICE_PRODUCT',\n    TV_LOYALTY_DURATION_12: 'TV_LOYALTY_DURATION_12',\n    TV_LOYALTY_DURATION_24: 'TV_LOYALTY_DURATION_24'\n};\n\nexport default TvPackagesChoiceFilter;"],
+    "file": "TvPackagesChoiceFilter.js"
+}

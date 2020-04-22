@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/simfree/reducers/root.js"],
+    "names": ["cart", "details", "list", "offerFilter", "metaData", "comparator"],
+    "mappings": ";;;;;;;AAAA;AACA;AACA;AACA;AACA;AACA;;iBAIe,4BAAgB;AAC3BA,IAAAA,IAAI,EAAE,4BAAgBA,IAAhB,CADqB;AAE3BC,IAAAA,OAAO,EAAE,4BAAgBA,OAAhB,CAFkB;AAG3BC,IAAAA,IAAI,EAAE,4BAAgBA,IAAhB,CAHqB;AAI3BC,IAAAA,WAAW,EAAE,4BAAgBA,WAAhB,CAJc;AAK3BC,IAAAA,QAAQ,EAAE,4BAAgBA,QAAhB,CALiB;AAM3BC,IAAAA,UAAU,EAAE,4BAAgBA,UAAhB;AANe,GAAhB,C",
+    "sourcesContent": ["import * as cart from \"./cart\";\nimport * as list from \"./list\";\nimport * as details from \"./details\";\nimport * as offerFilter from \"./offerFilter\"\nimport * as metaData from \"./metaData\"\nimport * as comparator from \"./comparator\"\n\nimport {combineReducers} from \"redux\";\n\nexport default combineReducers({\n    cart: combineReducers(cart),\n    details: combineReducers(details),\n    list: combineReducers(list),\n    offerFilter: combineReducers(offerFilter),\n    metaData: combineReducers(metaData),\n    comparator: combineReducers(comparator)\n});"],
+    "file": "root.js"
+}

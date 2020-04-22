@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "SalesChannel.js",
+    "sources": ["../../../../../dist/eshop/modules/core/enum/SalesChannel.js"],
+    "names": ["define", "_exports", "Object", "defineProperty", "value", "default", "_default", "freeze", "WWW", "AS", "AKA", "POS", "TLS", "IDG", "TAM", "KKB"],
+    "mappings": "AAAAA,OAAO,CAAC,WAAY,SAAUC,GAC5B,aAEAC,OAAOC,eAAeF,EAAU,aAAc,CAC5CG,OAAO,IAETH,EAASI,aAAU,EACnB,IAUIC,EAVeJ,OAAOK,OAAO,CAC/BC,IAAK,MACLC,GAAI,KACJC,IAAK,MACLC,IAAK,MACLC,IAAK,MACLC,IAAK,MACLC,IAAK,MACLC,IAAK,QAGPd,EAASI,QAAUC"
+}

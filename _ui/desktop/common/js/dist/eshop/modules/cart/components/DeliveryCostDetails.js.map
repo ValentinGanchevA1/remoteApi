@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/components/DeliveryCostDetails.jsx"],
+    "names": ["DeliveryCostDetails", "props", "monthlyPrice", "oneTimePrice", "cost", "render", "title"],
+    "mappings": ";;;;;;;AAAA;;AAIA,MAAMA,mBAAmB,GAAG,SAAtBA,mBAAsB,CAAAC,KAAK,EAAI;AACjC,QAAMC,YAAY,gBAAG,oDAArB;;AACA,QAAMC,YAAY,gBAAG;AAAM,MAAA,SAAS,EAAC;AAAhB,OAA6CF,KAAK,CAACG,IAAnD,CAArB;;AACA,WAAOH,KAAK,CAACI,MAAN,CAAaF,YAAb,EAA2BD,YAA3B,EAAyCD,KAAK,CAACK,KAA/C,CAAP;AACH,GAJD;;iBAKeN,mB",
+    "sourcesContent": ["import React from \"react\";\nimport {getFeeForSelectedPaymentMethod, getSelectedDeliveryMethod} from \"../../checkout/selectors\";\nimport {connect} from \"react-redux\";\n\nconst DeliveryCostDetails = props => {\n    const monthlyPrice = <span>&mdash;</span>;\n    const oneTimePrice = <span className=\"h5 g-brand2-c u-no-margin\">{props.cost}</span>;\n    return props.render(oneTimePrice, monthlyPrice, props.title);\n};\nexport default DeliveryCostDetails;\n"],
+    "file": "DeliveryCostDetails.js"
+}

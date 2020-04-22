@@ -1,0 +1,1 @@
+export const kdrNumberPattern = /^\d{17}$/;

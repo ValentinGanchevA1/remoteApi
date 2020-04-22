@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/analyzer/TvChannelUtils.js"],
+    "names": ["groupChannelsByCategories", "channels", "categories", "forEach", "channel", "category", "categoryList", "key", "Object", "keys", "includes", "label", "push"],
+    "mappings": ";;;;;;;;AAAO,MAAMA,yBAAyB,GAAG,SAA5BA,yBAA4B,CAACC,QAAD,EAAc;AACnD,QAAIC,UAAU,GAAG,EAAjB;AACAD,IAAAA,QAAQ,CAACE,OAAT,CAAiB,UAACC,OAAD,EAAa;AAC1B,UAAIC,QAAQ,GAAGD,OAAO,CAACE,YAAvB;AACA,UAAIC,GAAG,GAAGC,MAAM,CAACC,IAAP,CAAYJ,QAAZ,EAAsB,CAAtB,CAAV;;AACA,UAAG,CAACG,MAAM,CAACC,IAAP,CAAYP,UAAZ,EAAwBQ,QAAxB,CAAiCH,GAAjC,CAAJ,EAA0C;AACtCL,QAAAA,UAAU,CAACK,GAAD,CAAV,GAAkB;AAACI,UAAAA,KAAK,EAAEN,QAAQ,CAACE,GAAD,CAAhB;AAAuBN,UAAAA,QAAQ,EAAE;AAAjC,SAAlB;AACH;;AACDC,MAAAA,UAAU,CAACK,GAAD,CAAV,CAAgBN,QAAhB,CAAyBW,IAAzB,CAA8BR,OAA9B;AACH,KAPD;AAQA,WAAOF,UAAP;AACH,GAXM",
+    "sourcesContent": ["export const groupChannelsByCategories = (channels) => {\n    let categories = {};\n    channels.forEach((channel) => {\n        let category = channel.categoryList;\n        let key = Object.keys(category)[0];\n        if(!Object.keys(categories).includes(key)){\n            categories[key] = {label: category[key], channels: []};\n        }\n        categories[key].channels.push(channel);\n    });\n    return categories;\n};"],
+    "file": "TvChannelUtils.js"
+}

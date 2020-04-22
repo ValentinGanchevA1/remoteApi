@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "propositionComponentPk.js",
+    "sources": ["../../../../../dist/eshop/modules/magnum2/reducers/propositionComponentPk.js"],
+    "names": ["define", "_exports", "actionTypes", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireWildcard", "_default", "state", "arguments", "length", "undefined", "action", "type", "SET_PROPOSITION_COMPONENT_PK", "payload", "componentPk"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,kBAAmB,SAAUC,EAAUC,GACxD,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,aAAU,EACnBJ,EAAcK,aAAaC,uBAAuBN,GAEd,SAahCO,EAbgC,EAAA,GAClC,IAAIC,EAA2B,EAAnBC,UAAUC,aAA+BC,IADnB,EAAA,EAC8C,KAC5EC,EAA4B,EAAnBH,UAAUC,OAFW,OAEiBC,EAEnD,OAAQC,EAAOC,MACb,KAAKb,EAAYc,6BACf,OAAOF,EAAOG,QAAQC,YAExB,QACE,OAAOR,GAKbT,EAASK,QAAUG"
+}

@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "selectedDevice.js",
+    "sources": ["../../../../../dist/eshop/modules/magnum2/reducers/selectedDevice.js"],
+    "names": ["define", "_exports", "actionTypes", "checkoutActionTypes", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireWildcard", "_default", "state", "arguments", "length", "undefined", "action", "type", "SELECT_DEVICE_VARIANT", "productId", "payload", "variantId", "SELECT_PROPOSITION", "fetchZipCodeFromWWT", "reset"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,iBAAkB,8BAA+B,SAAUC,EAAUC,EAAaC,GACnG,aAEAC,OAAOC,eAAeJ,EAAU,aAAc,CAC5CK,OAAO,IAETL,EAASM,aAAU,EACnBL,EAAcM,aAAaC,uBAAuBP,GAClDC,EAAsBK,aAAaC,uBAAuBN,GAE9B,SAoBxBO,EApBwB,EAAA,GAC1B,IAAIC,EAA2B,EAAnBC,UAAUC,aAA+BC,IAD3B,EAAA,EACsD,KAC5EC,EAA4B,EAAnBH,UAAUC,OAFG,OAEyBC,EAEnD,OAAQC,EAAOC,MACb,KAAKd,EAAYe,sBACf,MAAO,CACLC,UAAWH,EAAOI,QAAQD,UAC1BE,UAAWL,EAAOI,QAAQC,WAG9B,KAAKlB,EAAYmB,mBACjB,KAAKlB,EAAoBmB,oBAAoBC,MAC3C,OAAO,KAET,QACE,OAAOZ,GAKbV,EAASM,QAAUG"
+}

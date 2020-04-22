@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../../es6/eshop/modules/simfree/components/filter/view/ProductListPriceFilterRowView.jsx"],
+    "names": ["ProductListPriceFilterRowView", "props", "type", "checked", "onClick", "text"],
+    "mappings": ";;;;;;;AAAA;;AAEA,MAAMA,6BAA6B,GAAG,SAAhCA,6BAAgC,CAACC,KAAD,EAAW;AAEzC,wBACI;AAAI,MAAA,SAAS,EAAC,mCAAd;AAAkD,MAAA,GAAG,EAAE,SAAOA,KAAK,CAACC;AAApE,oBACI;AAAO,MAAA,SAAS,EAAE,OAAKD,KAAK,CAACC,IAAX,GAAgB,OAAhB,GAAwBD,KAAK,CAACC,IAA9B,GAAmC;AAArD,oBACI;AAAO,MAAA,IAAI,EAAED,KAAK,CAACC,IAAnB;AAA0B,MAAA,OAAO,EAAED,KAAK,CAACE,OAAN,GAAgB,IAAhB,GAAuB,KAA1D;AAAiE,MAAA,OAAO,EAAEF,KAAK,CAACG;AAAhF,MADJ,eAEI;AAAM,MAAA,SAAS,EAAC;AAAhB,MAFJ,eAGI;AAAM,MAAA,SAAS,EAAC;AAAhB,OAA4CH,KAAK,CAACI,IAAlD,CAHJ,CADJ,CADJ;AASP,GAXD;;iBAaeL,6B",
+    "sourcesContent": ["import React, {Component} from \"react\";\n\nconst ProductListPriceFilterRowView = (props) => {\n\n        return (\n            <li className=\"u-spacing opl-gradient-fade--item\" key={\"key_\"+props.type}>\n                <label className={\"o-\"+props.type+\" opl-\"+props.type+\" u-block\"}>\n                    <input type={props.type}  checked={props.checked ? true : false} onClick={props.onClick}/>\n                    <span className=\"o-ci\"></span>\n                    <span className=\"o-ci-label u-font-normal\">{props.text}</span>\n                </label>\n            </li>\n       )\n}\n\nexport default ProductListPriceFilterRowView;"],
+    "file": "ProductListPriceFilterRowView.js"
+}

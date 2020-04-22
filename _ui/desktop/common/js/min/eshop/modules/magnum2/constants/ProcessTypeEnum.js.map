@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "ProcessTypeEnum.js",
+    "sources": ["../../../../../dist/eshop/modules/magnum2/constants/ProcessTypeEnum.js"],
+    "names": ["define", "_exports", "_lodash", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireDefault", "_default", "UNKNOWN", "_2U", "_4U", "_2ULTE", "_3ULTE", "ACTIVATION", "ACTIVATION_WITH_NP_INT", "ACTIVATION_NNAKED", "TERMINATION", "TERMINATION_DATA", "ASSIGNMENT_B2C_JDG", "isLTE", "process", "includes"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,UAAW,SAAUC,EAAUC,GAChD,aAEAC,OAAOC,eAAeH,EAAU,aAAc,CAC5CI,OAAO,IAETJ,EAASK,aAAU,EACnBJ,EAAUK,aAAaC,sBAAsBN,GAC7C,IAgBIO,EAhBkB,CACpBC,QAAS,UACTC,IAAK,KACLC,IAAK,KACLC,OAAQ,QACRC,OAAQ,QACRC,WAAY,aACZC,uBAAwB,yBACxBC,kBAAmB,oBACnBC,YAAa,cACbC,iBAAkB,mBAClBC,mBAAoB,qBACpBC,MAAO,SAAeC,GACpB,OAAOpB,EAAQI,QAAQiB,SAAS,CAAC,QAAS,SAAUD,KAIxDrB,EAASK,QAAUG"
+}

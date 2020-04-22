@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "ProductChangingHeaderView.js",
+    "sources": ["../../../../../../../dist/eshop/modules/simfree/components/list/view/ProductChangingHeaderView.js"],
+    "names": ["define", "_exports", "_react", "_OraCommonComponents", "_OfferDeviceFilterMobileComponent", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireDefault", "_default", "props", "createElement", "className", "changeTerminalLbl", "OraButton", "onClick", "redirectToCart", "descriptions", "channels"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,QAAS,uCAAwC,4EAA6E,SAAUC,EAAUC,EAAQC,EAAsBC,GACjM,aAEAC,OAAOC,eAAeL,EAAU,aAAc,CAC5CM,OAAO,IAETN,EAASO,aAAU,EACnBN,EAASO,aAAaC,sBAAsBR,GAC5CE,EAAoCK,aAAaC,sBAAsBN,GAEvC,SAkB5BO,EAlB+DC,GACjE,OAAoBV,EAAOM,QAAQK,cAAc,MAAO,KAAmBX,EAAOM,QAAQK,cAAc,MAAO,CAC7GC,UAAW,mFACGZ,EAAOM,QAAQK,cAAc,MAAO,CAClDC,UAAW,SACGZ,EAAOM,QAAQK,cAAc,MAAO,CAClDC,UAAW,kDACVF,EAAMG,mBAAiCb,EAAOM,QAAQK,cAAc,MAAO,CAC5EC,UAAW,+CACGZ,EAAOM,QAAQK,cAAcV,EAAqBa,UAAW,CAC3EC,QAASL,EAAMM,eACfJ,UAAW,WACV,wBAAsCZ,EAAOM,QAAQK,cAAcT,EAAkCI,QAAS,CAC/GW,aAAcP,EAAMO,aACpBC,SAAUR,EAAMQ,YAKpBnB,EAASO,QAAUG"
+}

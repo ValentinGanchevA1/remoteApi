@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "root.js",
+    "sources": ["../../../../../dist/eshop/modules/servicetransfer/reducers/root.js"],
+    "names": ["define", "_exports", "_redux", "transfer", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireWildcard", "_default", "combineReducers"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,QAAS,cAAe,SAAUC,EAAUC,EAAQC,GACrE,aAEAC,OAAOC,eAAeJ,EAAU,aAAc,CAC5CK,OAAO,IAETL,EAASM,aAAU,EACnBJ,EAAWK,aAAaC,uBAAuBN,GAE/C,IAAIO,GAAW,EAAIR,EAAOS,iBAAiB,CACzCR,UAAU,EAAID,EAAOS,iBAAiBR,KAGxCF,EAASM,QAAUG"
+}

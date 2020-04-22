@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/enum/ProcessType.js"],
+    "names": ["ProcessType", "Object", "freeze", "ACTIVATION", "MNP", "MNP_TWOSTEP", "SALE_OF_GOODS"],
+    "mappings": ";;;;;;;AAAA,MAAMA,WAAW,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC9BC,IAAAA,UAAU,EAAE,YADkB;AAE9BC,IAAAA,GAAG,EAAE,KAFyB;AAG9BC,IAAAA,WAAW,EAAE,aAHiB;AAI9BC,IAAAA,aAAa,EAAE;AAJe,GAAd,CAApB;iBAOeN,W",
+    "sourcesContent": ["const ProcessType = Object.freeze({\n    ACTIVATION: 'ACTIVATION',\n    MNP: 'MNP',\n    MNP_TWOSTEP: 'MNP_TWOSTEP',\n    SALE_OF_GOODS: 'SALE_OF_GOODS'\n});\n\nexport default ProcessType;"],
+    "file": "ProcessType.js"
+}

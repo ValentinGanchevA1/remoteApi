@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/RuleTypeEnum.js"],
+    "names": ["RuleType", "Object", "freeze", "REQUIRE_SOME", "REQUIRE", "EXCLUDE_ONCE", "EXCLUDE", "NONE", "ANY", "SHOW"],
+    "mappings": ";;;;;;;AAAA,MAAMA,QAAQ,GAAGC,MAAM,CAACC,MAAP,CAAc;AAC3BC,IAAAA,YAAY,EAAE,cADa;AAE3BC,IAAAA,OAAO,EAAE,SAFkB;AAG3BC,IAAAA,YAAY,EAAE,cAHa;AAI3BC,IAAAA,OAAO,EAAE,SAJkB;AAK3BC,IAAAA,IAAI,EAAE,MALqB;AAM3BC,IAAAA,GAAG,EAAE,KANsB;AAO3BC,IAAAA,IAAI,EAAE;AAPqB,GAAd,CAAjB;iBAUeT,Q",
+    "sourcesContent": ["const RuleType = Object.freeze({\n    REQUIRE_SOME: 'REQUIRE_SOME',\n    REQUIRE: 'REQUIRE',\n    EXCLUDE_ONCE: 'EXCLUDE_ONCE',\n    EXCLUDE: 'EXCLUDE',\n    NONE: 'NONE',\n    ANY: 'ANY',\n    SHOW: 'SHOW'\n});\n\nexport default RuleType;"],
+    "file": "RuleTypeEnum.js"
+}

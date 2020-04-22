@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/magnum2/constants/ProcessTypeEnum.js"],
+    "names": ["ProcessTypeEnum", "UNKNOWN", "_2U", "_4U", "_2ULTE", "_3ULTE", "ACTIVATION", "ACTIVATION_WITH_NP_INT", "ACTIVATION_NNAKED", "TERMINATION", "TERMINATION_DATA", "ASSIGNMENT_B2C_JDG", "isLTE", "process", "_", "includes"],
+    "mappings": ";;;;;;;AAAA;AAEA,MAAMA,eAAe,GAAG;AACpBC,IAAAA,OAAO,EAAE,SADW;AAEpBC,IAAAA,GAAG,EAAE,IAFe;AAGpBC,IAAAA,GAAG,EAAE,IAHe;AAIpBC,IAAAA,MAAM,EAAE,OAJY;AAKpBC,IAAAA,MAAM,EAAE,OALY;AAMpBC,IAAAA,UAAU,EAAE,YANQ;AAOpBC,IAAAA,sBAAsB,EAAE,wBAPJ;AAQpBC,IAAAA,iBAAiB,EAAE,mBARC;AASpBC,IAAAA,WAAW,EAAE,aATO;AAUpBC,IAAAA,gBAAgB,EAAE,kBAVE;AAWpBC,IAAAA,kBAAkB,EAAE,oBAXA;AAYpBC,IAAAA,KAAK,EAAE,eAACC,OAAD;AAAA,aAAaC,gBAAEC,QAAF,CAAW,CAAC,OAAD,EAAU,OAAV,CAAX,EAA+BF,OAA/B,CAAb;AAAA;AAZa,GAAxB;iBAeeb,e",
+    "sourcesContent": ["import _ from \"lodash\";\n\nconst ProcessTypeEnum = {\n    UNKNOWN: 'UNKNOWN',\n    _2U: '2U',\n    _4U: '4U',\n    _2ULTE: '2ULTE',\n    _3ULTE: '3ULTE',\n    ACTIVATION: 'ACTIVATION',\n    ACTIVATION_WITH_NP_INT: 'ACTIVATION_WITH_NP_INT',\n    ACTIVATION_NNAKED: 'ACTIVATION_NNAKED',\n    TERMINATION: 'TERMINATION',\n    TERMINATION_DATA: 'TERMINATION_DATA',\n    ASSIGNMENT_B2C_JDG: 'ASSIGNMENT_B2C_JDG',\n    isLTE: (process) => _.includes(['2ULTE', '3ULTE'], process)\n};\n\nexport default ProcessTypeEnum;"],
+    "file": "ProcessTypeEnum.js"
+}

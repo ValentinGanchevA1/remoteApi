@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/simfree/actions/metaData.js"],
+    "names": ["registerOneTimePriceCMSConf", "cmsConf", "type", "ACTIONS", "REGISTER_ONE_TIME_PRICE_CMS_CONF", "registerMaxMonthlyPriceCMSConf", "REGISTER_MAX_MONTHLY_PRICE_CMS_CONF"],
+    "mappings": ";;;;;;;AAAA;;AAEO,MAAMA,2BAA2B,GAAG,SAA9BA,2BAA8B,CAACC,OAAD;AAAA,WAAc;AACrDC,MAAAA,IAAI,EAAEC,OAAO,CAACC,gCADuC;AAErDH,MAAAA,OAAO,EAAPA;AAFqD,KAAd;AAAA,GAApC;;;;AAKA,MAAMI,8BAA8B,GAAG,SAAjCA,8BAAiC,CAACJ,OAAD;AAAA,WAAc;AACxDC,MAAAA,IAAI,EAAEC,OAAO,CAACG,mCAD0C;AAExDL,MAAAA,OAAO,EAAPA;AAFwD,KAAd;AAAA,GAAvC",
+    "sourcesContent": ["import * as ACTIONS from \"../actionTypes\";\n\nexport const registerOneTimePriceCMSConf = (cmsConf) => ({\n    type: ACTIONS.REGISTER_ONE_TIME_PRICE_CMS_CONF,\n    cmsConf\n})\n\nexport const registerMaxMonthlyPriceCMSConf = (cmsConf) => ({\n    type: ACTIONS.REGISTER_MAX_MONTHLY_PRICE_CMS_CONF,\n    cmsConf\n})"],
+    "file": "metaData.js"
+}

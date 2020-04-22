@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/cart/reducers/assignment.js"],
+    "names": ["isPaymentPlanAssigned", "state", "action", "type", "PAYMENT_PLAN_ASSIGN_VALUE_CHANGE", "payload", "isDeathCertificateConfirmed", "CONFIRMATION_DEATH_CHANGE"],
+    "mappings": ";;;;;;;;AAMO,MAAMA,qBAAqB,GAAG,SAAxBA,qBAAwB,GAAwB;AAAA,QAAvBC,KAAuB,uEAAf,EAAe;AAAA,QAAXC,MAAW;;AACzD,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,6CAAL;AACI,eAAOF,MAAM,CAACG,OAAd;;AACJ;AACI,eAAOJ,KAAP;AAJR;AAMH,GAPM;;;;AASA,MAAMK,2BAA2B,GAAG,SAA9BA,2BAA8B,GAA2B;AAAA,QAA1BL,KAA0B,uEAAlB,KAAkB;AAAA,QAAXC,MAAW;;AAClE,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKI,sCAAL;AACI,eAAOL,MAAM,CAACG,OAAd;;AACJ;AACI,eAAOJ,KAAP;AAJR;AAMH,GAPM",
+    "sourcesContent": ["import {combineReducers} from \"redux\";\nimport {\n    PAYMENT_PLAN_ASSIGN_VALUE_CHANGE,\n    CONFIRMATION_DEATH_CHANGE\n} from \"../actionTypes\";\n\nexport const isPaymentPlanAssigned = (state = [], action) => {\n    switch(action.type) {\n        case PAYMENT_PLAN_ASSIGN_VALUE_CHANGE:\n            return action.payload;\n        default:\n            return state;\n    }\n};\n\nexport const isDeathCertificateConfirmed = (state = false, action) => {\n    switch(action.type) {\n        case CONFIRMATION_DEATH_CHANGE:\n            return action.payload;\n        default:\n            return state;\n    }\n};"],
+    "file": "assignment.js"
+}

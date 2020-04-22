@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/fix/reducers/migration.js"],
+    "names": ["mode", "state", "action", "type", "ACTIONS", "MIGRATION_MODE", "payload"],
+    "mappings": ";;;;;;;AAAA;;AAEO,MAAMA,IAAI,GAAG,SAAPA,IAAO,GAA0B;AAAA,QAAzBC,KAAyB,uEAAjB,IAAiB;AAAA,QAAXC,MAAW;;AAC1C,YAAQA,MAAM,CAACC,IAAf;AACI,WAAKC,OAAO,CAACC,cAAb;AACI,eAAOH,MAAM,CAACI,OAAd;;AACJ;AACI,eAAOL,KAAP;AAJR;AAMH,GAPM",
+    "sourcesContent": ["import * as ACTIONS from '../actionTypes';\n\nexport const mode = (state = null, action) => {\n    switch (action.type) {\n        case ACTIONS.MIGRATION_MODE:\n            return action.payload\n        default:\n            return state;\n    }\n};"],
+    "file": "migration.js"
+}

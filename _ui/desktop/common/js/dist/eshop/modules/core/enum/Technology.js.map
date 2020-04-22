@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/core/enum/Technology.js"],
+    "names": ["Technology", "ADSL", "FTTH", "IPTV", "RFOG", "RFTV", "SAT", "VIDSAT", "VDSL", "OTHER", "isXDSL", "technology", "_", "includes"],
+    "mappings": ";;;;;;;AAAA;AAEA,MAAMA,UAAU,GAAG;AACfC,IAAAA,IAAI,EAAE,MADS;AAEfC,IAAAA,IAAI,EAAE,MAFS;AAGfC,IAAAA,IAAI,EAAE,MAHS;AAIfC,IAAAA,IAAI,EAAE,MAJS;AAKfC,IAAAA,IAAI,EAAE,MALS;AAMfC,IAAAA,GAAG,EAAE,KANU;AAOfC,IAAAA,MAAM,EAAE,QAPO;AAQfC,IAAAA,IAAI,EAAE,MARS;AASfC,IAAAA,KAAK,EAAE,OATQ;AAUfC,IAAAA,MAAM,EAAE,gBAACC,UAAD;AAAA,aAAgBC,gBAAEC,QAAF,CAAW,CAAC,MAAD,EAAQ,MAAR,CAAX,EAA4BF,UAA5B,CAAhB;AAAA;AAVO,GAAnB;iBAaeX,U",
+    "sourcesContent": ["import _ from \"lodash\";\n\nconst Technology = {\n    ADSL: 'ADSL',\n    FTTH: 'FTTH',\n    IPTV: 'IPTV',\n    RFOG: 'RFOG',\n    RFTV: 'RFTV',\n    SAT: 'SAT',\n    VIDSAT: 'VIDSAT',\n    VDSL: 'VDSL',\n    OTHER: 'OTHER',\n    isXDSL: (technology) => _.includes(['ADSL','VDSL'], technology)\n};\n\nexport default Technology;"],
+    "file": "Technology.js"
+}

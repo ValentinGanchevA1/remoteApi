@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/magnum2/reducers/propositionComponentPk.js"],
+    "names": ["propositionComponentPkReducer", "state", "action", "type", "actionTypes", "SET_PROPOSITION_COMPONENT_PK", "payload", "componentPk"],
+    "mappings": ";;;;;;;AAAA;;AAEA,MAAMA,6BAA6B,GAAG,SAAhCA,6BAAgC,GAA0B;AAAA,QAAzBC,KAAyB,uEAAjB,IAAiB;AAAA,QAAXC,MAAW;;AAC5D,YAAOA,MAAM,CAACC,IAAd;AACI,WAAKC,WAAW,CAACC,4BAAjB;AACI,eAAOH,MAAM,CAACI,OAAP,CAAeC,WAAtB;;AACJ;AACI,eAAON,KAAP;AAJR;AAMH,GAPD;;iBASeD,6B",
+    "sourcesContent": ["import * as actionTypes from \"../actionTypes\";\n\nconst propositionComponentPkReducer = (state = null, action) => {\n    switch(action.type) {\n        case actionTypes.SET_PROPOSITION_COMPONENT_PK:\n            return action.payload.componentPk;\n        default:\n            return state;\n    }\n};\n\nexport default propositionComponentPkReducer;"],
+    "file": "propositionComponentPk.js"
+}

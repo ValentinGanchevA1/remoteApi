@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/constants/DeliveryMethod.js"],
+    "names": ["DeliveryMethod", "COURIER", "PICKUP_ORANGE", "PICKUP_FROM_SHELF", "TECHNICAL_ASSISTANT", "POS", "PARCEL_LOCKER", "PICKUP_ON_EMAIL", "PAPER", "BZU", "ACCOUNT_MANAGER", "isDigital", "deliveryMethod", "_", "includes", "isPaper"],
+    "mappings": ";;;;;;;AAAA;AAEA,MAAMA,cAAc,GAAG;AACnBC,IAAAA,OAAO,EAAE,SADU;AAEnBC,IAAAA,aAAa,EAAE,eAFI;AAGnBC,IAAAA,iBAAiB,EAAE,mBAHA;AAInBC,IAAAA,mBAAmB,EAAE,qBAJF;AAKnBC,IAAAA,GAAG,EAAE,KALc;AAMnBC,IAAAA,aAAa,EAAE,eANI;AAOnBC,IAAAA,eAAe,EAAE,iBAPE;AAQnBC,IAAAA,KAAK,EAAE,OARY;AASnBC,IAAAA,GAAG,EAAE,KATc;AAUnBC,IAAAA,eAAe,EAAE,iBAVE;AAWnBC,IAAAA,SAAS,EAAE,mBAACC,cAAD;AAAA,aAAoBC,gBAAEC,QAAF,CAAW,CAAC,iBAAD,EAAoB,KAApB,CAAX,EAAuCF,cAAvC,CAApB;AAAA,KAXQ;AAYnBG,IAAAA,OAAO,EAAE,iBAACH,cAAD;AAAA,aAAoB,CAACC,gBAAEC,QAAF,CAAW,CAAC,iBAAD,EAAoB,KAApB,CAAX,EAAuCF,cAAvC,CAArB;AAAA;AAZU,GAAvB;iBAeeZ,c",
+    "sourcesContent": ["import _ from \"lodash\";\n\nconst DeliveryMethod = {\n    COURIER: 'courier',\n    PICKUP_ORANGE: 'pickup_orange',\n    PICKUP_FROM_SHELF: 'pickup_from_shelf',\n    TECHNICAL_ASSISTANT: 'technical_assistant',\n    POS: 'POS',\n    PARCEL_LOCKER: 'parcel_locker',\n    PICKUP_ON_EMAIL: 'pickup_on_email',\n    PAPER: 'paper',\n    BZU: 'BZU',\n    ACCOUNT_MANAGER: 'account_manager',\n    isDigital: (deliveryMethod) => _.includes(['pickup_on_email', 'BZU'], deliveryMethod),\n    isPaper: (deliveryMethod) => !_.includes(['pickup_on_email', 'BZU'], deliveryMethod)\n};\n\nexport default DeliveryMethod;"],
+    "file": "DeliveryMethod.js"
+}

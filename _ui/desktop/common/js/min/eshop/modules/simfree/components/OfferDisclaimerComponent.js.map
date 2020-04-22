@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "OfferDisclaimerComponent.js",
+    "sources": ["../../../../../dist/eshop/modules/simfree/components/OfferDisclaimerComponent.js"],
+    "names": ["define", "_exports", "_react", "_TooltipFromHtml", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireDefault", "_default", "_ref", "descriptions", "processType", "className", "offerDisclaimer", "filter", "Boolean", "join", "createElement", "concat", "html"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,QAAS,oDAAqD,SAAUC,EAAUC,EAAQC,GAC3G,aAEAC,OAAOC,eAAeJ,EAAU,aAAc,CAC5CK,OAAO,IAETL,EAASM,aAAU,EACnBL,EAASM,aAAaC,sBAAsBP,GAC5CC,EAAmBK,aAAaC,sBAAsBN,GAEvB,SAW3BO,EAX6DC,GAC/D,IAAIC,EAAeD,EAAKC,aACpBC,EAAcF,EAAKE,YACnBC,EAAYH,EAAKG,UACjBC,EAAkBH,EAAa,CAAC,kBAAmBC,GAAaG,OAAOC,SAASC,KAAK,MACzF,OAASH,EAA+Bb,EAAOK,QAAQY,cAAchB,EAAiBI,QAAS,CAC7FO,UAAW,kEAAkEM,OAAON,GACpFO,KAAMN,IACH,KAIPd,EAASM,QAAUG"
+}

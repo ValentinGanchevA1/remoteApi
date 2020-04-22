@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../es6/eshop/modules/simfree/components/filter/OfferDeviceFilterMobileComponent.jsx"],
+    "names": ["OfferDeviceFilterMobileComponent", "props", "descriptions", "channels", "React", "Component", "defaultProps", "detailsPopupHeader", "detailLabelText"],
+    "mappings": ";;;;;;;AAAA;AACA;AACA;;;;;;MAEqBA,gC;;;;;;;;;;;;+BAER;AACL,4BAAO,6BAAC,mCAAD;AACC,UAAA,YAAY,EAAE,KAAKC,KAAL,CAAWC,YAD1B;AAEC,UAAA,QAAQ,EAAE,KAAKD,KAAL,CAAWE;AAFtB,wBAGK,6BAAC,oCAAD;AAA6B,UAAA,GAAG,EAAE;AAAlC,UAHL,CAAP;AAKH;;;IARyDC,eAAMC,S;;;AAWpEL,EAAAA,gCAAgC,CAACM,YAAjC,GAAgD;AAC5CJ,IAAAA,YAAY,EAAG;AACXK,MAAAA,kBAAkB,EAAG,kBADV;AAEXC,MAAAA,eAAe,EAAG;AAFP;AAD6B,GAAhD",
+    "sourcesContent": ["import React from \"react\";\nimport OfferDeviceFilterComponent from \"./OfferDeviceFilterComponent\";\nimport OfferDeviceFilterMobileView from \"./view/OfferDeviceFilterMobileView\"\n\nexport default class OfferDeviceFilterMobileComponent extends React.Component {\n\n    render() {\n        return <OfferDeviceFilterComponent\n                descriptions={this.props.descriptions}\n                channels={this.props.channels}>\n                    <OfferDeviceFilterMobileView key={\"ofdfv\"} />\n               </OfferDeviceFilterComponent>\n    }\n}\n\nOfferDeviceFilterMobileComponent.defaultProps = {\n    descriptions : {\n        detailsPopupHeader : \"Szczegóły oferty\",\n        detailLabelText : \"Szczegóły\"\n    }\n}"],
+    "file": "OfferDeviceFilterMobileComponent.js"
+}

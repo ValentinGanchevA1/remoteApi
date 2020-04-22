@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/dataLayer/reducers/root.js"],
+    "names": ["initialState", "event", "dataLayer", "state", "action", "type", "DataLayerUtils", "createUniversalCheckoutStepEvent", "payload", "stepId", "loggedEmployee"],
+    "mappings": ";;;;;;;AACA;AACA;AAGA,MAAMA,YAAY,GAAG;AACjBC,IAAAA,KAAK,EAAG;AADS,GAArB;;AAIC,MAAMC,SAAS,GAAG,SAAZA,SAAY,GAAkC;AAAA,QAAjCC,KAAiC,uEAAzBH,YAAyB;AAAA,QAAXI,MAAW;;AACjD;AACA,QAAIA,MAAM,CAACC,IAAP,KAAgB,WAApB,EAAiC;AAC7B;AACA;AACA,aAAOC,wBAAeC,gCAAf,CAAgDH,MAAM,CAACI,OAAvD,EAA+DJ,MAAM,CAACK,MAAtE,EAA6E;AAACC,QAAAA,cAAc,EAACN,MAAM,CAACM;AAAvB,OAA7E,CAAP;AACH;;AACA,WAAOP,KAAP;AACJ,GARA;;iBAUcD,S",
+    "sourcesContent": ["import {combineReducers} from \"redux\";\nimport * as ACTIONS from \"../../cart/actionTypes\";\nimport DataLayerUtils from \"../../../utils/DataLayerUtils\";\nimport {getCurrentStepId} from \"../../checkout/selectors\";\n\nconst initialState = {\n    event : {}\n};\n\n const dataLayer = (state = initialState, action) => {\n    // console.warn(\"dataLayer REDUCER\", {state});\n    if (action.type === 'dataLayer') {\n        // console.warn('dataLayer reducer', {action});\n        // debugger;\n        return DataLayerUtils.createUniversalCheckoutStepEvent(action.payload,action.stepId,{loggedEmployee:action.loggedEmployee});\n    }\n     return state;\n};\n\nexport default dataLayer;"],
+    "file": "root.js"
+}

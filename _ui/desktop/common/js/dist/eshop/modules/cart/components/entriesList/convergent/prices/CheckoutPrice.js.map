@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../../../../es6/eshop/modules/cart/components/entriesList/convergent/prices/CheckoutPrice.jsx"],
+    "names": ["CheckoutPrice", "props", "checkoutPrice", "gross", "currency"],
+    "mappings": ";;;;;;;AAAA;AACA;;AAGA,MAAMA,aAAa,GAAG,SAAhBA,aAAgB,CAACC,KAAD,EAAW;AAEzB,QAAIC,aAAa,GAAGD,KAAK,CAACC,aAA1B;;AACA,QAAI,CAACA,aAAL,EAAoB;AAChB,0BAAQ;AAAM,QAAA,SAAS,EAAC;AAAhB,kBAAR;AACH;;AACD,wBACI,uDACI;AAAM,MAAA,SAAS,EAAC;AAAhB,iCADJ,eAEI;AAAM,MAAA,SAAS,EAAC;AAAhB,OAAmC,oBAAQA,aAAa,CAACC,KAAtB,CAAnC,CAFJ,eAGI;AAAM,MAAA,SAAS,EAAC;AAAhB,YAAoC,qBAASD,aAAa,CAACC,KAAvB,CAApC,UAAyED,aAAa,CAACE,QAAvF,CAHJ,CADJ;AAQP,GAdD;;iBAgBeJ,a",
+    "sourcesContent": ["import React, {Component} from \"react\";\nimport PropTypes from 'prop-types';\nimport {integer, fraction} from \"../../../../../magnum2/components/Utils\";\n\nconst CheckoutPrice = (props) => {\n\n        let checkoutPrice = props.checkoutPrice;\n        if (!checkoutPrice) {\n            return (<span className=\"h4 u-no-spacing\">—</span>);\n        }\n        return (\n            <div>\n                <span className=\"u-acc-hide\">Opłaty jednorazowe</span>\n                <span className=\"h2 u-no-spacing\">{integer(checkoutPrice.gross)}</span>\n                <span className=\"h4 u-no-spacing\">,{fraction(checkoutPrice.gross)}&nbsp;{checkoutPrice.currency}</span>\n            </div>\n        );\n\n};\n\nexport default CheckoutPrice;\n\n"],
+    "file": "CheckoutPrice.js"
+}

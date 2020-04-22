@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "sources": ["../../../../../../es6/eshop/modules/checkout/actions/errors.js"],
+    "names": ["openAgreementConfirmationModal", "modalVariant", "dispatch", "type", "ACTIONS", "OPEN_AGREEMENT_VALIDATION_MODAL", "closeAgreementConfirmationModal", "wasConfirmed", "CLOSE_AGREEMENT_VALIDATION_MODAL"],
+    "mappings": ";;;;;;;AAAA;;AAEO,MAAMA,8BAA8B,GAAG,SAAjCA,8BAAiC,CAACC,YAAD;AAAA,WAAkB,UAACC,QAAD,EAAc;AAC1EA,MAAAA,QAAQ,CAAC;AACLC,QAAAA,IAAI,EAAEC,OAAO,CAACC,+BADT;AAELJ,QAAAA,YAAY,EAAEA;AAFT,OAAD,CAAR;AAIH,KAL6C;AAAA,GAAvC;;;;AAOA,MAAMK,+BAA+B,GAAG,SAAlCA,+BAAkC,CAACL,YAAD,EAAeM,YAAf;AAAA,WAAgC,UAACL,QAAD,EAAc;AACzFA,MAAAA,QAAQ,CAAC;AACLC,QAAAA,IAAI,EAAEC,OAAO,CAACI,gCADT;AAELP,QAAAA,YAAY,EAAEA,YAFT;AAGLM,QAAAA,YAAY,EAAEA;AAHT,OAAD,CAAR;AAKH,KAN8C;AAAA,GAAxC",
+    "sourcesContent": ["import * as ACTIONS from \"../actionTypes\";\n\nexport const openAgreementConfirmationModal = (modalVariant) => (dispatch) => {\n    dispatch({\n        type: ACTIONS.OPEN_AGREEMENT_VALIDATION_MODAL,\n        modalVariant: modalVariant\n    });\n};\n\nexport const closeAgreementConfirmationModal = (modalVariant, wasConfirmed) => (dispatch) => {\n    dispatch({\n        type: ACTIONS.CLOSE_AGREEMENT_VALIDATION_MODAL,\n        modalVariant: modalVariant,\n        wasConfirmed: wasConfirmed\n    });\n};"],
+    "file": "errors.js"
+}

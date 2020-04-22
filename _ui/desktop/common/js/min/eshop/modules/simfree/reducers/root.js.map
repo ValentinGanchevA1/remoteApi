@@ -1,0 +1,7 @@
+{
+    "version": 3,
+    "file": "root.js",
+    "sources": ["../../../../../dist/eshop/modules/simfree/reducers/root.js"],
+    "names": ["define", "_exports", "cart", "list", "details", "offerFilter", "metaData", "comparator", "_redux", "Object", "defineProperty", "value", "default", "babelHelpers", "interopRequireWildcard", "_default", "combineReducers"],
+    "mappings": "AAAAA,OAAO,CAAC,UAAW,SAAU,SAAU,YAAa,gBAAiB,aAAc,eAAgB,SAAU,SAAUC,EAAUC,EAAMC,EAAMC,EAASC,EAAaC,EAAUC,EAAYC,GACvL,aAEAC,OAAOC,eAAeT,EAAU,aAAc,CAC5CU,OAAO,IAETV,EAASW,aAAU,EACnBV,EAAOW,aAAaC,uBAAuBZ,GAC3CC,EAAOU,aAAaC,uBAAuBX,GAC3CC,EAAUS,aAAaC,uBAAuBV,GAC9CC,EAAcQ,aAAaC,uBAAuBT,GAClDC,EAAWO,aAAaC,uBAAuBR,GAC/CC,EAAaM,aAAaC,uBAAuBP,GAEjD,IAAIQ,GAAW,EAAIP,EAAOQ,iBAAiB,CACzCd,MAAM,EAAIM,EAAOQ,iBAAiBd,GAClCE,SAAS,EAAII,EAAOQ,iBAAiBZ,GACrCD,MAAM,EAAIK,EAAOQ,iBAAiBb,GAClCE,aAAa,EAAIG,EAAOQ,iBAAiBX,GACzCC,UAAU,EAAIE,EAAOQ,iBAAiBV,GACtCC,YAAY,EAAIC,EAAOQ,iBAAiBT,KAG1CN,EAASW,QAAUG"
+}
